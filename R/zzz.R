@@ -31,3 +31,13 @@ as_log <- function(x) {
     if (x) "true" else "false"
   }
 }
+
+assert <- function(x, class) {
+  if (!inherits(x, class)) {
+    stop(deparse(substitute(x)), " must be of class ", class, call. = FALSE)
+  }
+}
+
+foo <- function(x) {
+  deparse(substitute(x))
+}
