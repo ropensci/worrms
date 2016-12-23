@@ -14,6 +14,11 @@
 #' wm_records_name(name = 'Platanista', marine_only = FALSE, offset = 5)
 wm_records_name <- function(name, fuzzy = TRUE, marine_only = TRUE, offset = 1,
                             ...) {
+  assert(name, "character")
+  assert(fuzzy, "logical")
+  assert(marine_only, "logical")
+  assert(offset, c('numeric', 'integer'))
+
   if (length(name) > 1) stop("'name' must be of length 1", call. = FALSE)
   args <- cc(list(
     like = as_log(fuzzy),

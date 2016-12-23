@@ -12,6 +12,10 @@
 #' wm_records_common(name = 'clam', fuzzy = TRUE, offset = 5)
 wm_records_common <- function(name, fuzzy = FALSE, offset = 1,
                             ...) {
+  assert(name, "character")
+  assert(fuzzy, "logical")
+  assert(offset, c('numeric', 'integer'))
+
   if (length(name) > 1) stop("'name' must be of length 1", call. = FALSE)
   args <- cc(list(
     like = as_log(fuzzy),

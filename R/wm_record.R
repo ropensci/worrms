@@ -6,5 +6,6 @@
 #' @examples
 #' wm_record(id = 105706)
 wm_record <- function(id, ...) {
+  assert(id, c("numeric", "integer"))
   wm_GET(file.path(wm_base(), "AphiaRecordByAphiaID", id), ...)
 }

@@ -10,6 +10,10 @@
 #' wm_records_date('2016-12-23T05:59:45+00:00')
 wm_records_date <- function(start_date, end_date = NULL, marine_only = TRUE,
                             offset = 1, ...) {
+  assert(start_date, c("character", "Date"))
+  assert(end_date, c("character", "Date"))
+  assert(marine_only, "logical")
+  assert(offset, c('numeric', 'integer'))
 
   wm_GET(file.path(wm_base(), "AphiaRecordsByDate"),
          query = cc(list(

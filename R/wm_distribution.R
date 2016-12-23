@@ -6,5 +6,6 @@
 #' @examples
 #' wm_distribution(id = 156806)
 wm_distribution <- function(id, ...) {
+  assert(id, c("numeric", "integer"))
   wm_GET(file.path(wm_base(), "AphiaDistributionsByAphiaID", id), ...)
 }

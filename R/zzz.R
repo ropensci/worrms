@@ -32,8 +32,8 @@ as_log <- function(x) {
   }
 }
 
-assert <- function(x, class) {
-  if (!inherits(x, class)) {
+assert <- function(x, y) {
+  if (!class(x) %in% y) {
     stop(deparse(substitute(x)), " must be of class ", class, call. = FALSE)
   }
 }

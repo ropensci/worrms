@@ -12,6 +12,8 @@
 #' library(crul)
 #' wm_external(id = 105706, verbose = TRUE)
 wm_external <- function(id, type = "tsn", ...) {
+  assert(id, c("numeric", "integer"))
+  assert(type, "character")
   wm_GET(
     file.path(wm_base(), "AphiaExternalIDByAphiaID", id),
     query = cc(list(type = type)), ...)

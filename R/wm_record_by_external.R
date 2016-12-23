@@ -9,6 +9,8 @@
 #' wm_record_by_external(id = 85257)
 #' wm_record_by_external(id = 159854)
 wm_record_by_external <- function(id, type = "tsn", ...) {
+  assert(id, c("numeric", "integer"))
+  assert(type, "character")
   wm_GET(file.path(wm_base(), "AphiaRecordByExternalID", id),
          query = cc(list(type = type)), ...)
 }
