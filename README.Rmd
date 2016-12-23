@@ -27,6 +27,39 @@ devtools::install_github("ropensci/worrms")
 library("worrms")
 ```
 
+## get records
+
+by date
+
+```{r}
+wm_records_date('2016-12-23T05:59:45+00:00')
+```
+
+by a taxonomic name
+
+```{r}
+wm_records_name(name = 'Platanista gangetica')
+```
+
+by many names
+
+```{r}
+wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
+```
+
+by common name
+
+```{r}
+wm_records_common(name = 'clam')
+```
+
+using the TAXMATCH algorithm
+
+```{r}
+wm_records_taxmatch(name = 'Platanista gangetica')
+```
+
+
 ## Meta
 
 * Please [report any issues or bugs](https://github.com/ropensci/worrms/issues).
