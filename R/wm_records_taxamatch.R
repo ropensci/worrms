@@ -6,9 +6,9 @@
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @template curl
 #' @examples
-#' wm_records_names(name = 'Platanista gangetica')
-#' wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
-wm_records_names <- function(name, marine_only = TRUE, ...) {
+#' wm_records_taxmatch(name = 'Platanista gangetica')
+#' wm_records_taxmatch(name = c('Platanista gangetica', 'Coryphaena'))
+wm_records_taxmatch <- function(name, marine_only = TRUE, ...) {
   args <- cc(list(marine_only = as_log(marine_only)))
   args <- c(args,
             stats::setNames(as.list(name),

@@ -2,6 +2,7 @@
 #'
 #' @export
 #' @param id an AphiaID
+#' @template curl
 #' @examples
 #' wm_common_id(id = 105706)
 #' wm_common_id(id = 156806)

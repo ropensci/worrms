@@ -14,6 +14,8 @@ wm_records_name(name, fuzzy = TRUE, marine_only = TRUE, offset = 1, ...)
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 
 \item{offset}{(integer) record to start at. default: 1}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get records by single name, optional fuzzy matching

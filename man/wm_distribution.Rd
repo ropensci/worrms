@@ -7,14 +7,14 @@
 wm_distribution(id, ...)
 }
 \arguments{
-\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+\item{id}{an AphiaID}
 
-\item{x}{xxx}
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get distribution data by AphiaID
 }
 \examples{
-wm_distribution(id = 1080)
+# wm_distribution(id = 1080)
 }
 

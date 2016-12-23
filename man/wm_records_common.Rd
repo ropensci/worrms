@@ -12,6 +12,8 @@ wm_records_common(name, fuzzy = FALSE, offset = 1, ...)
 \item{fuzzy}{(logical) fuzzy search. default: \code{FALSE}}
 
 \item{offset}{(integer) record to start at. default: 1}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get records by vernacular name, optional fuzzy matching

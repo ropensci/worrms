@@ -5,6 +5,7 @@
 #' @param fuzzy (logical) fuzzy search. default: \code{TRUE}
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @param offset (integer) record to start at. default: 1
+#' @template curl
 #' @examples
 #' wm_records_name(name = 'Platanista gangetica')
 #' wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)

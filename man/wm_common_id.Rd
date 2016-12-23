@@ -8,6 +8,8 @@ wm_common_id(id, ...)
 }
 \arguments{
 \item{id}{an AphiaID}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get vernacular names from an AphiaID

@@ -4,6 +4,7 @@
 #' @param name (character) a species common name. required.
 #' @param fuzzy (logical) fuzzy search. default: \code{FALSE}
 #' @param offset (integer) record to start at. default: 1
+#' @template curl
 #' @examples
 #' wm_records_common(name = 'dolphin')
 #' wm_records_common(name = 'clam')
