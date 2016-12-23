@@ -8,6 +8,8 @@ wm_id2name(id, ...)
 }
 \arguments{
 \item{id}{an AphiaID}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get taxonomic name for an AphiaID

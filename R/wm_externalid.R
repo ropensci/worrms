@@ -4,6 +4,7 @@
 #' @param x id an external ID
 #' @param type (character) the type of external id. one of: tsn, bold,
 #' dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn
+#' @template curl
 #' @examples
 #' wm_external(id = 1080)
 #' wm_external(id = 105706)

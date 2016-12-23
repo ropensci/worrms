@@ -14,6 +14,9 @@ knitr::opts_chunk$set(
 
 `worrms` is a R client for the World Register of Marine Species
 
+* [World Register of Marine Species (WoRMS)](http://www.marinespecies.org/)
+* [WoRMS REST API docs](http://www.marinespecies.org/rest/)
+
 ## Installation
 
 ```{r eval=FALSE}

@@ -12,6 +12,8 @@ wm_children(id, marine_only = TRUE, offset = 1, ...)
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 
 \item{offset}{(integer) record to start at. default: 1}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get children for an AphiaID

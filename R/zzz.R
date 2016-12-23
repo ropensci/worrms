@@ -16,10 +16,7 @@ cc <- function(x) Filter(Negate(is.null), x)
 as_log <- function(x) {
   if (is.null(x)) {
     x
-  }
-  else {
-    if (x)
-      "true"
-    else "false"
+  } else {
+    if (x) "true" else "false"
   }
 }

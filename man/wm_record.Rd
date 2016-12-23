@@ -8,6 +8,8 @@ wm_record(id, ...)
 }
 \arguments{
 \item{id}{an AphiaID}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get complete AphiaRecord for an AphiaID

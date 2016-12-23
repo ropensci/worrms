@@ -2,6 +2,7 @@
 #'
 #' @export
 #' @param id an AphiaID
+#' @template curl
 #' @examples
 #' wm_id2name(id = 105706)
 wm_id2name <- function(id, ...) {

@@ -2,6 +2,7 @@
 #'
 #' @export
 #' @param id an AphiaID
+#' @template curl
 #' @examples
 #' wm_record(id = 105706)
 wm_record <- function(id, ...) {

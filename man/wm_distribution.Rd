@@ -7,6 +7,8 @@
 wm_distribution(id, ...)
 }
 \arguments{
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
 \item{x}{xxx}
 }
 \description{

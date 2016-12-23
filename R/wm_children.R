@@ -4,6 +4,7 @@
 #' @param id an AphiaID
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @param offset (integer) record to start at. default: 1
+#' @template curl
 #' @examples
 #' wm_children(id = 105706)
 #' wm_children(id = 105706, FALSE)

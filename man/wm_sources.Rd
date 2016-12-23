@@ -8,6 +8,8 @@ wm_sources(id, ...)
 }
 \arguments{
 \item{id}{an AphiaID}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get sources for an AphiaID

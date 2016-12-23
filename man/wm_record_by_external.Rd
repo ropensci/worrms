@@ -10,6 +10,8 @@ wm_record_by_external(id, type = "tsn", ...)
 \item{type}{(character) the type of external id. one of: tsn, bold,
 dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn}
 
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
 \item{x}{id an external ID}
 }
 \description{

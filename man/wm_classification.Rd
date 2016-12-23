@@ -4,10 +4,12 @@
 \alias{wm_classification}
 \title{Get classification for an AphiaID}
 \usage{
-wm_classification(id, marine_only = TRUE, offset = 1, ...)
+wm_classification(id, ...)
 }
 \arguments{
 \item{id}{an AphiaID}
+
+\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get classification for an AphiaID

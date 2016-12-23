@@ -2,6 +2,7 @@
 #'
 #' @export
 #' @param name (character) a taxon name
+#' @template curl
 #' @examples
 #' wm_name2id(name = "Rhincodon")
 wm_name2id <- function(name, ...) {
