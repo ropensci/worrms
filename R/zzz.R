@@ -6,7 +6,18 @@ wm_GET <- function(url, query = list(), ...) {
          call. = FALSE)
   }
   temp$raise_for_status()
-  jsonlite::fromJSON(temp$parse(), flatten = TRUE)
+  tmp <- jsonlite::fromJSON(temp$parse(), flatten = TRUE)
+  if (inherits(tmp, "data.frame")) {
+    tibble::as_data_frame(tmp)
+  } else if (inherits(tmp, "list")) {
+    if (all(sapply(tmp, class) == "data.frame")) {
+      lapply(tmp, tibble::as_data_frame)
+    } else {
+      tmp
+    }
+  } else {
+    tmp
+  }
 }
 
 wm_base <- function() "http://www.marinespecies.org/rest"

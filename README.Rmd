@@ -11,6 +11,7 @@ knitr::opts_chunk$set(
 ```
 
 [![Build Status](https://travis-ci.org/ropensci/worrms.svg?branch=master)](https://travis-ci.org/ropensci/worrms)
+[![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/worrms)
 
 `worrms` is a R client for the World Register of Marine Species
 

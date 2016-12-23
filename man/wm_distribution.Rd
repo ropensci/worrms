@@ -15,6 +15,6 @@ wm_distribution(id, ...)
 Get distribution data by AphiaID
 }
 \examples{
-# wm_distribution(id = 1080)
+wm_distribution(id = 156806)
 }
 
