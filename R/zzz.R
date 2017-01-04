@@ -1,10 +1,6 @@
 wm_GET <- function(url, query = list(), ...) {
   cli <- crul::HttpClient$new(url = url, opts = list(...))
   temp <- cli$get(query = query)
-  if (temp$status_code > 201) {
-    stop(sprintf("(%s) - %s", temp$status_code, temp$status_http()$message),
-         call. = FALSE)
-  }
   temp$raise_for_status()
   tmp <- jsonlite::fromJSON(temp$parse("UTF-8"), flatten = TRUE)
   if (inherits(tmp, "data.frame")) {
@@ -39,8 +35,4 @@ assert <- function(x, y) {
            paste0(y, collapse = ", "), call. = FALSE)
     }
   }
-}
-
-foo <- function(x) {
-  deparse(substitute(x))
 }
