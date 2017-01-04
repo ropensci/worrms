@@ -2,6 +2,9 @@ wm_GET <- function(url, query = list(), ...) {
   cli <- crul::HttpClient$new(url = url, opts = list(...))
   temp <- cli$get(query = query)
   temp$raise_for_status()
+  if (temp$status_code == 204) {
+    stop(sprintf("(%s) %s", temp$status_code, temp$status_http()$message), call. = FALSE)
+  }
   tmp <- jsonlite::fromJSON(temp$parse("UTF-8"), flatten = TRUE)
   if (inherits(tmp, "data.frame")) {
     tibble::as_data_frame(tmp)

@@ -14,5 +14,5 @@ test_that("wm_distribution fails well", {
 
   expect_error(wm_distribution(), "argument \"id\" is missing")
   expect_error(wm_distribution("asdfafasdfs"), "id must be of class")
-  expect_error(wm_distribution(44444), "No Content")
+  expect_error(wm_distribution(44444), "\\(204\\) No Content")
 })
