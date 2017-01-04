@@ -3,6 +3,8 @@ worrms
 
 
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 [![Build Status](https://travis-ci.org/ropensci/worrms.svg?branch=master)](https://travis-ci.org/ropensci/worrms)
 [![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/worrms)
 
@@ -33,16 +35,16 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 #> # A tibble: 50 × 25
 #>    AphiaID                                                           url
 #> *    <int>                                                         <chr>
-#> 1   894300 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894300
-#> 2   894298 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894298
-#> 3   894301 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894301
-#> 4   894297 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894297
-#> 5   894302 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894302
-#> 6   894296 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894296
-#> 7   894299 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894299
-#> 8   894303 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894303
-#> 9   900689 http://www.marinespecies.org/aphia.php?p=taxdetails&id=900689
-#> 10  897486 http://www.marinespecies.org/aphia.php?p=taxdetails&id=897486
+#> 1   894298 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894298
+#> 2   894301 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894301
+#> 3   894297 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894297
+#> 4   894302 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894302
+#> 5   894296 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894296
+#> 6   894299 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894299
+#> 7   894303 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894303
+#> 8   897486 http://www.marinespecies.org/aphia.php?p=taxdetails&id=897486
+#> 9   901957 http://www.marinespecies.org/aphia.php?p=taxdetails&id=901957
+#> 10  899919 http://www.marinespecies.org/aphia.php?p=taxdetails&id=899919
 #> # ... with 40 more rows, and 23 more variables: scientificname <chr>,
 #> #   authority <chr>, status <chr>, unacceptreason <lgl>, rank <chr>,
 #> #   valid_AphiaID <int>, valid_name <chr>, valid_authority <chr>,
