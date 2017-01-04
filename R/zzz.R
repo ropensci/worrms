@@ -6,7 +6,7 @@ wm_GET <- function(url, query = list(), ...) {
          call. = FALSE)
   }
   temp$raise_for_status()
-  tmp <- jsonlite::fromJSON(temp$parse(), flatten = TRUE)
+  tmp <- jsonlite::fromJSON(temp$parse("UTF-8"), flatten = TRUE)
   if (inherits(tmp, "data.frame")) {
     tibble::as_data_frame(tmp)
   } else if (inherits(tmp, "list")) {

@@ -22,6 +22,7 @@ wm_records_date(start_date, end_date = NULL, marine_only = TRUE,
 Get records by date
 }
 \examples{
-wm_records_date('2016-12-23T05:59:45+00:00')
+a_date <- format(Sys.Date() - 1, "\%Y-\%m-\%dT\%H:\%M:\%S+00:00")
+wm_records_date(a_date)
 }
 
