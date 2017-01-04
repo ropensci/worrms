@@ -7,7 +7,7 @@
 wm_children(id, marine_only = TRUE, offset = 1, ...)
 }
 \arguments{
-\item{id}{an AphiaID}
+\item{id}{(numeric/integer) an AphiaID. required.}
 
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 

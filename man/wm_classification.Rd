@@ -7,7 +7,7 @@
 wm_classification(id, ...)
 }
 \arguments{
-\item{id}{an AphiaID}
+\item{id}{(numeric/integer) an AphiaID. required.}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }

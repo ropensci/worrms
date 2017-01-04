@@ -7,7 +7,7 @@
 wm_distribution(id, ...)
 }
 \arguments{
-\item{id}{an AphiaID}
+\item{id}{an AphiaID. required.}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }

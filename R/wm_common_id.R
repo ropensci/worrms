@@ -1,7 +1,7 @@
 #' Get vernacular names from an AphiaID
 #'
 #' @export
-#' @param id an AphiaID
+#' @param id (numeric/integer) an AphiaID. required.
 #' @template curl
 #' @examples
 #' wm_common_id(id = 105706)

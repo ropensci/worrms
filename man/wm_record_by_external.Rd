@@ -7,7 +7,7 @@
 wm_record_by_external(id, type = "tsn", ...)
 }
 \arguments{
-\item{id}{an external ID}
+\item{id}{(numeric/integer) an AphiaID. required.}
 
 \item{type}{(character) the type of external id. one of: tsn, bold,
 dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn}

@@ -1,7 +1,7 @@
 #' Get distribution data by AphiaID
 #'
 #' @export
-#' @param id an AphiaID
+#' @param id an AphiaID. required.
 #' @template curl
 #' @examples
 #' wm_distribution(id = 156806)

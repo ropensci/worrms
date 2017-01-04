@@ -1,7 +1,7 @@
 #' Get sources for an AphiaID
 #'
 #' @export
-#' @param id an AphiaID
+#' @param id (numeric/integer) an AphiaID. required.
 #' @template curl
 #' @examples
 #' wm_sources(id = 105706)

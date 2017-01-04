@@ -1,7 +1,7 @@
 #' Get AphiaID via an external ID
 #'
 #' @export
-#' @param id an external ID
+#' @param id (numeric/integer) an AphiaID. required.
 #' @param type (character) the type of external id. one of: tsn, bold,
 #' dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn
 #' @template curl

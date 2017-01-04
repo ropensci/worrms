@@ -1,7 +1,7 @@
 #' Get children for an AphiaID
 #'
 #' @export
-#' @param id an AphiaID
+#' @param id (numeric/integer) an AphiaID. required.
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @param offset (integer) record to start at. default: 1
 #' @template curl
