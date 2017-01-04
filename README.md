@@ -44,10 +44,10 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 #> 9   900689 http://www.marinespecies.org/aphia.php?p=taxdetails&id=900689
 #> 10  897486 http://www.marinespecies.org/aphia.php?p=taxdetails&id=897486
 #> # ... with 40 more rows, and 23 more variables: scientificname <chr>,
-#> #   authority <chr>, status <chr>, unacceptreason <lgl>, rank <lgl>,
+#> #   authority <chr>, status <chr>, unacceptreason <lgl>, rank <chr>,
 #> #   valid_AphiaID <int>, valid_name <chr>, valid_authority <chr>,
-#> #   kingdom <lgl>, phylum <lgl>, class <lgl>, order <lgl>, family <lgl>,
-#> #   genus <lgl>, citation <chr>, lsid <chr>, isMarine <int>,
+#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
+#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
 #> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
 #> #   isExtinct <int>, match_type <chr>, modified <chr>
 ```
@@ -124,7 +124,7 @@ using the TAXMATCH algorithm
 
 
 ```r
-wm_records_taxmatch(name = 'Platanista gangetica')
+wm_records_taxamatch(name = 'Platanista gangetica')
 #> [[1]]
 #> # A tibble: 1 × 25
 #>   AphiaID                                                           url

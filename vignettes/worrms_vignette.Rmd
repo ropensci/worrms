@@ -1,0 +1,129 @@
+---
+title: "Introduction to the worrms package"
+author: "Scott Chamberlain"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: readable
+vignette: >
+  %\VignetteIndexEntry{Introduction to the worrms package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+worrms introduction
+===================
+
+`worrms` is an R client for the [World Register of Marine Species](http://www.marinespecies.org/).
+
+## Install
+
+Stable version from CRAN
+
+```{r eval=FALSE}
+install.packages("worrms")
+```
+
+Development version from GitHub
+
+```{r eval=FALSE}
+install.packages("devtools")
+devtools::install_github("ropensci/worrms")
+```
+
+```{r}
+library("worrms")
+```
+
+## Get records
+
+WoRMS 'records' are taxa, not specimen occurrences or something else.
+
+by date
+
+```{r}
+wm_records_date('2016-12-23T05:59:45+00:00')
+```
+
+by a taxonomic name
+
+```{r}
+wm_records_name(name = 'Platanista gangetica')
+```
+
+by many names
+
+```{r}
+wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
+```
+
+by common name
+
+```{r}
+wm_records_common(name = 'clam')
+```
+
+using the TAXMATCH algorithm
+
+```{r}
+wm_records_taxamatch(name = 'Platanista gangetica')
+```
+
+## APHIA ID <--> name
+
+```{r}
+wm_name2id(name = "Rhincodon")
+```
+
+```{r}
+wm_id2name(id = 105706)
+```
+
+## Get AphiaID via an external ID
+
+```{r}
+wm_external(id = 1080)
+wm_external(id = 105706)
+```
+
+## Get vernacular names from an AphiaID
+
+```{r}
+wm_common_id(id = 156806)
+```
+
+## Children
+
+Get direct taxonomic children for an AphiaID
+
+```{r}
+wm_classification(id = 105706)
+```
+
+## Classification
+
+Get classification for an AphiaID
+
+```{r}
+wm_classification(id = 105706)
+```
+
+## Synonyms
+
+Get synonyms for an AphiaID
+
+```{r}
+wm_synonyms(id = 105706)
+```
+

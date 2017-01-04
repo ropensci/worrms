@@ -57,7 +57,7 @@ wm_records_common(name = 'clam')
 using the TAXMATCH algorithm
 
 ```{r}
-wm_records_taxmatch(name = 'Platanista gangetica')
+wm_records_taxamatch(name = 'Platanista gangetica')
 ```
 
 
