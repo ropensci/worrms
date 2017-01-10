@@ -2,7 +2,7 @@
 % Please edit documentation in R/wm_externalid.R
 \name{wm_external}
 \alias{wm_external}
-\title{Get AphiaID via an external ID}
+\title{Get an external ID via an AphiaID}
 \usage{
 wm_external(id, type = "tsn", ...)
 }
@@ -15,11 +15,20 @@ dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn}
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
-Get AphiaID via an external ID
+Get an external ID via an AphiaID
 }
 \examples{
+# by default, get a TSN (an ITIS code)
 wm_external(id = 1080)
-wm_external(id = 105706)
+
+# BOLD code
+wm_external(id = 278468, type = "bold")
+
+# NCBI code
+wm_external(id = 278468, type = "ncbi")
+
+# fishbase code
+wm_external(id = 278468, type = "fishbase")
 
 library(crul)
 wm_external(id = 105706, verbose = TRUE)

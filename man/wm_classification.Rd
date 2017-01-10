@@ -12,7 +12,7 @@ wm_classification(id, ...)
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
-Get classification for an AphiaID
+FIXME: simply output, ideally to data.frame
 }
 \examples{
 wm_classification(id = 105706)

@@ -1,5 +1,7 @@
 #' Get classification for an AphiaID
 #'
+#' FIXME: simply output, ideally to data.frame
+#'
 #' @export
 #' @param id (numeric/integer) an AphiaID. required.
 #' @template curl

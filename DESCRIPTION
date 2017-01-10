@@ -7,7 +7,7 @@ Description: Client for World Register of Marine Species
     common names, searching using external identifiers, fetching
     synonyms, as well as fetching taxonomic children and 
     taxonomic classification.
-Version: 0.0.6.9100
+Version: 0.0.8.9300
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"))
 License: MIT + file LICENSE
