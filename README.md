@@ -15,6 +15,15 @@ worrms
 
 ## Installation
 
+More stable CRAN version
+
+
+```r
+install.packages("worrms")
+```
+
+Development version
+
 
 ```r
 devtools::install_github("ropensci/worrms")
@@ -42,9 +51,9 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 #> 5   894296 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894296
 #> 6   894299 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894299
 #> 7   894303 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894303
-#> 8   897486 http://www.marinespecies.org/aphia.php?p=taxdetails&id=897486
-#> 9   901957 http://www.marinespecies.org/aphia.php?p=taxdetails&id=901957
-#> 10  899919 http://www.marinespecies.org/aphia.php?p=taxdetails&id=899919
+#> 8   906769 http://www.marinespecies.org/aphia.php?p=taxdetails&id=906769
+#> 9   909454 http://www.marinespecies.org/aphia.php?p=taxdetails&id=909454
+#> 10  915236 http://www.marinespecies.org/aphia.php?p=taxdetails&id=915236
 #> # ... with 40 more rows, and 23 more variables: scientificname <chr>,
 #> #   authority <chr>, status <chr>, unacceptreason <lgl>, rank <chr>,
 #> #   valid_AphiaID <int>, valid_name <chr>, valid_authority <chr>,

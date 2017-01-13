@@ -8,8 +8,11 @@
 #' @examples
 #' wm_records_common(name = 'dolphin')
 #' wm_records_common(name = 'clam')
+#'
+#' \dontrun{
 #' wm_records_common(name = 'dolphin', fuzzy = TRUE)
 #' wm_records_common(name = 'clam', fuzzy = TRUE, offset = 5)
+#' }
 wm_records_common <- function(name, fuzzy = FALSE, offset = 1,
                             ...) {
   assert(name, "character")

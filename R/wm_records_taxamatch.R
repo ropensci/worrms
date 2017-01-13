@@ -2,12 +2,13 @@
 #' the TAXAMATCH fuzzy matching algorithm
 #'
 #' @export
-#' @param name (character) start date. required.
+#' @param name (character) taxon name. required.
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @template curl
-#' @examples
+#' @examples \dontrun{
 #' wm_records_taxamatch(name = 'Platanista gangetica')
 #' wm_records_taxamatch(name = c('Platanista gangetica', 'Coryphaena'))
+#' }
 wm_records_taxamatch <- function(name, marine_only = TRUE, ...) {
   assert(name, "character")
   assert(marine_only, "logical")

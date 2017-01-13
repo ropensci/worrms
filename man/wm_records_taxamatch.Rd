@@ -8,7 +8,7 @@ the TAXAMATCH fuzzy matching algorithm}
 wm_records_taxamatch(name, marine_only = TRUE, ...)
 }
 \arguments{
-\item{name}{(character) start date. required.}
+\item{name}{(character) taxon name. required.}
 
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 
@@ -19,7 +19,9 @@ Get records for onen or more taxonomic name(s) using
 the TAXAMATCH fuzzy matching algorithm
 }
 \examples{
+\dontrun{
 wm_records_taxamatch(name = 'Platanista gangetica')
 wm_records_taxamatch(name = c('Platanista gangetica', 'Coryphaena'))
+}
 }
 

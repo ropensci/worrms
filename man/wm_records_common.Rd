@@ -21,7 +21,10 @@ Get records by vernacular name, optional fuzzy matching
 \examples{
 wm_records_common(name = 'dolphin')
 wm_records_common(name = 'clam')
+
+\dontrun{
 wm_records_common(name = 'dolphin', fuzzy = TRUE)
 wm_records_common(name = 'clam', fuzzy = TRUE, offset = 5)
+}
 }
 

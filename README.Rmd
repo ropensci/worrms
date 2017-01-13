@@ -22,6 +22,14 @@ knitr::opts_chunk$set(
 
 ## Installation
 
+More stable CRAN version
+
+```{r eval=FALSE}
+install.packages("worrms")
+```
+
+Development version
+
 ```{r eval=FALSE}
 devtools::install_github("ropensci/worrms")
 ```
