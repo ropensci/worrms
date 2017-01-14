@@ -7,6 +7,8 @@ worrms
 
 [![Build Status](https://travis-ci.org/ropensci/worrms.svg?branch=master)](https://travis-ci.org/ropensci/worrms)
 [![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/worrms)
+[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/worrms)](https://github.com/metacran/cranlogs.app)
+[![cran version](http://www.r-pkg.org/badges/version/worrms)](https://cran.r-project.org/package=worrms)
 
 `worrms` is a R client for the World Register of Marine Species
 
@@ -98,7 +100,7 @@ wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 #> #   class <chr>, order <chr>, family <chr>, genus <chr>, citation <chr>,
 #> #   lsid <chr>, isMarine <lgl>, isBrackish <lgl>, isFreshwater <int>,
 #> #   isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>, modified <chr>
-#> 
+#>
 #> [[2]]
 #> # A tibble: 2 × 25
 #>   AphiaID                                                           url
