@@ -23,4 +23,3 @@ wm_records_names(name = 'Platanista gangetica')
 wm_records_names(name = 'Platanista gangetica', fuzzy = TRUE)
 wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 }
-

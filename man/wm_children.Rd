@@ -23,4 +23,3 @@ wm_children(id = 105706)
 wm_children(id = 105706, FALSE)
 wm_children(id = 105706, offset = 5)
 }
-

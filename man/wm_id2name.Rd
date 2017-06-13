@@ -17,4 +17,3 @@ Get taxonomic name for an AphiaID
 \examples{
 wm_id2name(id = 105706)
 }
-

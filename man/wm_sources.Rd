@@ -17,4 +17,3 @@ Get sources for an AphiaID
 \examples{
 wm_sources(id = 105706)
 }
-

@@ -17,4 +17,3 @@ Get complete AphiaRecord for an AphiaID
 \examples{
 wm_record(id = 105706)
 }
-

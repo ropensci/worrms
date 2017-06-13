@@ -17,4 +17,3 @@ Get distribution data by AphiaID
 \examples{
 wm_distribution(id = 156806)
 }
-

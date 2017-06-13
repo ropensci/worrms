@@ -17,4 +17,3 @@ Get synonyms for an AphiaID
 \examples{
 wm_synonyms(id = 105706)
 }
-

@@ -2,8 +2,8 @@
 % Please edit documentation in R/worrms-package.R
 \docType{package}
 \name{worrms-package}
-\alias{worrms}
 \alias{worrms-package}
+\alias{worrms}
 \title{World Register of Marine Species Client}
 \description{
 World Register of Marine Species Client
@@ -18,8 +18,8 @@ Because WoRMS doesn't do comprehensive error reporting, we do a fair
 amount of checking user inputs to help prevent errors that will be
 meaningless to the user. Let us know if we can improve on this.
 }
+
 \author{
 Scott Chamberlain \email{myrmecocystus@gmail.com}
 }
 \keyword{package}
-

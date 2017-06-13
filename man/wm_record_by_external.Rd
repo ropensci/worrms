@@ -21,4 +21,3 @@ Get record by external ID
 wm_record_by_external(id = 85257)
 wm_record_by_external(id = 159854)
 }
-

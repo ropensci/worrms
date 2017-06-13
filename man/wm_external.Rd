@@ -33,4 +33,3 @@ wm_external(id = 278468, type = "fishbase")
 library(crul)
 wm_external(id = 105706, verbose = TRUE)
 }
-

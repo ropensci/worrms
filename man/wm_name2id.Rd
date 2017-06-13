@@ -17,4 +17,3 @@ Get AphiaID from a taxonomic name
 \examples{
 wm_name2id(name = "Rhincodon")
 }
-

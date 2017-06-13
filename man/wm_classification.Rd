@@ -18,4 +18,3 @@ Get classification for an AphiaID
 wm_classification(id = 105706)
 wm_classification(id = 126436)
 }
-

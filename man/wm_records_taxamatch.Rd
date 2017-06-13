@@ -24,4 +24,3 @@ wm_records_taxamatch(name = 'Platanista gangetica')
 wm_records_taxamatch(name = c('Platanista gangetica', 'Coryphaena'))
 }
 }
-
