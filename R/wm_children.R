@@ -1,9 +1,12 @@
 #' Get children for an AphiaID
 #'
 #' @export
-#' @param id (numeric/integer) an AphiaID. required.
+#' @param id (numeric/integer) an AphiaID. For \code{wm_children} it's
+#' required and must be \code{length(id)=1}, for \code{wm_children_} it's
+#' optional and can be \code{length(id) >= 1}
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @param offset (integer) record to start at. default: 1
+#' @param name (character) one or more taxonomic names. optional
 #' @template curl
 #' @examples
 #' wm_children(id = 105706)

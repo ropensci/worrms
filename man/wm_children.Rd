@@ -11,13 +11,17 @@ wm_children_(id = NULL, name = NULL, marine_only = TRUE, offset = 1,
   ...)
 }
 \arguments{
-\item{id}{(numeric/integer) an AphiaID. required.}
+\item{id}{(numeric/integer) an AphiaID. For \code{wm_children} it's
+required and must be \code{length(id)=1}, for \code{wm_children_} it's
+optional and can be \code{length(id) >= 1}}
 
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 
 \item{offset}{(integer) record to start at. default: 1}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
+\item{name}{(character) one or more taxonomic names. optional}
 }
 \description{
 Get children for an AphiaID
