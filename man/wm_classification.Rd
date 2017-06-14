@@ -2,9 +2,12 @@
 % Please edit documentation in R/wm_classification.R
 \name{wm_classification}
 \alias{wm_classification}
+\alias{wm_classification_}
 \title{Get classification for an AphiaID}
 \usage{
 wm_classification(id, ...)
+
+wm_classification_(id = NULL, name = NULL, ...)
 }
 \arguments{
 \item{id}{(numeric/integer) an AphiaID. required.}
@@ -17,4 +20,9 @@ Get classification for an AphiaID
 \examples{
 wm_classification(id = 105706)
 wm_classification(id = 126436)
+
+wm_classification(254967)
+wm_classification(344089)
+wm_classification_(id = c(254967, 344089))
+wm_classification_(name = c('Platanista gangetica', 'Leucophaeus scoresbii'))
 }

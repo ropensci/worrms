@@ -16,13 +16,13 @@ BugReports: https://github.com/ropensci/worrms/issues
 LazyData: true
 VignetteBuilder: knitr
 Imports:
-    crul (>= 0.2.0),
+    crul (>= 0.3.6),
     tibble (>= 1.2),
-    jsonlite (>= 1.1)
+    jsonlite (>= 1.1),
+    data.table
 Suggests:
     roxygen2 (>= 5.0.1),
     knitr,
     rmarkdown,
-    testthat,
-    covr
+    testthat
 RoxygenNote: 6.0.1

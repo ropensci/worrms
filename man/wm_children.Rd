@@ -2,9 +2,13 @@
 % Please edit documentation in R/wm_children.R
 \name{wm_children}
 \alias{wm_children}
+\alias{wm_children_}
 \title{Get children for an AphiaID}
 \usage{
 wm_children(id, marine_only = TRUE, offset = 1, ...)
+
+wm_children_(id = NULL, name = NULL, marine_only = TRUE, offset = 1,
+  ...)
 }
 \arguments{
 \item{id}{(numeric/integer) an AphiaID. required.}
@@ -22,4 +26,9 @@ Get children for an AphiaID
 wm_children(id = 105706)
 wm_children(id = 105706, FALSE)
 wm_children(id = 105706, offset = 5)
+
+wm_children(254966)
+wm_children(343613)
+wm_children_(id = c(254966, 343613))
+wm_children_(name = c('Platanista', 'Leucophaeus'))
 }
