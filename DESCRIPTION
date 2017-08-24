@@ -7,7 +7,7 @@ Description: Client for World Register of Marine Species
     common names, searching using external identifiers, fetching
     synonyms, as well as fetching taxonomic children and 
     taxonomic classification.
-Version: 0.1.0.9100
+Version: 0.1.8.9210
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"))
 License: MIT + file LICENSE
@@ -17,11 +17,12 @@ LazyData: true
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 Imports:
-    crul (>= 0.2.0),
+    crul (>= 0.3.6),
     tibble (>= 1.2),
-    jsonlite (>= 1.1)
+    jsonlite (>= 1.1),
+    data.table
 Suggests:
-    roxygen2 (>= 5.0.1),
+    roxygen2 (>= 6.0.1),
     knitr,
     rmarkdown,
     testthat

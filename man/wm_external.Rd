@@ -2,24 +2,47 @@
 % Please edit documentation in R/wm_externalid.R
 \name{wm_external}
 \alias{wm_external}
+\alias{wm_external_}
 \title{Get an external ID via an AphiaID}
 \usage{
 wm_external(id, type = "tsn", ...)
+
+wm_external_(id = NULL, name = NULL, type = "tsn", ...)
 }
 \arguments{
-\item{id}{(numeric/integer) an AphiaID. required.}
+\item{id}{(numeric/integer) an AphiaID. For \code{wm_external} it's
+required and must be \code{length(id) = 1}, for \code{wm_external_} it's
+optional and can be \code{length(id) >= 1}}
 
 \item{type}{(character) the type of external id. one of: tsn, bold,
 dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
+\item{name}{(character) one or more taxonomic names. optional}
 }
 \description{
 Get an external ID via an AphiaID
 }
+\section{Singular vs. plural}{
+
+Of the two sister functions, the one without the underscore is the original
+function that wraps the relavant WoRMS API method - and only accepts
+one thing (i.e., name or AphiaID) per request.
+
+The sister function with the underscore at the end is the plural version,
+accepting more than one input. Internally this function loops over
+the non-underscore method, and labels output (whether it's a list or
+data.frame rows) with the input names or IDs so that you can easily
+parse output by your inputs.
+}
+
 \examples{
 # by default, get a TSN (an ITIS code)
 wm_external(id = 1080)
+
+## get many
+wm_external_(id = c(1080, 126436))
 
 # BOLD code
 wm_external(id = 278468, type = "bold")
@@ -30,6 +53,7 @@ wm_external(id = 278468, type = "ncbi")
 # fishbase code
 wm_external(id = 278468, type = "fishbase")
 
+# curl options
 library(crul)
 wm_external(id = 105706, verbose = TRUE)
 }

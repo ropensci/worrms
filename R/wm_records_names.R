@@ -5,6 +5,8 @@
 #' @param fuzzy (logical) fuzzy search. default: \code{FALSE}
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @template curl
+#' @note there is no underscore method like other functions in this package
+#' as this is the plural version for \code{\link{wm_records_name}}
 #' @examples
 #' wm_records_names(name = 'Platanista gangetica')
 #' wm_records_names(name = 'Platanista gangetica', fuzzy = TRUE)

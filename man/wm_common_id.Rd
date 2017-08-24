@@ -2,20 +2,44 @@
 % Please edit documentation in R/wm_common_id.R
 \name{wm_common_id}
 \alias{wm_common_id}
+\alias{wm_common_id_}
 \title{Get vernacular names from an AphiaID}
 \usage{
 wm_common_id(id, ...)
+
+wm_common_id_(id = NULL, name = NULL, ...)
 }
 \arguments{
-\item{id}{(numeric/integer) an AphiaID. required.}
+\item{id}{(numeric/integer) an AphiaID. For \code{wm_common_id} it's
+required and must be \code{length(id) = 1}, for \code{wm_common_id_} it's
+optional and can be \code{length(id) >= 1}}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
+\item{name}{(character) one or more taxonomic names. optional}
 }
 \description{
 Get vernacular names from an AphiaID
 }
+\section{Singular vs. plural}{
+
+Of the two sister functions, the one without the underscore is the original
+function that wraps the relavant WoRMS API method - and only accepts
+one thing (i.e., name or AphiaID) per request.
+
+The sister function with the underscore at the end is the plural version,
+accepting more than one input. Internally this function loops over
+the non-underscore method, and labels output (whether it's a list or
+data.frame rows) with the input names or IDs so that you can easily
+parse output by your inputs.
+}
+
 \examples{
 wm_common_id(id = 105706)
 wm_common_id(id = 156806)
 wm_common_id(id = 397065)
+
+wm_common_id_(id = c(105706, 156806, 397065))
+nms <- c("Rhincodontidae", "Mesodesma deauratum", "Cryptomya californica")
+wm_common_id_(name = nms)
 }

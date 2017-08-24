@@ -2,22 +2,44 @@
 % Please edit documentation in R/wm_record_by_external.R
 \name{wm_record_by_external}
 \alias{wm_record_by_external}
+\alias{wm_record_by_external_}
 \title{Get record by external ID}
 \usage{
 wm_record_by_external(id, type = "tsn", ...)
+
+wm_record_by_external_(id = NULL, name = NULL, type = "tsn", ...)
 }
 \arguments{
-\item{id}{(numeric/integer) an AphiaID. required.}
+\item{id}{(numeric/integer) an AphiaID. For \code{wm_record_by_external}
+it's required and must be \code{length(id) = 1}, for
+\code{wm_record_by_external_} it's optional and can be \code{length(id) >= 1}}
 
 \item{type}{(character) the type of external id. one of: tsn, bold,
 dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
+\item{name}{(character) one or more taxonomic names. optional}
 }
 \description{
 Get record by external ID
 }
+\section{Singular vs. plural}{
+
+Of the two sister functions, the one without the underscore is the original
+function that wraps the relavant WoRMS API method - and only accepts
+one thing (i.e., name or AphiaID) per request.
+
+The sister function with the underscore at the end is the plural version,
+accepting more than one input. Internally this function loops over
+the non-underscore method, and labels output (whether it's a list or
+data.frame rows) with the input names or IDs so that you can easily
+parse output by your inputs.
+}
+
 \examples{
 wm_record_by_external(id = 85257)
 wm_record_by_external(id = 159854)
+
+wm_record_by_external_(id = c(85257, 159854))
 }
