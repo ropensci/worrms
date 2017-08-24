@@ -100,7 +100,7 @@ wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 #> #   class <chr>, order <chr>, family <chr>, genus <chr>, citation <chr>,
 #> #   lsid <chr>, isMarine <lgl>, isBrackish <lgl>, isFreshwater <int>,
 #> #   isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>, modified <chr>
-#> 
+#>
 #> [[2]]
 #> # A tibble: 2 x 25
 #>   AphiaID                                                           url
@@ -159,5 +159,3 @@ wm_records_taxamatch(name = 'Platanista gangetica')
 * Get citation information for `worrms` in R doing `citation(package = 'worrms')`
 * Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md).
 By participating in this project you agree to abide by its terms.
-
-[![ropensci_footer](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
