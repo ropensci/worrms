@@ -17,12 +17,13 @@
 ## Reverse dependencies
 
 * I have run R CMD check on the 1 reverse dependency.
-  (Summary at <https://github.com/ropensci/rgbif/blob/master/revdep/README.md>).
+  (Summary at <https://github.com/ropensci/worrms/blob/master/revdep/README.md>).
   No problems were found. The maintainer was notified of the release.
 
 ---
 
-This version xxx.
+This version includes new set of functions for querying many entities at once
+instead of one at a time.
 
 Thanks!
 Scott Chamberlain
