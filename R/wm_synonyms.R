@@ -1,12 +1,14 @@
 #' Get synonyms for an AphiaID
 #'
 #' @export
-#' @param id (numeric/integer) an AphiaID. For \code{wm_synonyms} it's required
-#' and must be \code{length(id) = 1}, for \code{wm_synonyms_} it's optional and
-#' can be \code{length(id) >= 1}
+#' @param id (numeric/integer) an AphiaID. For `wm_synonyms` it's required
+#' and must be `length(id) = 1`, for `wm_synonyms_` it's optional and
+#' can be `length(id) >= 1`
 #' @param name (character) one or more taxonomic names. optional
 #' @template curl
 #' @template plural
+#' @return A tibble/data.frame. when using underscore method, outputs from
+#' each input are binded together, but can be split by `id` column
 #' @examples
 #' wm_synonyms(id = 105706)
 #' wm_synonyms_(id = 105706)

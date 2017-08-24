@@ -1,13 +1,14 @@
 #' Get records by single name, optional fuzzy matching
 #'
 #' @export
-#' @param name (character) start date. required.
-#' @param fuzzy (logical) fuzzy search. default: \code{TRUE}
-#' @param marine_only (logical) marine only or not. default: \code{TRUE}
+#' @param name (character) a taxonomic name, required.
+#' @param fuzzy (logical) fuzzy search. default: `TRUE`
+#' @param marine_only (logical) marine only or not. default: `TRUE`
 #' @param offset (integer) record to start at. default: 1
 #' @template curl
 #' @note there is no underscore method like other functions in this package
-#' as there is already a plural version: \code{\link{wm_records_names}}
+#' as there is already a plural version: [wm_records_names()]
+#' @return A tibble/data.frame
 #' @examples
 #' wm_records_name(name = 'Platanista gangetica')
 #' wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)

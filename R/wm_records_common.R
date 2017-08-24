@@ -2,12 +2,14 @@
 #'
 #' @export
 #' @param name (character) a species common name. required. For
-#' \code{wm_records_common} must be \code{length(id) = 1}; for
-#' \code{wm_records_common_} can be \code{length(id) >= 1}
-#' @param fuzzy (logical) fuzzy search. default: \code{FALSE}
+#' `wm_records_common` must be `length(id) = 1`; for `wm_records_common_`
+#' can be `length(id) >= 1`
+#' @param fuzzy (logical) fuzzy search. default: `FALSE`
 #' @param offset (integer) record to start at. default: 1
 #' @template curl
 #' @template plural
+#' @return A tibble/data.frame. when using underscore method, outputs from
+#' each input are binded together, but can be split by `id` column
 #' @examples
 #' wm_records_common(name = 'dolphin')
 #' wm_records_common(name = 'clam')

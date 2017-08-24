@@ -11,14 +11,18 @@ wm_records_common_(name, fuzzy = FALSE, offset = 1, ...)
 }
 \arguments{
 \item{name}{(character) a species common name. required. For
-\code{wm_records_common} must be \code{length(id) = 1}; for
-\code{wm_records_common_} can be \code{length(id) >= 1}}
+\code{wm_records_common} must be \code{length(id) = 1}; for \code{wm_records_common_}
+can be \code{length(id) >= 1}}
 
 \item{fuzzy}{(logical) fuzzy search. default: \code{FALSE}}
 
 \item{offset}{(integer) record to start at. default: 1}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+}
+\value{
+A tibble/data.frame. when using underscore method, outputs from
+each input are binded together, but can be split by \code{id} column
 }
 \description{
 Get records by vernacular name, optional fuzzy matching

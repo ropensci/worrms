@@ -3,9 +3,10 @@
 #' @export
 #' @param start_date (character) start date. required.
 #' @param end_date (character) end date. optional
-#' @param marine_only (logical) marine only or not. default: \code{TRUE}
+#' @param marine_only (logical) marine only or not. default: `TRUE`
 #' @param offset (integer) record to start at. default: 1
 #' @template curl
+#' @return A tibble/data.frame
 #' @examples
 #' a_date <- format(Sys.Date() - 1, "%Y-%m-%dT%H:%M:%S+00:00")
 #' wm_records_date(a_date)

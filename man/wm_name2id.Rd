@@ -10,11 +10,15 @@ wm_name2id(name, ...)
 wm_name2id_(name, ...)
 }
 \arguments{
-\item{name}{(numeric/integer) a taxonomic name, required. For
+\item{name}{(character) a taxonomic name, required. For
 \code{wm_name2id} must be \code{length(id) = 1}, but for \code{wm_name2id_}
 can be \code{length(id) >= 1}}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+}
+\value{
+An integer that is the AphiaID. When using underscore method,
+a list, named by the input names
 }
 \description{
 Get AphiaID from a taxonomic name

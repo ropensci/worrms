@@ -21,6 +21,10 @@ dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn}
 
 \item{name}{(character) one or more taxonomic names. optional}
 }
+\value{
+A named list. When using underscore method, each output is named
+by the input ID, and can be separated by the list names
+}
 \description{
 Get record by external ID
 }

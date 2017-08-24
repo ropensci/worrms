@@ -18,6 +18,10 @@ can be \code{length(id) >= 1}}
 
 \item{name}{(character) one or more taxonomic names. optional}
 }
+\value{
+A tibble/data.frame. when using underscore method, outputs from
+each input are binded together, but can be split by \code{id} column
+}
 \description{
 Get synonyms for an AphiaID
 }

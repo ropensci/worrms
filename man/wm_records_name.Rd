@@ -7,7 +7,7 @@
 wm_records_name(name, fuzzy = TRUE, marine_only = TRUE, offset = 1, ...)
 }
 \arguments{
-\item{name}{(character) start date. required.}
+\item{name}{(character) a taxonomic name, required.}
 
 \item{fuzzy}{(logical) fuzzy search. default: \code{TRUE}}
 
@@ -17,12 +17,15 @@ wm_records_name(name, fuzzy = TRUE, marine_only = TRUE, offset = 1, ...)
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
+\value{
+A tibble/data.frame
+}
 \description{
 Get records by single name, optional fuzzy matching
 }
 \note{
 there is no underscore method like other functions in this package
-as there is already a plural version: \code{\link{wm_records_names}}
+as there is already a plural version: \code{\link[=wm_records_names]{wm_records_names()}}
 }
 \examples{
 wm_records_name(name = 'Platanista gangetica')

@@ -18,6 +18,9 @@ wm_records_date(start_date, end_date = NULL, marine_only = TRUE,
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
+\value{
+A tibble/data.frame
+}
 \description{
 Get records by date
 }

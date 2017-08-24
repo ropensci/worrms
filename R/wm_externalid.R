@@ -1,14 +1,16 @@
 #' Get an external ID via an AphiaID
 #'
 #' @export
-#' @param id (numeric/integer) an AphiaID. For \code{wm_external} it's
-#' required and must be \code{length(id) = 1}, for \code{wm_external_} it's
-#' optional and can be \code{length(id) >= 1}
+#' @param id (numeric/integer) an AphiaID. For `wm_external` it's
+#' required and must be `length(id) = 1`, for `wm_external_` it's
+#' optional and can be `length(id) >= 1`
 #' @param type (character) the type of external id. one of: tsn, bold,
 #' dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn
 #' @param name (character) one or more taxonomic names. optional
 #' @template curl
 #' @template plural
+#' @return An integer that is the ID. When using underscore method,
+#' a list, named by the input IDs
 #' @examples
 #' # by default, get a TSN (an ITIS code)
 #' wm_external(id = 1080)

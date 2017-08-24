@@ -2,11 +2,12 @@
 #'
 #' @export
 #' @param name (character) start date. required.
-#' @param fuzzy (logical) fuzzy search. default: \code{FALSE}
-#' @param marine_only (logical) marine only or not. default: \code{TRUE}
+#' @param fuzzy (logical) fuzzy search. default: `FALSE`
+#' @param marine_only (logical) marine only or not. default: `TRUE`
 #' @template curl
 #' @note there is no underscore method like other functions in this package
-#' as this is the plural version for \code{\link{wm_records_name}}
+#' as this is the plural version for [wm_records_name()]
+#' @return A list of tibble's/data.frame's, one for each of the input names
 #' @examples
 #' wm_records_names(name = 'Platanista gangetica')
 #' wm_records_names(name = 'Platanista gangetica', fuzzy = TRUE)

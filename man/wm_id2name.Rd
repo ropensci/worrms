@@ -16,6 +16,10 @@ must be \code{length(id) = 1}, but for \code{wm_id2name_} can be
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
+\value{
+An character string that is the taxnomic name. When using underscore
+method, a list, named by the input IDs
+}
 \description{
 Get taxonomic name for an AphiaID
 }

@@ -1,11 +1,13 @@
 #' Get taxonomic name for an AphiaID
 #'
 #' @export
-#' @param id (numeric/integer) an AphiaID, required. For \code{wm_id2name}
-#' must be \code{length(id) = 1}, but for \code{wm_id2name_} can be
-#' \code{length(id) >= 1}
+#' @param id (numeric/integer) an AphiaID, required. For `wm_id2name`
+#' must be `length(id) = 1`, but for `wm_id2name_` can be
+#' `length(id) >= 1`
 #' @template curl
 #' @template plural
+#' @return An character string that is the taxnomic name. When using underscore
+#' method, a list, named by the input IDs
 #' @examples
 #' wm_id2name(id = 105706)
 #' wm_id2name_(id = c(105706, 126436))

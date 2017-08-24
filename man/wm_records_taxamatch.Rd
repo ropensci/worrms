@@ -14,6 +14,9 @@ wm_records_taxamatch(name, marine_only = TRUE, ...)
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
+\value{
+A list of tibble's/data.frame's, one for each of the input names
+}
 \description{
 Get records for onen or more taxonomic name(s) using
 the TAXAMATCH fuzzy matching algorithm

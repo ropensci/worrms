@@ -21,6 +21,10 @@ dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn}
 
 \item{name}{(character) one or more taxonomic names. optional}
 }
+\value{
+An integer that is the ID. When using underscore method,
+a list, named by the input IDs
+}
 \description{
 Get an external ID via an AphiaID
 }

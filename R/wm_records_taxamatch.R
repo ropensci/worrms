@@ -3,10 +3,11 @@
 #'
 #' @export
 #' @param name (character) taxon name. required.
-#' @param marine_only (logical) marine only or not. default: \code{TRUE}
+#' @param marine_only (logical) marine only or not. default: `TRUE`
 #' @template curl
 #' @note there is no underscore method like other functions in this package
 #' as this function already accepts many names
+#' @return A list of tibble's/data.frame's, one for each of the input names
 #' @examples \dontrun{
 #' wm_records_taxamatch(name = 'Platanista gangetica')
 #' wm_records_taxamatch(name = c('Platanista gangetica', 'Coryphaena'))

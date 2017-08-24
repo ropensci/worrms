@@ -8,8 +8,8 @@
 #'
 #' @section Fail behavior:
 #' The WoRMS REST API doesn't have sophisticated error messaging, so
-#' most errors will result in a \code{(204) - No Content} or
-#' in \code{(400) - Bad Request}
+#' most errors will result in a `(204) - No Content` or
+#' in `(400) - Bad Request`
 #'
 #' Because WoRMS doesn't do comprehensive error reporting, we do a fair
 #' amount of checking user inputs to help prevent errors that will be
