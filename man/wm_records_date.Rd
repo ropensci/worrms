@@ -25,6 +25,8 @@ A tibble/data.frame
 Get records by date
 }
 \examples{
+\dontrun{
 a_date <- format(Sys.Date() - 1, "\%Y-\%m-\%dT\%H:\%M:\%S+00:00")
 wm_records_date(a_date)
+}
 }

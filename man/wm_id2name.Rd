@@ -37,6 +37,8 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_id2name(id = 105706)
 wm_id2name_(id = c(105706, 126436))
+}
 }

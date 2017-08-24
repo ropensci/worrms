@@ -8,9 +8,10 @@
 #' @template plural
 #' @return An character string that is the taxnomic name. When using underscore
 #' method, a list, named by the input IDs
-#' @examples
+#' @examples \dontrun{
 #' wm_id2name(id = 105706)
 #' wm_id2name_(id = c(105706, 126436))
+#' }
 wm_id2name <- function(id, ...) {
   assert(id, c("numeric", "integer"))
   wm_GET(file.path(wm_base(), "AphiaNameByAphiaID", id), ...)

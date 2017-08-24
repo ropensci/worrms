@@ -9,7 +9,7 @@
 #' @template plural
 #' @return A tibble/data.frame. when using underscore method, outputs from
 #' each input are binded together, but can be split by `id` column
-#' @examples
+#' @examples \dontrun{
 #' wm_common_id(id = 105706)
 #' wm_common_id(id = 156806)
 #' wm_common_id(id = 397065)
@@ -17,6 +17,7 @@
 #' wm_common_id_(id = c(105706, 156806, 397065))
 #' nms <- c("Rhincodontidae", "Mesodesma deauratum", "Cryptomya californica")
 #' wm_common_id_(name = nms)
+#' }
 wm_common_id <- function(id, ...) {
   assert(id, c("numeric", "integer"))
   if (length(id) > 1) stop("'id' must be of length 1", call. = FALSE)

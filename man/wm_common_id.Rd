@@ -39,6 +39,7 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_common_id(id = 105706)
 wm_common_id(id = 156806)
 wm_common_id(id = 397065)
@@ -46,4 +47,5 @@ wm_common_id(id = 397065)
 wm_common_id_(id = c(105706, 156806, 397065))
 nms <- c("Rhincodontidae", "Mesodesma deauratum", "Cryptomya californica")
 wm_common_id_(name = nms)
+}
 }

@@ -39,8 +39,10 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_sources(id = 105706)
 wm_sources_(id = 105706)
 wm_sources_(id = c(105706, 126436))
 wm_sources_(name = c("Rhincodontidae", "Gadus morhua"))
+}
 }

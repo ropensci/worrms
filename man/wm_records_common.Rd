@@ -41,12 +41,12 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_records_common(name = 'dolphin')
 wm_records_common(name = 'clam')
 
 wm_records_common_(name = c('dolphin', 'clam'))
 
-\dontrun{
 wm_records_common(name = 'dolphin', fuzzy = TRUE)
 wm_records_common(name = 'clam', fuzzy = TRUE, offset = 5)
 }

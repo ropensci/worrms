@@ -11,11 +11,12 @@
 #' @template plural
 #' @return A named list. When using underscore method, each output is named
 #' by the input ID, and can be separated by the list names
-#' @examples
+#' @examples \dontrun{
 #' wm_record_by_external(id = 85257)
 #' wm_record_by_external(id = 159854)
 #'
 #' wm_record_by_external_(id = c(85257, 159854))
+#' }
 wm_record_by_external <- function(id, type = "tsn", ...) {
   assert(id, c("numeric", "integer"))
   assert(type, "character")

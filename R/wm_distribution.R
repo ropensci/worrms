@@ -9,11 +9,12 @@
 #' @template plural
 #' @return A tibble/data.frame. when using underscore method, outputs from
 #' each input are binded together, but can be split by `id` column
-#' @examples
+#' @examples \dontrun{
 #' wm_distribution(id = 156806)
 #' wm_distribution(id = 126436)
 #'
 #' wm_distribution_(id = c(156806, 126436))
+#' }
 wm_distribution <- function(id, ...) {
   assert(id, c("numeric", "integer"))
   wm_GET(file.path(wm_base(), "AphiaDistributionsByAphiaID", id), ...)

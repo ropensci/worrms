@@ -42,8 +42,10 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_record_by_external(id = 85257)
 wm_record_by_external(id = 159854)
 
 wm_record_by_external_(id = c(85257, 159854))
+}
 }

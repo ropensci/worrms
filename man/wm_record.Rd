@@ -39,6 +39,8 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_record(id = 105706)
 wm_record_(id = c(105706, 126436))
+}
 }

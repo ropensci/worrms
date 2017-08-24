@@ -10,13 +10,12 @@
 #' @template plural
 #' @return A tibble/data.frame. when using underscore method, outputs from
 #' each input are binded together, but can be split by `id` column
-#' @examples
+#' @examples \dontrun{
 #' wm_records_common(name = 'dolphin')
 #' wm_records_common(name = 'clam')
 #'
 #' wm_records_common_(name = c('dolphin', 'clam'))
 #'
-#' \dontrun{
 #' wm_records_common(name = 'dolphin', fuzzy = TRUE)
 #' wm_records_common(name = 'clam', fuzzy = TRUE, offset = 5)
 #' }

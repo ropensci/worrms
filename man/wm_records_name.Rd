@@ -28,9 +28,11 @@ there is no underscore method like other functions in this package
 as there is already a plural version: \code{\link[=wm_records_names]{wm_records_names()}}
 }
 \examples{
+\dontrun{
 wm_records_name(name = 'Platanista gangetica')
 wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)
 wm_records_name(name = 'Platanista gangetica', marine_only = FALSE)
 wm_records_name(name = 'Platanista', marine_only = FALSE)
 wm_records_name(name = 'Platanista', marine_only = FALSE, offset = 5)
+}
 }

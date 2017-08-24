@@ -9,9 +9,10 @@
 #' @template plural
 #' @return A named list. When using underscore method, each output is named
 #' by the input ID, and can be separated by the list names
-#' @examples
+#' @examples \dontrun{
 #' wm_record(id = 105706)
 #' wm_record_(id = c(105706, 126436))
+#' }
 wm_record <- function(id, ...) {
   assert(id, c("numeric", "integer"))
   wm_GET(file.path(wm_base(), "AphiaRecordByAphiaID", id), ...)

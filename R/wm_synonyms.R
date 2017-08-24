@@ -9,10 +9,11 @@
 #' @template plural
 #' @return A tibble/data.frame. when using underscore method, outputs from
 #' each input are binded together, but can be split by `id` column
-#' @examples
+#' @examples \dontrun{
 #' wm_synonyms(id = 105706)
 #' wm_synonyms_(id = 105706)
 #' wm_synonyms_(id = c(105706, 126436))
+#' }
 wm_synonyms <- function(id, ...) {
   assert(id, c("numeric", "integer"))
   wm_GET(file.path(wm_base(), "AphiaSynonymsByAphiaID", id), ...)

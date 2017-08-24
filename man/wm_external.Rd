@@ -42,6 +42,7 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 # by default, get a TSN (an ITIS code)
 wm_external(id = 1080)
 
@@ -60,4 +61,5 @@ wm_external(id = 278468, type = "fishbase")
 # curl options
 library(crul)
 wm_external(id = 105706, verbose = TRUE)
+}
 }

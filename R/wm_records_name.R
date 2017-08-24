@@ -9,12 +9,13 @@
 #' @note there is no underscore method like other functions in this package
 #' as there is already a plural version: [wm_records_names()]
 #' @return A tibble/data.frame
-#' @examples
+#' @examples \dontrun{
 #' wm_records_name(name = 'Platanista gangetica')
 #' wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)
 #' wm_records_name(name = 'Platanista gangetica', marine_only = FALSE)
 #' wm_records_name(name = 'Platanista', marine_only = FALSE)
 #' wm_records_name(name = 'Platanista', marine_only = FALSE, offset = 5)
+#' }
 wm_records_name <- function(name, fuzzy = TRUE, marine_only = TRUE, offset = 1,
                             ...) {
   assert(name, "character")

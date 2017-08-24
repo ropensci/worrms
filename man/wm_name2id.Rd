@@ -37,6 +37,8 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_name2id(name = "Rhincodon")
 wm_name2id_(name = c("Rhincodon", "Gadus morhua"))
+}
 }

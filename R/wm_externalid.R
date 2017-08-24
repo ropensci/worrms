@@ -11,7 +11,7 @@
 #' @template plural
 #' @return An integer that is the ID. When using underscore method,
 #' a list, named by the input IDs
-#' @examples
+#' @examples \dontrun{
 #' # by default, get a TSN (an ITIS code)
 #' wm_external(id = 1080)
 #'
@@ -30,6 +30,7 @@
 #' # curl options
 #' library(crul)
 #' wm_external(id = 105706, verbose = TRUE)
+#' }
 wm_external <- function(id, type = "tsn", ...) {
   assert(id, c("numeric", "integer"))
   assert(type, "character")

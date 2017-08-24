@@ -39,8 +39,10 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_distribution(id = 156806)
 wm_distribution(id = 126436)
 
 wm_distribution_(id = c(156806, 126436))
+}
 }

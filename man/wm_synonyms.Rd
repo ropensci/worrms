@@ -39,7 +39,9 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_synonyms(id = 105706)
 wm_synonyms_(id = 105706)
 wm_synonyms_(id = c(105706, 126436))
+}
 }

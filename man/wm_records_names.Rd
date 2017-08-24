@@ -26,7 +26,9 @@ there is no underscore method like other functions in this package
 as this is the plural version for \code{\link[=wm_records_name]{wm_records_name()}}
 }
 \examples{
+\dontrun{
 wm_records_names(name = 'Platanista gangetica')
 wm_records_names(name = 'Platanista gangetica', fuzzy = TRUE)
 wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
+}
 }

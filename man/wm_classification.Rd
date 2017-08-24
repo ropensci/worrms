@@ -39,6 +39,7 @@ parse output by your inputs.
 }
 
 \examples{
+\dontrun{
 wm_classification(id = 105706)
 wm_classification(id = 126436)
 
@@ -48,4 +49,5 @@ wm_classification(344089)
 # plural version, via id or name
 wm_classification_(id = c(254967, 344089))
 wm_classification_(name = c('Platanista gangetica', 'Leucophaeus scoresbii'))
+}
 }
