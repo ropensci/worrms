@@ -9,3 +9,4 @@ appveyor.yml
 ^README-.*\.png$
 Makefile
 inst/vign
+revdep
