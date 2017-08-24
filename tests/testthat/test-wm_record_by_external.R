@@ -32,3 +32,28 @@ test_that("wm_record_by_external fails well", {
   expect_error(wm_record_by_external(), "argument \"id\" is missing")
   expect_error(wm_record_by_external("asdfafasdfs"), "id must be of class")
 })
+
+
+
+context("wm_record_by_external_ - plural")
+
+test_that("wm_record_by_external_ - default - by id type tsn", {
+  skip_on_cran()
+
+  # singluar
+  tsn <- wm_record_by_external_(id = 85257)
+  expect_type(tsn, "list")
+  expect_named(tsn, "85257")
+
+  # many
+  bb <- wm_record_by_external_(id = c(85257, 159854))
+  expect_is(bb, "list")
+  expect_named(bb, c("85257", "159854"))
+})
+
+test_that("wm_record_by_external_ fails well", {
+  skip_on_cran()
+
+  expect_error(wm_record_by_external_(), "use only one of")
+  expect_error(wm_record_by_external_("asdfafasdfs"), "id must be of class")
+})

@@ -6,6 +6,8 @@
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @param offset (integer) record to start at. default: 1
 #' @template curl
+#' @note there is no underscore method like other functions in this package
+#' as there is already a plural version: \code{\link{wm_records_names}}
 #' @examples
 #' wm_records_name(name = 'Platanista gangetica')
 #' wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)

@@ -5,6 +5,8 @@
 #' @param name (character) taxon name. required.
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @template curl
+#' @note there is no underscore method like other functions in this package
+#' as this function already accepts many names
 #' @examples \dontrun{
 #' wm_records_taxamatch(name = 'Platanista gangetica')
 #' wm_records_taxamatch(name = c('Platanista gangetica', 'Coryphaena'))

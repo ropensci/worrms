@@ -42,3 +42,28 @@ test_that("wm_records_common fails well", {
   expect_error(wm_records_common(55555), "name must be of class character")
   expect_error(wm_records_common("asdfafasdfs"), "\\(204\\) No Content")
 })
+
+
+
+
+
+context("wm_records_common_ - plural")
+
+test_that("wm_records_common_ - works", {
+  skip_on_cran()
+
+  bb <- wm_records_common_(name = c('dolphin', 'clam'))
+
+  expect_is(bb, "tbl_df")
+  expect_is(bb, "data.frame")
+  expect_true("dolphin" %in% bb$id)
+  expect_true("clam" %in% bb$id)
+})
+
+test_that("wm_records_common_ fails well", {
+  skip_on_cran()
+
+  expect_error(wm_records_common_(), "argument \"name\" is missing")
+  expect_error(wm_records_common_(55555), "name must be of class character")
+  expect_error(wm_records_common_("asdfafasdfs"), "\\(204\\) No Content")
+})

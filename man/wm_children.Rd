@@ -2,24 +2,52 @@
 % Please edit documentation in R/wm_children.R
 \name{wm_children}
 \alias{wm_children}
+\alias{wm_children_}
 \title{Get children for an AphiaID}
 \usage{
 wm_children(id, marine_only = TRUE, offset = 1, ...)
+
+wm_children_(id = NULL, name = NULL, marine_only = TRUE, offset = 1,
+  ...)
 }
 \arguments{
-\item{id}{(numeric/integer) an AphiaID. required.}
+\item{id}{(numeric/integer) an AphiaID. For \code{wm_children} it's
+required and must be \code{length(id) = 1}, for \code{wm_children_} it's
+optional and can be \code{length(id) >= 1}}
 
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 
 \item{offset}{(integer) record to start at. default: 1}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
+\item{name}{(character) one or more taxonomic names. optional}
 }
 \description{
 Get children for an AphiaID
 }
+\section{Singular vs. plural}{
+
+Of the two sister functions, the one without the underscore is the original
+function that wraps the relavant WoRMS API method - and only accepts
+one thing (i.e., name or AphiaID) per request.
+
+The sister function with the underscore at the end is the plural version,
+accepting more than one input. Internally this function loops over
+the non-underscore method, and labels output (whether it's a list or
+data.frame rows) with the input names or IDs so that you can easily
+parse output by your inputs.
+}
+
 \examples{
 wm_children(id = 105706)
 wm_children(id = 105706, FALSE)
 wm_children(id = 105706, offset = 5)
+
+wm_children(254966)
+wm_children(343613)
+
+# plural version, via id or name
+wm_children_(id = c(254966, 343613))
+wm_children_(name = c('Platanista', 'Leucophaeus'))
 }
