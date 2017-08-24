@@ -1,9 +1,8 @@
 ## Test environments
 
-* local OS X install, R 3.3.2
-* ubuntu 12.04 (on travis-ci), R 3.3.2
+* local OS X install, R 3.4.1 patched
+* ubuntu 12.04 (on travis-ci), R 3.4.1
 * win-builder (devel and release)
-* R-hub (Windows R-devel, Ubuntu R-release, Fedora R-devel)
 
 ## R CMD check results
 
@@ -17,12 +16,13 @@
 
 ## Reverse dependencies
 
-This is a new package, so no reverse dependencies.
+* I have run R CMD check on the 1 reverse dependency.
+  (Summary at <https://github.com/ropensci/rgbif/blob/master/revdep/README.md>).
+  No problems were found. The maintainer was notified of the release.
 
 ---
 
-This is a new release. I have read and agree to the the CRAN 
-policies at https://cran.r-project.org/web/packages/policies.html
+This version xxx.
 
 Thanks!
 Scott Chamberlain
