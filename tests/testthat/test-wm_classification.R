@@ -20,3 +20,29 @@ test_that("wm_classification fails well", {
   expect_equal(NROW(bb), 0)
   expect_equal(length(names(bb)), 0)
 })
+
+
+context("wm_classification - plural")
+
+test_that("wm_classification_ works", {
+  skip_on_cran()
+
+  # singular works
+  aa <- wm_classification_(id = 105706)
+  expect_is(aa, "tbl_df")
+  expect_is(aa, "data.frame")
+  expect_named(aa, c('id', 'AphiaID', 'rank', 'scientificname'))
+
+  # many works
+  bb <- wm_classification_(id = c(254967, 344089))
+  expect_is(bb, "tbl_df")
+  expect_is(bb, "data.frame")
+  expect_named(bb, c('id', 'AphiaID', 'rank', 'scientificname'))
+})
+
+test_that("wm_classification_ fails well", {
+  skip_on_cran()
+
+  expect_error(wm_classification_(), "use only one of")
+  expect_error(wm_classification_("asdfafasdfs"), "id must be of class")
+})

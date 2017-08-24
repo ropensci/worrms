@@ -17,3 +17,31 @@ test_that("wm_record fails well", {
   expect_error(wm_record("asdfafasdfs"), "id must be of class")
   expect_error(wm_record(44444), "\\(204\\) No Content")
 })
+
+
+
+
+context("wm_record_ - plural")
+
+test_that("wm_record_ - default usage works", {
+  skip_on_cran()
+
+  aa <- wm_record_(id = 105706)
+
+  expect_type(aa, "list")
+  expect_equal(aa$`105706`$valid_name, "Rhincodontidae")
+  expect_equal(aa$`105706`$valid_AphiaID, 105706)
+
+  bb <- wm_record_(id = c(105706, 126436))
+
+  expect_type(bb, "list")
+  expect_named(bb, c('105706', '126436'))
+})
+
+test_that("wm_record_ fails well", {
+  skip_on_cran()
+
+  expect_error(wm_record_(), "use only one of")
+  expect_error(wm_record_("asdfafasdfs"), "id must be of class")
+  expect_error(wm_record_(44444), "\\(204\\) No Content")
+})
