@@ -7,3 +7,5 @@ man-roxygen
 appveyor.yml
 ^README\.Rmd$
 ^README-.*\.png$
+Makefile
+inst/vign
