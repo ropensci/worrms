@@ -2,18 +2,37 @@
 % Please edit documentation in R/wm_name2id.R
 \name{wm_name2id}
 \alias{wm_name2id}
+\alias{wm_name2id_}
 \title{Get AphiaID from a taxonomic name}
 \usage{
 wm_name2id(name, ...)
+
+wm_name2id_(name, ...)
 }
 \arguments{
-\item{name}{(character) a taxon name}
+\item{name}{(numeric/integer) a taxonomic name, required. For
+\code{wm_name2id} must be \code{length(id) = 1}, but for \code{wm_name2id_}
+can be \code{length(id) >= 1}}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
 }
 \description{
 Get AphiaID from a taxonomic name
 }
+\section{Singular vs. plural}{
+
+Of the two sister functions, the one without the underscore is the original
+function that wraps the relavant WoRMS API method - and only accepts
+one thing (i.e., name or AphiaID) per request.
+
+The sister function with the underscore at the end is the plural version,
+accepting more than one input. Internally this function loops over
+the non-underscore method, and labels output (whether it's a list or
+data.frame rows) with the input names or IDs so that you can easily
+parse output by your inputs.
+}
+
 \examples{
 wm_name2id(name = "Rhincodon")
+wm_name2id_(name = c("Rhincodon", "Gadus morhua"))
 }

@@ -51,6 +51,10 @@ br <- function(x) {
     data.table::rbindlist(x, use.names = TRUE, fill = TRUE, idcol = "id")))
 }
 
+run_c <- function(id, fun, ...) {
+  ccn(stats::setNames(lapply(id, fun, ...), id))
+}
+
 run_bind <- function(id, fun, ...) {
   tibble::as_tibble(br(ccn(
     stats::setNames(lapply(id, fun, ...), id)

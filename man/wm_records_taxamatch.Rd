@@ -18,6 +18,10 @@ wm_records_taxamatch(name, marine_only = TRUE, ...)
 Get records for onen or more taxonomic name(s) using
 the TAXAMATCH fuzzy matching algorithm
 }
+\note{
+there is no underscore method like other functions in this package
+as this function already accepts many names
+}
 \examples{
 \dontrun{
 wm_records_taxamatch(name = 'Platanista gangetica')

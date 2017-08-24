@@ -20,6 +20,10 @@ wm_records_name(name, fuzzy = TRUE, marine_only = TRUE, offset = 1, ...)
 \description{
 Get records by single name, optional fuzzy matching
 }
+\note{
+there is no underscore method like other functions in this package
+as there is already a plural version: \code{\link{wm_records_names}}
+}
 \examples{
 wm_records_name(name = 'Platanista gangetica')
 wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)

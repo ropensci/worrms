@@ -2,12 +2,13 @@
 #'
 #' @export
 #' @param id (numeric/integer) an AphiaID. For \code{wm_children} it's
-#' required and must be \code{length(id)=1}, for \code{wm_children_} it's
+#' required and must be \code{length(id) = 1}, for \code{wm_children_} it's
 #' optional and can be \code{length(id) >= 1}
 #' @param marine_only (logical) marine only or not. default: \code{TRUE}
 #' @param offset (integer) record to start at. default: 1
 #' @param name (character) one or more taxonomic names. optional
 #' @template curl
+#' @template plural
 #' @examples
 #' wm_children(id = 105706)
 #' wm_children(id = 105706, FALSE)
@@ -15,6 +16,8 @@
 #'
 #' wm_children(254966)
 #' wm_children(343613)
+#'
+#' # plural version, via id or name
 #' wm_children_(id = c(254966, 343613))
 #' wm_children_(name = c('Platanista', 'Leucophaeus'))
 wm_children <- function(id, marine_only = TRUE, offset = 1, ...) {
