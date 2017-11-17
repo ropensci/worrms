@@ -4,6 +4,8 @@
 #' @param id (numeric/integer) a attribute ID. For `wm_attr_aphia` it's
 #' required and must be `length(id) = 1`, for `wm_attr_aphia_` it's
 #' optional and can be `length(id) >= 1`
+#' @param offset (integer) record to start at. default: 1
+#' @param name (character) one or more taxonomic names. optional
 #' @template curl
 #' @template plural
 #' @return A tibble/data.frame. when using underscore method, outputs from

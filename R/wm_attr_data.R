@@ -4,6 +4,7 @@
 #' @param id (numeric/integer) an AphiaID. For `wm_attr_data` it's
 #' required and must be `length(id) = 1`, for `wm_attr_data_` it's
 #' optional and can be `length(id) >= 1`
+#' @param name (character) one or more taxonomic names. optional
 #' @param include_inherited (logical) Include attributes inherited from
 #' its parent taxon. Default: `FALSE`
 #' @template curl

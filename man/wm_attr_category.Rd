@@ -15,6 +15,8 @@ required and must be \code{length(id) = 1}, for \code{wm_attr_category_} it's
 optional and can be \code{length(id) >= 1}}
 
 \item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+
+\item{name}{(character) one or more taxonomic names. optional}
 }
 \value{
 A tibble/data.frame. when using underscore method, outputs from
