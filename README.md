@@ -36,7 +36,7 @@ devtools::install_github("ropensci/worrms")
 library("worrms")
 ```
 
-## get records
+## records
 
 by date
 
@@ -54,8 +54,8 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 #>  6  894299 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894299
 #>  7  894303 http://www.marinespecies.org/aphia.php?p=taxdetails&id=894303
 #>  8  915236 http://www.marinespecies.org/aphia.php?p=taxdetails&id=915236
-#>  9  897486 http://www.marinespecies.org/aphia.php?p=taxdetails&id=897486
-#> 10  901957 http://www.marinespecies.org/aphia.php?p=taxdetails&id=901957
+#>  9  906769 http://www.marinespecies.org/aphia.php?p=taxdetails&id=906769
+#> 10  909454 http://www.marinespecies.org/aphia.php?p=taxdetails&id=909454
 #> # ... with 40 more rows, and 23 more variables: scientificname <chr>,
 #> #   authority <chr>, status <chr>, unacceptreason <lgl>, rank <chr>,
 #> #   valid_AphiaID <int>, valid_name <chr>, valid_authority <chr>,
@@ -100,7 +100,7 @@ wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 #> #   class <chr>, order <chr>, family <chr>, genus <chr>, citation <chr>,
 #> #   lsid <chr>, isMarine <lgl>, isBrackish <lgl>, isFreshwater <int>,
 #> #   isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>, modified <chr>
-#>
+#> 
 #> [[2]]
 #> # A tibble: 2 x 25
 #>   AphiaID                                                           url
@@ -112,7 +112,7 @@ wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 #> #   valid_name <chr>, valid_authority <chr>, kingdom <chr>, phylum <chr>,
 #> #   class <chr>, order <chr>, family <chr>, genus <chr>, citation <chr>,
 #> #   lsid <chr>, isMarine <int>, isBrackish <int>, isFreshwater <int>,
-#> #   isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>, modified <chr>
+#> #   isTerrestrial <int>, isExtinct <lgl>, match_type <chr>, modified <chr>
 ```
 
 by common name
@@ -149,6 +149,79 @@ wm_records_taxamatch(name = 'Platanista gangetica')
 #> #   class <chr>, order <chr>, family <chr>, genus <chr>, citation <chr>,
 #> #   lsid <chr>, isMarine <lgl>, isBrackish <lgl>, isFreshwater <int>,
 #> #   isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>, modified <chr>
+```
+
+## attributes (i.e., traits)
+
+attribute definition by ID
+
+
+```r
+wm_attr_def(id = 1)
+#> # A tibble: 1 x 4
+#>   measurementTypeID        measurementType CategoryID             children
+#> *             <int>                  <chr>      <int>               <list>
+#> 1                 1 IUCN Red List Category          1 <data.frame [2 x 4]>
+```
+
+attribute data by AphiaID
+
+
+```r
+wm_attr_data(id = 127160)
+#> # A tibble: 24 x 10
+#>    AphiaID measurementTypeID               measurementType
+#>  *   <chr>             <int>                         <chr>
+#>  1  127160                23 Species importance to society
+#>  2  127160                23 Species importance to society
+#>  3  127160                23 Species importance to society
+#>  4  127160                23 Species importance to society
+#>  5  127160                23 Species importance to society
+#>  6  127160                23 Species importance to society
+#>  7  127160                23 Species importance to society
+#>  8  127160                23 Species importance to society
+#>  9  127160                23 Species importance to society
+#> 10  127160                23 Species importance to society
+#> # ... with 14 more rows, and 7 more variables: measurementValue <chr>,
+#> #   source_id <int>, reference <chr>, qualitystatus <chr>,
+#> #   AphiaID_Inherited <int>, CategoryID <int>, children <list>
+```
+
+attributes grouped by a CategoryID
+
+
+```r
+wm_attr_category(id = 7)
+#> # A tibble: 5 x 4
+#>   measurementValueID   measurementValue measurementValueCode
+#> *              <int>              <chr>                <lgl>
+#> 1                183            benthos                   NA
+#> 2                184           plankton                   NA
+#> 3                194             nekton                   NA
+#> 4                323            neuston                   NA
+#> 5                331 land (terrestrial)                   NA
+#> # ... with 1 more variables: children <list>
+```
+
+AphiaIDs by attribute definition ID
+
+
+```r
+wm_attr_aphia(id = 4)
+#> # A tibble: 50 x 2
+#>    AphiaID            Attributes
+#>  *   <int>                <list>
+#>  1      11 <data.frame [1 x 10]>
+#>  2      55 <data.frame [2 x 10]>
+#>  3      57 <data.frame [2 x 10]>
+#>  4      58 <data.frame [2 x 10]>
+#>  5      59 <data.frame [2 x 10]>
+#>  6      63 <data.frame [2 x 10]>
+#>  7      64 <data.frame [2 x 10]>
+#>  8      69 <data.frame [2 x 10]>
+#>  9      90 <data.frame [2 x 10]>
+#> 10      91 <data.frame [2 x 10]>
+#> # ... with 40 more rows
 ```
 
 

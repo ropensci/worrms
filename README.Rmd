@@ -40,7 +40,7 @@ devtools::install_github("ropensci/worrms")
 library("worrms")
 ```
 
-## get records
+## records
 
 by date
 
@@ -70,6 +70,32 @@ using the TAXMATCH algorithm
 
 ```{r}
 wm_records_taxamatch(name = 'Platanista gangetica')
+```
+
+## attributes (i.e., traits)
+
+attribute definition by ID
+
+```{r}
+wm_attr_def(id = 1)
+```
+
+attribute data by AphiaID
+
+```{r}
+wm_attr_data(id = 127160)
+```
+
+attributes grouped by a CategoryID
+
+```{r}
+wm_attr_category(id = 7)
+```
+
+AphiaIDs by attribute definition ID
+
+```{r}
+wm_attr_aphia(id = 4)
 ```
 
 

@@ -1,13 +1,13 @@
 Package: worrms
 Type: Package
 Title: World Register of Marine Species (WoRMS) Client
-Description: Client for World Register of Marine Species 
+Description: Client for World Register of Marine Species
     (<http://www.marinespecies.org/>). Includes functions for each
     of the API methods, including searching for names by name, date and
     common names, searching using external identifiers, fetching
-    synonyms, as well as fetching taxonomic children and 
+    synonyms, as well as fetching taxonomic children and
     taxonomic classification.
-Version: 0.2.0.9100
+Version: 0.2.6.9100
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"))
 License: MIT + file LICENSE
