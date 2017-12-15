@@ -16,9 +16,7 @@ test_that("wm_classification fails well", {
   expect_error(wm_classification(), "argument \"id\" is missing")
   expect_error(wm_classification("asdfafasdfs"), "id must be of class")
 
-  bb <- wm_classification(23424234)
-  expect_equal(NROW(bb), 0)
-  expect_equal(length(names(bb)), 0)
+  expect_error(wm_classification(23424234), "No Content")
 })
 
 
