@@ -10,3 +10,4 @@ appveyor.yml
 Makefile
 inst/vign
 revdep
+^codemeta\.json$
