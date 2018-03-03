@@ -8,12 +8,14 @@ test_that("wm_records_date - works", {
 
   expect_is(aa, "tbl_df")
   expect_is(aa, "data.frame")
-  expect_true(all(grepl("2017", aa$modified)))
+  expect_true(all(grepl(format(Sys.Date(), "%Y"), aa$modified)))
 })
 
 test_that("wm_records_date fails well", {
   skip_on_cran()
 
-  expect_error(wm_records_date(), "argument \"start_date\" is missing")
-  expect_error(wm_records_date(55555), "start_date must be of class character")
+  expect_error(wm_records_date(), 
+    "argument \"start_date\" is missing")
+  expect_error(wm_records_date(55555), 
+    "start_date must be of class character")
 })
