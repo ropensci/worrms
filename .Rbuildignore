@@ -11,3 +11,4 @@ Makefile
 inst/vign
 revdep
 ^codemeta\.json$
+.github
