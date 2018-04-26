@@ -1,0 +1,326 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaRecordsByDate?startdate=2018-04-25T00%3A00%3A00%2B00%3A00&marine_only=true&offset=1
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 19:13:47 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      transfer-encoding: chunked
+      content-type: application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"AphiaID":1249853,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249853","scientificname":"Fortimesus
+        trispiculum","authority":"Elsner & Caurant, 2015","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249853,"valid_name":"Fortimesus
+        trispiculum","valid_authority":"Elsner & Caurant, 2015","kingdom":"Animalia","phylum":"Arthropoda","class":"Malacostraca","order":"Isopoda","family":"Ischnomesidae","genus":"Fortimesus","citation":"Boyko,
+        C.B; Bruce, N.L.; Hadfield, K.A.; Merrin, K.L.; Ota, Y.; Poore, G.C.B.; Taiti,
+        S.; Schotte, M. & Wilson, G.D.F. (Eds) (2008 onwards). World Marine, Freshwater
+        and Terrestrial Isopod Crustaceans database. Fortimesus trispiculum Elsner
+        & Caurant, 2015. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249853
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249853","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T06:53:10Z"},{"AphiaID":1249852,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249852","scientificname":"Stylomesus
+        malyutinae","authority":"Brandt & St\u00fcven, 2015","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249852,"valid_name":"Stylomesus
+        malyutinae","valid_authority":"Brandt & St\u00fcven, 2015","kingdom":"Animalia","phylum":"Arthropoda","class":"Malacostraca","order":"Isopoda","family":"Ischnomesidae","genus":"Stylomesus","citation":"Boyko,
+        C.B; Bruce, N.L.; Hadfield, K.A.; Merrin, K.L.; Ota, Y.; Poore, G.C.B.; Taiti,
+        S.; Schotte, M. & Wilson, G.D.F. (Eds) (2008 onwards). World Marine, Freshwater
+        and Terrestrial Isopod Crustaceans database. Stylomesus malyutinae Brandt
+        & St\u00fcven, 2015. Accessed through: World Register of Marine Species at:
+        http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249852 on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249852","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T06:53:10Z"},{"AphiaID":1249854,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249854","scientificname":"Paramunna
+        shornikovi","authority":"Malyutina & Ushakova, 2001","status":"unaccepted","unacceptreason":"junior
+        synonym","rank":"Species","valid_AphiaID":259130,"valid_name":"Ascionana rhipis","valid_authority":"(Shimomura
+        & Mawatari, 1999)","kingdom":"Animalia","phylum":"Arthropoda","class":"Malacostraca","order":"Isopoda","family":"Paramunnidae","genus":"Paramunna","citation":"Boyko,
+        C.B; Bruce, N.L.; Hadfield, K.A.; Merrin, K.L.; Ota, Y.; Poore, G.C.B.; Taiti,
+        S.; Schotte, M. & Wilson, G.D.F. (Eds) (2008 onwards). World Marine, Freshwater
+        and Terrestrial Isopod Crustaceans database. Paramunna shornikovi Malyutina
+        & Ushakova, 2001. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249854
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249854","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T06:53:10Z"},{"AphiaID":273830,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=273830","scientificname":"Anthias
+        tenuis","authority":"Nichols, 1920","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1016916,"valid_name":"Choranthias
+        tenuis","valid_authority":"(Nichols, 1920)","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Serranidae","genus":"Anthias","citation":"Froese,
+        R. and D. Pauly. Editors. (2018). FishBase. Anthias tenuis Nichols, 1920.
+        Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=273830
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:273830","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T08:33:17Z"},{"AphiaID":1046422,"url":null,"scientificname":null,"authority":null,"status":"deleted","unacceptreason":"Duplicate.","rank":null,"valid_AphiaID":917140,"valid_name":"Fusulina
+        (Fusulina) pusilla","valid_authority":"Schellwien, 1898","kingdom":null,"phylum":null,"class":null,"order":null,"family":null,"genus":null,"citation":null,"lsid":"urn:lsid:marinespecies.org:taxname:1046422","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T08:45:55Z"},{"AphiaID":1046423,"url":null,"scientificname":null,"authority":null,"status":"deleted","unacceptreason":"Duplicate.","rank":null,"valid_AphiaID":917781,"valid_name":"Fusulina
+        (Fusulina) regularis","valid_authority":"Schellwien, 1898","kingdom":null,"phylum":null,"class":null,"order":null,"family":null,"genus":null,"citation":null,"lsid":"urn:lsid:marinespecies.org:taxname:1046423","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T08:45:55Z"},{"AphiaID":164567,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=164567","scientificname":"Sycon
+        ciliatum var. spinispiculum","authority":"(Carter, 1876)","status":"accepted","unacceptreason":null,"rank":"Variety","valid_AphiaID":164567,"valid_name":"Sycon
+        ciliatum var. spinispiculum","valid_authority":"(Carter, 1876)","kingdom":"Animalia","phylum":"Porifera","class":"Calcarea","order":"Leucosolenida","family":"Sycettidae","genus":"Sycon","citation":"Van
+        Soest, R.W.M; Boury-Esnault, N.; Hooper, J.N.A.; R\u00fctzler, K.; de Voogd,
+        N.J.; Alvarez, B.; Hajdu, E.; Pisera, A.B.; Manconi, R.; Sch\u00f6nberg, C.;
+        Klautau, M.; Picton, B.; Kelly, M.; Vacelet, J.; Dohrmann, M.; D\u00edaz,
+        M.-C.; C\u00e1rdenas, P.; Carballo, J. L.; R\u00edos, P.; Downey, R. (2018).
+        World Porifera database. Sycon ciliatum var. spinispiculum (Carter, 1876).
+        Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=164567
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:164567","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T09:58:04Z"},{"AphiaID":195775,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=195775","scientificname":"Grantia
+        ciliatum var. spinispiculum","authority":"Carter, 1876","status":"unaccepted","unacceptreason":"genus
+        transfer","rank":"Variety","valid_AphiaID":164567,"valid_name":"Sycon ciliatum
+        var. spinispiculum","valid_authority":"(Carter, 1876)","kingdom":"Animalia","phylum":"Porifera","class":"Calcarea","order":"Leucosolenida","family":"Grantiidae","genus":"Grantia","citation":"Van
+        Soest, R.W.M; Boury-Esnault, N.; Hooper, J.N.A.; R\u00fctzler, K.; de Voogd,
+        N.J.; Alvarez, B.; Hajdu, E.; Pisera, A.B.; Manconi, R.; Sch\u00f6nberg, C.;
+        Klautau, M.; Picton, B.; Kelly, M.; Vacelet, J.; Dohrmann, M.; D\u00edaz,
+        M.-C.; C\u00e1rdenas, P.; Carballo, J. L.; R\u00edos, P.; Downey, R. (2018).
+        World Porifera database. Grantia ciliatum var. spinispiculum Carter, 1876.
+        Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=195775
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:195775","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T09:58:04Z"},{"AphiaID":927911,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=927911","scientificname":"Pseudofusulina
+        chomatifera var. ovalis","authority":"Vissarionova, 1949","status":"accepted","unacceptreason":null,"rank":"Variety","valid_AphiaID":927911,"valid_name":"Pseudofusulina
+        chomatifera var. ovalis","valid_authority":"Vissarionova, 1949","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        chomatifera var. ovalis Vissarionova, 1949&nbsp;&#8224;. Accessed through:
+        World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=927911
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:927911","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T10:57:16Z"},{"AphiaID":721844,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=721844","scientificname":"Pseudofusulina","authority":"Dunbar
+        & Skinner, 1931","status":"accepted","unacceptreason":null,"rank":"Genus","valid_AphiaID":721844,"valid_name":"Pseudofusulina","valid_authority":"Dunbar
+        & Skinner, 1931","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        Dunbar & Skinner, 1931&nbsp;&#8224;. Accessed through: World Register of Marine
+        Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=721844
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:721844","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T10:57:16Z"},{"AphiaID":898222,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=898222","scientificname":"Polydiexodina
+        chekiangensis","authority":"Sheng, 1962","status":"taxon inquirendum","unacceptreason":"Opinion
+        of Colpaert, Monnet and Vachard (2015) neither Polydiexodina nor Eopolydiexodina
+        but probably another, maybe new genus.","rank":"Species","valid_AphiaID":898222,"valid_name":"Polydiexodina
+        chekiangensis","valid_authority":"Sheng, 1962","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Polydiexodinidae","genus":"Polydiexodina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Polydiexodina
+        chekiangensis Sheng, 1962&nbsp;&#8224;. Accessed through: World Register of
+        Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=898222
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:898222","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T10:57:16Z"},{"AphiaID":927900,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=927900","scientificname":"Polydiexodina
+        chekiangensis var. lengwuensis","authority":"Sheng, 1962","status":"taxon
+        inquirendum","unacceptreason":"Opinion of Colpaert, Monnet and Vachard (2015)
+        neither Polydiexodina nor Eopolydiexodina but probably another, maybe new
+        genus.","rank":"Variety","valid_AphiaID":927900,"valid_name":"Polydiexodina
+        chekiangensis var. lengwuensis","valid_authority":"Sheng, 1962","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Polydiexodinidae","genus":"Polydiexodina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Polydiexodina
+        chekiangensis var. lengwuensis Sheng, 1962&nbsp;&#8224;. Accessed through:
+        World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=927900
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:927900","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T10:57:16Z"},{"AphiaID":923666,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=923666","scientificname":"Polydiexodina
+        tungluensis","authority":"Sheng, 1962","status":"taxon inquirendum","unacceptreason":"Opinion
+        of Colpaert, Monnet and Vachard (2015) neither Polydiexodina nor Eopolydiexodina
+        but probably another, maybe new genus.","rank":"Species","valid_AphiaID":923666,"valid_name":"Polydiexodina
+        tungluensis","valid_authority":"Sheng, 1962","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Polydiexodinidae","genus":"Polydiexodina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Polydiexodina
+        tungluensis Sheng, 1962&nbsp;&#8224;. Accessed through: World Register of
+        Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=923666
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:923666","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T10:57:16Z"},{"AphiaID":721842,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=721842","scientificname":"Parafusulina","authority":"Dunbar
+        & Skinner, 1931","status":"accepted","unacceptreason":null,"rank":"Genus","valid_AphiaID":721842,"valid_name":"Parafusulina","valid_authority":"Dunbar
+        & Skinner, 1931","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Polydiexodinidae","genus":"Parafusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Parafusulina
+        Dunbar & Skinner, 1931&nbsp;&#8224;. Accessed through: World Register of Marine
+        Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=721842
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:721842","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T10:57:16Z"},{"AphiaID":721826,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=721826","scientificname":"Polydiexodina","authority":"Dunbar
+        & Skinner, 1931","status":"accepted","unacceptreason":null,"rank":"Genus","valid_AphiaID":721826,"valid_name":"Polydiexodina","valid_authority":"Dunbar
+        & Skinner, 1931","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Polydiexodinidae","genus":"Polydiexodina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Polydiexodina
+        Dunbar & Skinner, 1931&nbsp;&#8224;. Accessed through: World Register of Marine
+        Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=721826
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:721826","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T10:57:16Z"},{"AphiaID":590253,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=590253","scientificname":"Paguropsis
+        andersoni","authority":"(Alcock, 1899)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":590253,"valid_name":"Paguropsis
+        andersoni","valid_authority":"(Alcock, 1899)","kingdom":"Animalia","phylum":"Arthropoda","class":"Malacostraca","order":"Decapoda","family":"Diogenidae","genus":"Paguropsis","citation":"WoRMS
+        (2018). Paguropsis andersoni (Alcock, 1899). Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=590253
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:590253","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":0,"match_type":"exact","modified":"2018-04-25T11:42:15Z"},{"AphiaID":1249895,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249895","scientificname":"Gyrodactylus
+        bios","authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249895,"valid_name":"Gyrodactylus
+        bios","valid_authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus bios Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249895
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249895","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249946,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249946","scientificname":"Gyrodactylus
+        dorlodoti","authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249946,"valid_name":"Gyrodactylus
+        dorlodoti","valid_authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus dorlodoti Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249946
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249946","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249896,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249896","scientificname":"Gyrodactylus
+        benedeni","authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249896,"valid_name":"Gyrodactylus
+        benedeni","valid_authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus benedeni Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249896
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249896","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249953,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249953","scientificname":"Gyrodactylus
+        sturmbaueri","authority":"Vanhove, Snoeks, Volckaert & Huyse, 2011","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249953,"valid_name":"Gyrodactylus
+        sturmbaueri","valid_authority":"Vanhove, Snoeks, Volckaert & Huyse, 2011","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus sturmbaueri Vanhove, Snoeks, Volckaert & Huyse, 2011.
+        Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249953
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249953","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1116509,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1116509","scientificname":"Gyrodactylus
+        catesbeianae","authority":"Wootton, Ryan, Demaree & Critchfield, 1993","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1116509,"valid_name":"Gyrodactylus
+        catesbeianae","valid_authority":"Wootton, Ryan, Demaree & Critchfield, 1993","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus catesbeianae Wootton, Ryan, Demaree & Critchfield, 1993.
+        Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1116509
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1116509","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":1,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249945,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249945","scientificname":"Gyrodactylus
+        charon","authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249945,"valid_name":"Gyrodactylus
+        charon","valid_authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus charon Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249945
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249945","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249952,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249952","scientificname":"Gyrodactylus
+        parisellei","authority":"Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249952,"valid_name":"Gyrodactylus
+        parisellei","valid_authority":"Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus parisellei Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249952
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249952","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249951,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249951","scientificname":"Gyrodactylus
+        occupatus","authority":"Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249951,"valid_name":"Gyrodactylus
+        occupatus","valid_authority":"Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus occupatus Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249951
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249951","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249947,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249947","scientificname":"Gyrodactylus
+        douglasadamsi","authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249947,"valid_name":"Gyrodactylus
+        douglasadamsi","valid_authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus douglasadamsi Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249947
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249947","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249948,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249948","scientificname":"Gyrodactylus
+        hellemansi","authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249948,"valid_name":"Gyrodactylus
+        hellemansi","valid_authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus hellemansi Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249948
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249948","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249893,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249893","scientificname":"Gyrodactylus
+        jennyae","authority":"Paetow, Cone, Huyse, McLaughlin & Marcogliese, 2009","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249893,"valid_name":"Gyrodactylus
+        jennyae","valid_authority":"Paetow, Cone, Huyse, McLaughlin & Marcogliese,
+        2009","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus jennyae Paetow, Cone, Huyse, McLaughlin & Marcogliese,
+        2009. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249893
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249893","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249950,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249950","scientificname":"Gyrodactylus
+        chitandiri","authority":"Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249950,"valid_name":"Gyrodactylus
+        chitandiri","valid_authority":"Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus chitandiri Zahradn\u00ed\u010dkov\u00e1, Barson, Luus-Powell
+        & P\u0159ikrylov\u00e1, 2016. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249950
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249950","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":1249949,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249949","scientificname":"Gyrodactylus
+        meelkopae","authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris, Giakoumi,
+        Zanella, Volckaert & Huyse, 2013","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249949,"valid_name":"Gyrodactylus
+        meelkopae","valid_authority":"Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Gyrodactylus","citation":"WoRMS
+        (2018). Gyrodactylus meelkopae Vanhove & Huyse in Vanhove, Economou, Zogaris,
+        Giakoumi, Zanella, Volckaert & Huyse, 2013. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249949
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249949","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:20:45Z"},{"AphiaID":266952,"url":null,"scientificname":null,"authority":null,"status":"deleted","unacceptreason":"Misspelling.","rank":null,"valid_AphiaID":128484,"valid_name":"Pennatulidae","valid_authority":"Ehrenberg,
+        1834","kingdom":null,"phylum":null,"class":null,"order":null,"family":null,"genus":null,"citation":null,"lsid":"urn:lsid:marinespecies.org:taxname:266952","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T13:56:47Z"},{"AphiaID":1249958,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249958","scientificname":"Symplectoscyphus
+        pirsa","authority":"Watson, 2018","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249958,"valid_name":"Symplectoscyphus
+        pirsa","valid_authority":"Watson, 2018","kingdom":"Animalia","phylum":"Cnidaria","class":"Hydrozoa","order":"Leptothecata","family":"Symplectoscyphidae","genus":"Symplectoscyphus","citation":"Schuchert,
+        P. (2018). World Hydrozoa Database. Symplectoscyphus pirsa Watson, 2018. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249958
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249958","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":0,"match_type":"exact","modified":"2018-04-25T17:36:35Z"},{"AphiaID":1249959,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249959","scientificname":"Gymnangium
+        pusillum","authority":"Watson, 2018","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249959,"valid_name":"Gymnangium
+        pusillum","valid_authority":"Watson, 2018","kingdom":"Animalia","phylum":"Cnidaria","class":"Hydrozoa","order":"Leptothecata","family":"Aglaopheniidae","genus":"Gymnangium","citation":"Schuchert,
+        P. (2018). World Hydrozoa Database. Gymnangium pusillum Watson, 2018. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249959
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249959","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":0,"match_type":"exact","modified":"2018-04-25T17:36:35Z"},{"AphiaID":1249957,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249957","scientificname":"Halecium
+        obovatum","authority":"Watson, 2018","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249957,"valid_name":"Halecium
+        obovatum","valid_authority":"Watson, 2018","kingdom":"Animalia","phylum":"Cnidaria","class":"Hydrozoa","order":"Leptothecata","family":"Haleciidae","genus":"Halecium","citation":"Schuchert,
+        P. (2018). World Hydrozoa Database. Halecium obovatum Watson, 2018. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249957
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249957","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":0,"match_type":"exact","modified":"2018-04-25T17:36:35Z"},{"AphiaID":1249956,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249956","scientificname":"Cryptolaria
+        tortuosa","authority":"Watson, 2018","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249956,"valid_name":"Cryptolaria
+        tortuosa","valid_authority":"Watson, 2018","kingdom":"Animalia","phylum":"Cnidaria","class":"Hydrozoa","order":"Leptothecata","family":"Zygophylacidae","genus":"Cryptolaria","citation":"Schuchert,
+        P. (2018). World Hydrozoa Database. Cryptolaria tortuosa Watson, 2018. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249956
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249956","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":0,"match_type":"exact","modified":"2018-04-25T17:36:35Z"},{"AphiaID":628512,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=628512","scientificname":"Achnanthes
+        acus","authority":"Simonsen ex F.Hinz et al., 2012","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":628512,"valid_name":"Achnanthes
+        acus","valid_authority":"Simonsen ex F.Hinz et al., 2012","kingdom":"Chromista","phylum":"Ochrophyta","class":"Bacillariophyceae","order":"Achnanthales","family":"Achnanthaceae","genus":"Achnanthes","citation":"Kociolek,
+        J.P.; Balasubramanian, K.; Blanco, S.; Coste, M.; Ector, L.; Liu, Y.; Kulikovskiy,
+        M.; Lundholm, N.; Ludwig, T.; Potapova, M.; Rimet, F.; Sabbe, K.; Sala, S.;
+        Sar, E.; Taylor, J.; Van de Vijver, B.; Wetzel, C.E.; Williams, D.M.; Witkowski,
+        A.; Witkowski, J. (2018). DiatomBase. Achnanthes acus Simonsen ex F.Hinz et
+        al., 2012. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=628512
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:628512","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T18:41:14Z"},{"AphiaID":931514,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=931514","scientificname":"Pseudofusulina
+        uralica var. sphaerica","authority":"Belyaev, 1938","status":"unaccepted","unacceptreason":"Opinion
+        of Grozdilova and Lebedeva (1961)","rank":"Variety","valid_AphiaID":1067500,"valid_name":"Pseudofusulina
+        sphaerica","valid_authority":"Belyaev, 1938","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        uralica var. sphaerica Belyaev, 1938&nbsp;&#8224;. Accessed through: World
+        Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=931514
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:931514","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T19:08:39Z"},{"AphiaID":926141,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=926141","scientificname":"Pseudofusulina
+        uralica","authority":"(Krotow, 1888) emend. Belyaev, 1938","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":926141,"valid_name":"Pseudofusulina
+        uralica","valid_authority":"(Krotow, 1888) emend. Belyaev, 1938","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        uralica (Krotow, 1888) emend. Belyaev, 1938&nbsp;&#8224;. Accessed through:
+        World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=926141
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:926141","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T19:08:39Z"},{"AphiaID":914279,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=914279","scientificname":"Pseudofusulina
+        parajaponica","authority":"Belyaev, 1938","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":914279,"valid_name":"Pseudofusulina
+        parajaponica","valid_authority":"Belyaev, 1938","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        parajaponica Belyaev, 1938&nbsp;&#8224;. Accessed through: World Register
+        of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=914279
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:914279","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T19:08:39Z"},{"AphiaID":931513,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=931513","scientificname":"Pseudofusulina
+        uralica var. parva","authority":"Belyaev, 1938","status":"accepted","unacceptreason":null,"rank":"Variety","valid_AphiaID":931513,"valid_name":"Pseudofusulina
+        uralica var. parva","valid_authority":"Belyaev, 1938","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        uralica var. parva Belyaev, 1938&nbsp;&#8224;. Accessed through: World Register
+        of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=931513
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:931513","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T19:08:39Z"},{"AphiaID":1067500,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1067500","scientificname":"Pseudofusulina
+        sphaerica","authority":"Belyaev, 1938","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1067500,"valid_name":"Pseudofusulina
+        sphaerica","valid_authority":"Belyaev, 1938","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        sphaerica Belyaev, 1938&nbsp;&#8224;. Accessed through: World Register of
+        Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1067500
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1067500","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T19:08:39Z"},{"AphiaID":986588,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=986588","scientificname":"Pseudofusulina
+        timanensis","authority":"Grozdilova, 1966","status":"unaccepted","unacceptreason":"Opinion
+        of Zolotova (1977)","rank":"Species","valid_AphiaID":926251,"valid_name":"Daixina
+        timanensis","valid_authority":"(Grozdilova, 1966)","kingdom":"Chromista","phylum":"Foraminifera","class":"Fusulinata","order":"Fusulinida","family":"Pseudofusulinidae","genus":"Pseudofusulina","citation":"Hayward,
+        B.W.; Le Coze, F.; Gross, O. (2018). World Foraminifera Database. Pseudofusulina
+        timanensis Grozdilova, 1966&nbsp;&#8224;. Accessed through: World Register
+        of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=986588
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:986588","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T19:08:39Z"},{"AphiaID":1249962,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249962","scientificname":"Paragyrodactylus
+        barbatuli","authority":"Ergens, 1970","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249962,"valid_name":"Paragyrodactylus
+        barbatuli","valid_authority":"Ergens, 1970","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Paragyrodactylus","citation":"WoRMS
+        (2018). Paragyrodactylus barbatuli Ergens, 1970. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249962
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249962","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T20:18:32Z"},{"AphiaID":1249960,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249960","scientificname":"Paragyrodactylus","authority":"Gvozdev
+        & Martechov, 1953","status":"accepted","unacceptreason":null,"rank":"Genus","valid_AphiaID":1249960,"valid_name":"Paragyrodactylus","valid_authority":"Gvozdev
+        & Martechov, 1953","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Paragyrodactylus","citation":"WoRMS
+        (2018). Paragyrodactylus Gvozdev & Martechov, 1953. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249960
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249960","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T20:18:32Z"},{"AphiaID":1249961,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249961","scientificname":"Paragyrodactylus
+        iliensis","authority":"Gvosdev & Martechov, 1953","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249961,"valid_name":"Paragyrodactylus
+        iliensis","valid_authority":"Gvosdev & Martechov, 1953","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Paragyrodactylus","citation":"WoRMS
+        (2018). Paragyrodactylus iliensis Gvosdev & Martechov, 1953. Accessed at:
+        http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249961 on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249961","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T20:18:32Z"},{"AphiaID":1249964,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249964","scientificname":"Paragyrodactylus
+        dogieli","authority":"Osmanov, 1965","status":"unaccepted","unacceptreason":"Synonym","rank":"Species","valid_AphiaID":1249961,"valid_name":"Paragyrodactylus
+        iliensis","valid_authority":"Gvosdev & Martechov, 1953","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Paragyrodactylus","citation":"WoRMS
+        (2018). Paragyrodactylus dogieli Osmanov, 1965. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249964
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249964","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T20:18:32Z"},{"AphiaID":1249963,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249963","scientificname":"Paragyrodactylus
+        variegatus","authority":"You, King, Ye & Cone, 2014","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249963,"valid_name":"Paragyrodactylus
+        variegatus","valid_authority":"You, King, Ye & Cone, 2014","kingdom":"Animalia","phylum":"Platyhelminthes","class":"Monogenea","order":"Gyrodactylidea","family":"Gyrodactylidae","genus":"Paragyrodactylus","citation":"WoRMS
+        (2018). Paragyrodactylus variegatus You, King, Ye & Cone, 2014. Accessed at:
+        http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249963 on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249963","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2018-04-25T20:18:32Z"},{"AphiaID":1249970,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249970","scientificname":"Ethra
+        munieri","authority":"Matheron, 1878","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249969,"valid_name":"Retha
+        munieri","valid_authority":"(Matheron, 1878)","kingdom":"Animalia","phylum":"Mollusca","class":"Bivalvia","order":"Hippuritida","family":"Caprinuloideidae","genus":"Ethra","citation":"MolluscaBase
+        (2018). Ethra munieri Matheron, 1878&nbsp;&#8224;. Accessed through: World
+        Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249970
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249970","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T22:00:14Z"},{"AphiaID":883421,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=883421","scientificname":"Retha","authority":"Cox,
+        1965","status":"accepted","unacceptreason":null,"rank":"Genus","valid_AphiaID":883421,"valid_name":"Retha","valid_authority":"Cox,
+        1965","kingdom":"Animalia","phylum":"Mollusca","class":"Bivalvia","order":"Hippuritida","family":"Caprinuloideidae","genus":"Retha","citation":"MolluscaBase
+        (2018). Retha Cox, 1965&nbsp;&#8224;. Accessed through: World Register of
+        Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=883421
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:883421","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T22:00:14Z"},{"AphiaID":1249972,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249972","scientificname":"Monopleura
+        martini","authority":"Matheron, 1878","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249969,"valid_name":"Retha
+        munieri","valid_authority":"(Matheron, 1878)","kingdom":"Animalia","phylum":"Mollusca","class":"Bivalvia","order":"Hippuritida","family":"Monopleuridae","genus":"Monopleura","citation":"MolluscaBase
+        (2018). Monopleura martini Matheron, 1878&nbsp;&#8224;. Accessed through:
+        World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249972
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249972","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T22:00:14Z"},{"AphiaID":1249978,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249978","scientificname":"Monopleura
+        (Himeraelites) ochoterenai","authority":"M\u00fcllerried, 1933","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":1249973,"valid_name":"Retha
+        tulae","valid_authority":"(Felix, 1891)","kingdom":"Animalia","phylum":"Mollusca","class":"Bivalvia","order":"Hippuritida","family":"Monopleuridae","genus":"Monopleura","citation":"MolluscaBase
+        (2018). Monopleura (Himeraelites) ochoterenai M\u00fcllerried, 1933&nbsp;&#8224;.
+        Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1249978
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1249978","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":1,"match_type":"exact","modified":"2018-04-25T22:00:14Z"}]'
+  recorded_at: 2018-04-26 19:13:48 GMT
+  recorded_with: vcr/0.0.8.9231

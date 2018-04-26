@@ -1,25 +1,25 @@
 context("wm_records_name")
 
 test_that("wm_records_name - works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_records_name", {
+    aa <- wm_records_name(name = 'Platanista gangetica')
 
-  aa <- wm_records_name(name = 'Platanista gangetica')
-
-  expect_is(aa, "tbl_df")
-  expect_is(aa, "data.frame")
-  expect_true(all(grepl("Platanista", aa$scientificname)))
-  expect_gt(NROW(aa), 1)
+    expect_is(aa, "tbl_df")
+    expect_is(aa, "data.frame")
+    expect_true(all(grepl("Platanista", aa$scientificname)))
+    expect_gt(NROW(aa), 1)
+  })
 })
 
 test_that("wm_records_name - fuzzy parameter", {
-  skip_on_cran()
+  vcr::use_cassette("wm_records_name_fuzzy", {
+    aa <- wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)
 
-  aa <- wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)
-
-  expect_is(aa, "tbl_df")
-  expect_is(aa, "data.frame")
-  expect_true(all(grepl("Platanista", aa$scientificname)))
-  expect_equal(NROW(aa), 1)
+    expect_is(aa, "tbl_df")
+    expect_is(aa, "data.frame")
+    expect_true(all(grepl("Platanista", aa$scientificname)))
+    expect_equal(NROW(aa), 1)
+  })
 })
 
 test_that("wm_records_name fails well", {

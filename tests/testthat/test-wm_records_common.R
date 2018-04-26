@@ -1,38 +1,40 @@
 context("wm_records_common")
 
 test_that("wm_records_common - works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_records_common", {
+    aa <- wm_records_common(name = 'dolphin')
 
-  aa <- wm_records_common(name = 'dolphin')
-
-  expect_is(aa, "tbl_df")
-  expect_is(aa, "data.frame")
-  expect_true(any(grepl("AphiaID", names(aa))))
-  expect_equal(aa$kingdom, "Animalia")
-  expect_equal(aa$genus, "Coryphaena")
+    expect_is(aa, "tbl_df")
+    expect_is(aa, "data.frame")
+    expect_true(any(grepl("AphiaID", names(aa))))
+    expect_equal(aa$kingdom, "Animalia")
+    expect_equal(aa$genus, "Coryphaena")
+  })
 })
 
 test_that("wm_records_common - fuzzy parameter works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_records_common_fuzzy_false", {
+    aa <- wm_records_common(name = 'dolphin')
+    expect_is(aa, "tbl_df")
+    expect_is(aa, "data.frame")
+  })
 
-  aa <- wm_records_common(name = 'dolphin')
-  bb <- wm_records_common(name = 'dolphin', fuzzy = TRUE)
-
-  expect_is(aa, "tbl_df")
-  expect_is(aa, "data.frame")
-  expect_is(bb, "tbl_df")
-  expect_is(bb, "data.frame")
+  vcr::use_cassette("wm_records_common_fuzzy_true", {
+    bb <- wm_records_common(name = 'dolphin', fuzzy = TRUE)
+    expect_is(bb, "tbl_df")
+    expect_is(bb, "data.frame")
+  })
 
   expect_gt(NROW(bb), NROW(aa))
 })
 
 test_that("wm_records_common - offset parameter works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_records_common_offset", {
+    aa <- wm_records_common(name = 'dolphin', fuzzy = TRUE)
+    bb <- wm_records_common(name = 'dolphin', fuzzy = TRUE, offset = 10)
 
-  aa <- wm_records_common(name = 'dolphin', fuzzy = TRUE)
-  bb <- wm_records_common(name = 'dolphin', fuzzy = TRUE, offset = 10)
-
-  expect_false(identical(aa$AphiaID, bb$AphiaID))
+    expect_false(identical(aa$AphiaID, bb$AphiaID))
+  }, record = "new_episodes")
 })
 
 test_that("wm_records_common fails well", {
@@ -50,14 +52,14 @@ test_that("wm_records_common fails well", {
 context("wm_records_common_ - plural")
 
 test_that("wm_records_common_ - works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_records__many", {
+    bb <- wm_records_common_(name = c('dolphin', 'clam'))
 
-  bb <- wm_records_common_(name = c('dolphin', 'clam'))
-
-  expect_is(bb, "tbl_df")
-  expect_is(bb, "data.frame")
-  expect_true("dolphin" %in% bb$id)
-  expect_true("clam" %in% bb$id)
+    expect_is(bb, "tbl_df")
+    expect_is(bb, "data.frame")
+    expect_true("dolphin" %in% bb$id)
+    expect_true("clam" %in% bb$id)
+  }, record = "new_episodes")
 })
 
 test_that("wm_records_common_ fails well", {

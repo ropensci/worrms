@@ -1,0 +1,32 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaClassificationByAphiaID/105706
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 18:17:18 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '892'
+      content-type: application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"AphiaID":1,"rank":"Superdomain","scientificname":"Biota","child":{"AphiaID":2,"rank":"Kingdom","scientificname":"Animalia","child":{"AphiaID":1821,"rank":"Phylum","scientificname":"Chordata","child":{"AphiaID":146419,"rank":"Subphylum","scientificname":"Vertebrata","child":{"AphiaID":1828,"rank":"Superclass","scientificname":"Gnathostomata","child":{"AphiaID":11676,"rank":"Superclass","scientificname":"Pisces","child":{"AphiaID":10193,"rank":"Class","scientificname":"Elasmobranchii","child":{"AphiaID":368407,"rank":"Subclass","scientificname":"Neoselachii","child":{"AphiaID":368408,"rank":"Infraclass","scientificname":"Selachii","child":{"AphiaID":368410,"rank":"Superorder","scientificname":"Galeomorphi","child":{"AphiaID":10208,"rank":"Order","scientificname":"Orectolobiformes","child":{"AphiaID":105706,"rank":"Family","scientificname":"Rhincodontidae","child":null}}}}}}}}}}}}'
+  recorded_at: 2018-04-26 18:17:18 GMT
+  recorded_with: vcr/0.0.8.9210

@@ -1,0 +1,283 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/105706
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status: ~
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 18:41:30 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '548'
+      content-type: application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"ching sha k''o","language_code":"jpn","language":"Japanese"},{"vernacular":"jimbeizame-ka","language_code":"jpn","language":"Japanese"},{"vernacular":"kitovye
+        akuly","language_code":"rus","language":"Russian"},{"vernacular":"requins
+        baleine","language_code":"fra","language":"French"},{"vernacular":"tiburones
+        ballena","language_code":"spa","language":"Spanish"},{"vernacular":"whale
+        shark","language_code":"eng","language":"English"},{"vernacular":"\u30b8\u30f3\u30d9\u30a8\u30b6\u30e1","language_code":"jpn","language":"Japanese"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/156806
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status: ~
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 18:41:31 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '158'
+      content-type: application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"gilded wedgeclam","language_code":"eng","language":"English"},{"vernacular":"Turton''s
+        wedge clam","language_code":"eng","language":"English"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/397065
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status: ~
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 18:41:32 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '87'
+      content-type: application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"California softshell clam","language_code":"eng","language":"English"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/105706
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status: ~
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 18:41:36 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '548'
+      content-type: application/json;charset=utf-8
+      set-cookie: vliz_webc=vliz_webc1; path=/
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"ching sha k''o","language_code":"jpn","language":"Japanese"},{"vernacular":"jimbeizame-ka","language_code":"jpn","language":"Japanese"},{"vernacular":"kitovye
+        akuly","language_code":"rus","language":"Russian"},{"vernacular":"requins
+        baleine","language_code":"fra","language":"French"},{"vernacular":"tiburones
+        ballena","language_code":"spa","language":"Spanish"},{"vernacular":"whale
+        shark","language_code":"eng","language":"English"},{"vernacular":"\u30b8\u30f3\u30d9\u30a8\u30b6\u30e1","language_code":"jpn","language":"Japanese"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/156806
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status: ~
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 18:41:37 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '158'
+      content-type: application/json;charset=utf-8
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"gilded wedgeclam","language_code":"eng","language":"English"},{"vernacular":"Turton''s
+        wedge clam","language_code":"eng","language":"English"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/397065
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status: ~
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 18:41:37 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '87'
+      content-type: application/json;charset=utf-8
+      set-cookie: vliz_webc=vliz_webc1; path=/
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"California softshell clam","language_code":"eng","language":"English"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/105706
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 19:18:50 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '548'
+      content-type: application/json;charset=utf-8
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"ching sha k''o","language_code":"jpn","language":"Japanese"},{"vernacular":"jimbeizame-ka","language_code":"jpn","language":"Japanese"},{"vernacular":"kitovye
+        akuly","language_code":"rus","language":"Russian"},{"vernacular":"requins
+        baleine","language_code":"fra","language":"French"},{"vernacular":"tiburones
+        ballena","language_code":"spa","language":"Spanish"},{"vernacular":"whale
+        shark","language_code":"eng","language":"English"},{"vernacular":"\u30b8\u30f3\u30d9\u30a8\u30b6\u30e1","language_code":"jpn","language":"Japanese"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/156806
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 19:18:50 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '158'
+      content-type: application/json;charset=utf-8
+      set-cookie: vliz_webc=vliz_webc1; path=/
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"gilded wedgeclam","language_code":"eng","language":"English"},{"vernacular":"Turton''s
+        wedge clam","language_code":"eng","language":"English"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/397065
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 19:18:51 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '87'
+      content-type: application/json;charset=utf-8
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      string: '[{"vernacular":"California softshell clam","language_code":"eng","language":"English"}]'
+  recorded_at: 2018-04-26 19:18:51 GMT
+  recorded_with: vcr/0.0.8.9231

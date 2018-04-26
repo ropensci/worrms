@@ -7,7 +7,7 @@ Description: Client for World Register of Marine Species
     common names, searching using external identifiers, fetching
     synonyms, as well as fetching taxonomic children and
     taxonomic classification.
-Version: 0.2.6.9100
+Version: 0.2.6.9110
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"))
 License: MIT + file LICENSE
@@ -24,5 +24,8 @@ Imports:
 Suggests:
     roxygen2 (>= 6.0.1),
     knitr,
-    testthat
+    testthat,
+    webmockr (>= 0.2.2.9112),
+    vcr (>= 0.0.7.9431)
+Remotes: ropensci/vcr, ropensci/webmockr
 RoxygenNote: 6.0.1

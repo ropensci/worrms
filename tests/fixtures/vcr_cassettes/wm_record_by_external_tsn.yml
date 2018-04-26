@@ -1,0 +1,36 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaRecordByExternalID/85257?type=tsn
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Thu, 26 Apr 2018 19:09:46 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '713'
+      content-type: application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"AphiaID":1080,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1080","scientificname":"Copepoda","authority":"Milne
+        Edwards, 1840","status":"accepted","unacceptreason":null,"rank":"Subclass","valid_AphiaID":1080,"valid_name":"Copepoda","valid_authority":"Milne
+        Edwards, 1840","kingdom":"Animalia","phylum":"Arthropoda","class":"Hexanauplia","order":null,"family":null,"genus":null,"citation":"WoRMS
+        (2018). Copepoda. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1080
+        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1080","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2016-11-30T13:36:48Z"}'
+  recorded_at: 2018-04-26 19:09:47 GMT
+  recorded_with: vcr/0.0.8.9231
