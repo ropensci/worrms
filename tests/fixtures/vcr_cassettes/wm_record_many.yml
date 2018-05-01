@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:19:00 GMT
+      date: Tue, 01 May 2018 21:33:39 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -25,7 +25,7 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '890'
       content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc2; path=/
+      set-cookie: vliz_webc=vliz_webc1; path=/
     body:
       encoding: UTF-8
       string: '{"AphiaID":105706,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105706","scientificname":"Rhincodontidae","authority":"M\u00fcller
@@ -33,9 +33,9 @@ http_interactions:
         & Henle, 1841","kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":null,"citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Rhincodontidae M\u00fcller & Henle,
         1841. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105706
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:105706","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T10:48:22Z"}'
-  recorded_at: 2018-04-26 19:19:01 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:105706","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T10:48:22Z"}'
+  recorded_at: 2018-05-01 21:33:39 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaRecordByAphiaID/126436
@@ -53,7 +53,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:19:00 GMT
+      date: Tue, 01 May 2018 21:33:39 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -70,6 +70,6 @@ http_interactions:
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua Linnaeus, 1758. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126436
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:126436","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-01-15T18:27:08Z"}'
-  recorded_at: 2018-04-26 19:19:01 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:126436","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-01-15T18:27:08Z"}'
+  recorded_at: 2018-05-01 21:33:39 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2

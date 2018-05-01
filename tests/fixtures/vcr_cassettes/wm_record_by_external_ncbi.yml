@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:09:49 GMT
+      date: Mon, 30 Apr 2018 23:28:46 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -31,6 +31,6 @@ http_interactions:
         Edwards, 1840","status":"accepted","unacceptreason":null,"rank":"Subclass","valid_AphiaID":1080,"valid_name":"Copepoda","valid_authority":"Milne
         Edwards, 1840","kingdom":"Animalia","phylum":"Arthropoda","class":"Hexanauplia","order":null,"family":null,"genus":null,"citation":"WoRMS
         (2018). Copepoda. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1080
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:1080","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2016-11-30T13:36:48Z"}'
-  recorded_at: 2018-04-26 19:09:49 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:1080","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2016-11-30T13:36:48Z"}'
+  recorded_at: 2018-04-30 23:28:46 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2

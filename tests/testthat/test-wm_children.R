@@ -62,7 +62,7 @@ test_that("wm_children_ basic usage works", {
     expect_is(bb, "tbl_df")
     expect_is(bb, "data.frame")
     expect_gt(NROW(bb), NROW(aa))
-  }, record = "all")
+  }, record = "new_episodes")
 })
 
 test_that("wm_children_ - 'name' input works", {

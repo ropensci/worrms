@@ -13,7 +13,7 @@ http_interactions:
     status: ~
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:18:25 GMT
+      date: Mon, 30 Apr 2018 23:29:39 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -28,9 +28,9 @@ http_interactions:
         & Henle, 1839","status":"unaccepted","unacceptreason":"synonym","rank":"Family","valid_AphiaID":105706,"valid_name":"Rhincodontidae","valid_authority":"M\u00fcller
         & Henle, 1841","kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhiniodontidae","genus":null,"citation":"WoRMS
         (2018). Rhiniodontidae M\u00fcller & Henle, 1839. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=148832
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:148832","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T11:08:32Z"}]'
-  recorded_at: 2018-04-26 19:19:15 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:148832","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T11:08:32Z"}]'
+  recorded_at: 2018-05-01 21:33:54 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaSynonymsByAphiaID/126436
@@ -45,7 +45,7 @@ http_interactions:
     status: ~
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:18:27 GMT
+      date: Mon, 30 Apr 2018 23:29:40 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -61,94 +61,94 @@ http_interactions:
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Asellus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Asellus major. Accessed through:
         World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=316432
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:316432","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300724,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:316432","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300724,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724","scientificname":"Gadus
         arenosus","authority":"Mitchill, 1815","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus arenosus Mitchill, 1815.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300724","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":154378,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300724","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":154378,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378","scientificname":"Gadus
         callarias","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias Linnaeus, 1758.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:154378","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":714540,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:154378","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":714540,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540","scientificname":"Gadus
         callarias hiemalis","authority":"Taliev, 1931","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias hiemalis Taliev,
         1931. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:714540","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2013-01-03T16:09:12Z"},{"AphiaID":323094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:714540","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2013-01-03T16:09:12Z"},{"AphiaID":323094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094","scientificname":"Gadus
         callarias kildinensis","authority":"Derjugin, 1920","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias kildinensis Derjugin,
         1920. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:323094","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":300750,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:323094","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":300750,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750","scientificname":"Gadus
         heteroglossus","authority":"Walbaum, 1792","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus heteroglossus Walbaum, 1792.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300750","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":322689,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300750","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":322689,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689","scientificname":"Gadus
         morhua callarias","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua callarias Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322689","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322690,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322689","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322690,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690","scientificname":"Gadus
         morhua kildinensis","authority":"Derjugin, 1920","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua kildinensis Derjugin,
         1920. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322690","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322693,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322690","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322693,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693","scientificname":"Gadus
         morhua morhua","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua morhua Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322693","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":400582,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322693","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":400582,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582","scientificname":"Gadus
         morrhua","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":"misspelling","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morrhua Linnaeus, 1758.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400582","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300768,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400582","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300768,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768","scientificname":"Gadus
         nanus","authority":"Faber, 1829","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus nanus Faber, 1829. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300768","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400583,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300768","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400583,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583","scientificname":"Gadus
         ruber","authority":"Lacep\u00e8de, 1803","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus ruber Lacep\u00e8de, 1803.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400583","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300782,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400583","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300782,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782","scientificname":"Gadus
         rupestris","authority":"Mitchill, 1815","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus rupestris Mitchill, 1815.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300782","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300791,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300782","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300791,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791","scientificname":"Gadus
         vertagus","authority":"Walbaum, 1792","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus vertagus Walbaum, 1792.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300791","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319412,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412","scientificname":"Morhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300791","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319412,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412","scientificname":"Morhua
         punctatus","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morhua punctatus Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319412","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319413,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413","scientificname":"Morhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319412","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319413,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413","scientificname":"Morhua
         vulgaris","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morhua vulgaris Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319413","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419","scientificname":"Morrhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319413","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419","scientificname":"Morrhua
         americana","authority":"Storer, 1839","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morrhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morrhua americana Storer, 1839.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319419","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400584,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584","scientificname":"Morrhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319419","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400584,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584","scientificname":"Morrhua
         vulgaris","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":"misspelling","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morrhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morrhua vulgaris Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400584","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"}]'
-  recorded_at: 2018-04-26 19:19:15 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400584","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"}]'
+  recorded_at: 2018-05-01 21:33:54 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaSynonymsByAphiaID/105706
@@ -163,7 +163,7 @@ http_interactions:
     status: ~
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:18:31 GMT
+      date: Tue, 01 May 2018 21:15:31 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -172,16 +172,16 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '822'
       content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc1; path=/
+      set-cookie: vliz_webc=vliz_webc2; path=/
     body:
       encoding: UTF-8
       string: '[{"AphiaID":148832,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=148832","scientificname":"Rhiniodontidae","authority":"M\u00fcller
         & Henle, 1839","status":"unaccepted","unacceptreason":"synonym","rank":"Family","valid_AphiaID":105706,"valid_name":"Rhincodontidae","valid_authority":"M\u00fcller
         & Henle, 1841","kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhiniodontidae","genus":null,"citation":"WoRMS
         (2018). Rhiniodontidae M\u00fcller & Henle, 1839. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=148832
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:148832","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T11:08:32Z"}]'
-  recorded_at: 2018-04-26 19:19:15 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:148832","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T11:08:32Z"}]'
+  recorded_at: 2018-05-01 21:33:54 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaSynonymsByAphiaID/126436
@@ -196,7 +196,7 @@ http_interactions:
     status: ~
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:18:31 GMT
+      date: Tue, 01 May 2018 21:15:31 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -205,7 +205,7 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       transfer-encoding: chunked
       content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc1; path=/
+      set-cookie: vliz_webc=vliz_webc2; path=/
     body:
       encoding: UTF-8
       string: '[{"AphiaID":316432,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=316432","scientificname":"Asellus
@@ -213,94 +213,94 @@ http_interactions:
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Asellus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Asellus major. Accessed through:
         World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=316432
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:316432","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300724,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:316432","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300724,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724","scientificname":"Gadus
         arenosus","authority":"Mitchill, 1815","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus arenosus Mitchill, 1815.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300724","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":154378,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300724","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":154378,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378","scientificname":"Gadus
         callarias","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias Linnaeus, 1758.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:154378","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":714540,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:154378","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":714540,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540","scientificname":"Gadus
         callarias hiemalis","authority":"Taliev, 1931","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias hiemalis Taliev,
         1931. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:714540","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2013-01-03T16:09:12Z"},{"AphiaID":323094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:714540","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2013-01-03T16:09:12Z"},{"AphiaID":323094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094","scientificname":"Gadus
         callarias kildinensis","authority":"Derjugin, 1920","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias kildinensis Derjugin,
         1920. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:323094","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":300750,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:323094","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":300750,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750","scientificname":"Gadus
         heteroglossus","authority":"Walbaum, 1792","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus heteroglossus Walbaum, 1792.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300750","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":322689,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300750","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":322689,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689","scientificname":"Gadus
         morhua callarias","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua callarias Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322689","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322690,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322689","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322690,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690","scientificname":"Gadus
         morhua kildinensis","authority":"Derjugin, 1920","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua kildinensis Derjugin,
         1920. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322690","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322693,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322690","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322693,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693","scientificname":"Gadus
         morhua morhua","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua morhua Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322693","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":400582,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322693","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":400582,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582","scientificname":"Gadus
         morrhua","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":"misspelling","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morrhua Linnaeus, 1758.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400582","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300768,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400582","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300768,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768","scientificname":"Gadus
         nanus","authority":"Faber, 1829","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus nanus Faber, 1829. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300768","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400583,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300768","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400583,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583","scientificname":"Gadus
         ruber","authority":"Lacep\u00e8de, 1803","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus ruber Lacep\u00e8de, 1803.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400583","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300782,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400583","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300782,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782","scientificname":"Gadus
         rupestris","authority":"Mitchill, 1815","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus rupestris Mitchill, 1815.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300782","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300791,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300782","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300791,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791","scientificname":"Gadus
         vertagus","authority":"Walbaum, 1792","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus vertagus Walbaum, 1792.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300791","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319412,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412","scientificname":"Morhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300791","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319412,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412","scientificname":"Morhua
         punctatus","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morhua punctatus Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319412","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319413,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413","scientificname":"Morhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319412","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319413,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413","scientificname":"Morhua
         vulgaris","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morhua vulgaris Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319413","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419","scientificname":"Morrhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319413","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419","scientificname":"Morrhua
         americana","authority":"Storer, 1839","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morrhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morrhua americana Storer, 1839.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319419","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400584,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584","scientificname":"Morrhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319419","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400584,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584","scientificname":"Morrhua
         vulgaris","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":"misspelling","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morrhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morrhua vulgaris Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400584","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"}]'
-  recorded_at: 2018-04-26 19:19:15 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400584","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"}]'
+  recorded_at: 2018-05-01 21:33:54 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaSynonymsByAphiaID/105706
@@ -318,7 +318,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:19:14 GMT
+      date: Tue, 01 May 2018 21:33:53 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -334,9 +334,9 @@ http_interactions:
         & Henle, 1839","status":"unaccepted","unacceptreason":"synonym","rank":"Family","valid_AphiaID":105706,"valid_name":"Rhincodontidae","valid_authority":"M\u00fcller
         & Henle, 1841","kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhiniodontidae","genus":null,"citation":"WoRMS
         (2018). Rhiniodontidae M\u00fcller & Henle, 1839. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=148832
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:148832","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T11:08:32Z"}]'
-  recorded_at: 2018-04-26 19:19:15 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:148832","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T11:08:32Z"}]'
+  recorded_at: 2018-05-01 21:33:54 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaSynonymsByAphiaID/126436
@@ -354,7 +354,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:19:14 GMT
+      date: Tue, 01 May 2018 21:33:54 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -363,7 +363,7 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       transfer-encoding: chunked
       content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc2; path=/
+      set-cookie: vliz_webc=vliz_webc1; path=/
     body:
       encoding: UTF-8
       string: '[{"AphiaID":316432,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=316432","scientificname":"Asellus
@@ -371,91 +371,91 @@ http_interactions:
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Asellus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Asellus major. Accessed through:
         World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=316432
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:316432","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300724,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:316432","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300724,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724","scientificname":"Gadus
         arenosus","authority":"Mitchill, 1815","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus arenosus Mitchill, 1815.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300724
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300724","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":154378,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300724","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":154378,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378","scientificname":"Gadus
         callarias","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias Linnaeus, 1758.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=154378
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:154378","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":714540,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:154378","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":714540,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540","scientificname":"Gadus
         callarias hiemalis","authority":"Taliev, 1931","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias hiemalis Taliev,
         1931. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=714540
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:714540","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2013-01-03T16:09:12Z"},{"AphiaID":323094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:714540","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2013-01-03T16:09:12Z"},{"AphiaID":323094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094","scientificname":"Gadus
         callarias kildinensis","authority":"Derjugin, 1920","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus callarias kildinensis Derjugin,
         1920. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=323094
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:323094","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":300750,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:323094","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":300750,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750","scientificname":"Gadus
         heteroglossus","authority":"Walbaum, 1792","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus heteroglossus Walbaum, 1792.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300750
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300750","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":322689,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300750","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":322689,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689","scientificname":"Gadus
         morhua callarias","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua callarias Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322689
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322689","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322690,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322689","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322690,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690","scientificname":"Gadus
         morhua kildinensis","authority":"Derjugin, 1920","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua kildinensis Derjugin,
         1920. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322690
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322690","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322693,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322690","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":322693,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693","scientificname":"Gadus
         morhua morhua","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morhua morhua Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=322693
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:322693","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":400582,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:322693","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-03-03T16:23:45Z"},{"AphiaID":400582,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582","scientificname":"Gadus
         morrhua","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":"misspelling","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus morrhua Linnaeus, 1758.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400582
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400582","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300768,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400582","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300768,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768","scientificname":"Gadus
         nanus","authority":"Faber, 1829","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus nanus Faber, 1829. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300768
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300768","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400583,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300768","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400583,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583","scientificname":"Gadus
         ruber","authority":"Lacep\u00e8de, 1803","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus ruber Lacep\u00e8de, 1803.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400583
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400583","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300782,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400583","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"},{"AphiaID":300782,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782","scientificname":"Gadus
         rupestris","authority":"Mitchill, 1815","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus rupestris Mitchill, 1815.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300782
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300782","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300791,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791","scientificname":"Gadus
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300782","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":300791,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791","scientificname":"Gadus
         vertagus","authority":"Walbaum, 1792","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Gadus vertagus Walbaum, 1792.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=300791
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:300791","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319412,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412","scientificname":"Morhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:300791","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319412,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412","scientificname":"Morhua
         punctatus","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morhua punctatus Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319412
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319412","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319413,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413","scientificname":"Morhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319412","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319413,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413","scientificname":"Morhua
         vulgaris","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morhua vulgaris Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319413
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319413","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419","scientificname":"Morrhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319413","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":319419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419","scientificname":"Morrhua
         americana","authority":"Storer, 1839","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morrhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morrhua americana Storer, 1839.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=319419
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:319419","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400584,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584","scientificname":"Morrhua
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:319419","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-02-28T14:41:08Z"},{"AphiaID":400584,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584","scientificname":"Morrhua
         vulgaris","authority":"Fleming, 1828","status":"unaccepted","unacceptreason":"misspelling","rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
         morhua","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Morrhua","citation":"Froese,
         R. and D. Pauly. Editors. (2018). FishBase. Morrhua vulgaris Fleming, 1828.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=400584
-        on 2018-04-26","lsid":"urn:lsid:marinespecies.org:taxname:400584","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"}]'
-  recorded_at: 2018-04-26 19:19:15 GMT
-  recorded_with: vcr/0.0.8.9231
+        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:400584","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2009-06-15T14:24:27Z"}]'
+  recorded_at: 2018-05-01 21:33:54 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2

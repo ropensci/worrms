@@ -2,7 +2,8 @@ context("wm_records_date")
 
 test_that("wm_records_date - works", {
   vcr::use_cassette("wm_records_date", {
-    a_date <- format(Sys.Date() - 1, "%Y-%m-%dT%H:%M:%S+00:00")
+    # a_date <- format(Sys.Date() - 1, "%Y-%m-%dT%H:%M:%S+00:00")
+    a_date = '2018-04-29T00:00:00+00:00'
     aa <- wm_records_date(a_date)
 
     expect_is(aa, "tbl_df")

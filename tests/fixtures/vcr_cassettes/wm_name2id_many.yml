@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:18:56 GMT
+      date: Tue, 01 May 2018 21:33:34 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -29,8 +29,8 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '105749'
-  recorded_at: 2018-04-26 19:18:57 GMT
-  recorded_with: vcr/0.0.8.9231
+  recorded_at: 2018-05-01 21:33:35 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaIDByName/Gadus%20morhua
@@ -48,7 +48,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Thu, 26 Apr 2018 19:18:57 GMT
+      date: Tue, 01 May 2018 21:33:35 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -61,5 +61,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '126436'
-  recorded_at: 2018-04-26 19:18:57 GMT
-  recorded_with: vcr/0.0.8.9231
+  recorded_at: 2018-05-01 21:33:35 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
