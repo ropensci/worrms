@@ -1,3 +1,10 @@
+worrms 0.2.8
+============
+
+### NEW FEATURES
+
+* Integration with `vcr` and `webmockr` packages for unit test stubbing
+
 worrms 0.2.0
 ============
 
