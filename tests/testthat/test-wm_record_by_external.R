@@ -1,29 +1,32 @@
 context("wm_record_by_external")
 
 test_that("wm_record_by_external - default - by id type tsn", {
-  skip_on_cran()
-
   # tsn
-  tsn <- wm_record_by_external(id = 85257)
-  expect_type(tsn, "list")
-  expect_equal(tsn$valid_name, "Copepoda")
-  expect_equal(tsn$valid_AphiaID, 1080)
+  vcr::use_cassette("wm_record_by_external_tsn", {
+    tsn <- wm_record_by_external(id = 85257)
+    expect_type(tsn, "list")
+    expect_equal(tsn$valid_name, "Copepoda")
+    expect_equal(tsn$valid_AphiaID, 1080)
+  })
 
   # ncbi
-  ncbi <- wm_record_by_external(id = 6830, type = "ncbi")
-  expect_type(ncbi, "list")
-  expect_equal(ncbi$valid_name, "Copepoda")
-  expect_equal(ncbi$valid_AphiaID, 1080)
+  vcr::use_cassette("wm_record_by_external_ncbi", {
+    ncbi <- wm_record_by_external(id = 6830, type = "ncbi")
+    expect_type(ncbi, "list")
+    expect_equal(ncbi$valid_name, "Copepoda")
+    expect_equal(ncbi$valid_AphiaID, 1080)
+  })
 
   # they're equivvalent
   expect_identical(tsn, ncbi)
 
   # fishbase
-  fishbase <- wm_record_by_external(id = 8399, type = "fishbase")
-  expect_type(fishbase, "list")
-  expect_equal(fishbase$valid_name, "Callorhinchus callorynchus")
-  expect_equal(fishbase$valid_AphiaID, 278468)
-
+  vcr::use_cassette("wm_record_by_external_fishbase", {
+    fishbase <- wm_record_by_external(id = 8399, type = "fishbase")
+    expect_type(fishbase, "list")
+    expect_equal(fishbase$valid_name, "Callorhinchus callorynchus")
+    expect_equal(fishbase$valid_AphiaID, 278468)
+  })
 })
 
 test_that("wm_record_by_external fails well", {
@@ -38,17 +41,19 @@ test_that("wm_record_by_external fails well", {
 context("wm_record_by_external_ - plural")
 
 test_that("wm_record_by_external_ - default - by id type tsn", {
-  skip_on_cran()
-
   # singluar
-  tsn <- wm_record_by_external_(id = 85257)
-  expect_type(tsn, "list")
-  expect_named(tsn, "85257")
+  vcr::use_cassette("wm_record_by_external__tsn", {
+    tsn <- wm_record_by_external_(id = 85257)
+    expect_type(tsn, "list")
+    expect_named(tsn, "85257")
+  })
 
   # many
-  bb <- wm_record_by_external_(id = c(85257, 159854))
-  expect_is(bb, "list")
-  expect_named(bb, c("85257", "159854"))
+  vcr::use_cassette("wm_record_by_external__many", {
+    bb <- wm_record_by_external_(id = c(85257, 159854))
+    expect_is(bb, "list")
+    expect_named(bb, c("85257", "159854"))
+  }, record = "all")
 })
 
 test_that("wm_record_by_external_ fails well", {

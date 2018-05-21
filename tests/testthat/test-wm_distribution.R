@@ -1,12 +1,12 @@
 context("wm_distribution")
 
 test_that("wm_distribution basic usage works", {
-  skip_on_cran()
-
-  aa <- wm_distribution(id = 156806)
-  expect_is(aa, "tbl_df")
-  expect_is(aa, "data.frame")
-  expect_gt(NROW(aa), 1)
+  vcr::use_cassette("wm_distribution", {
+    aa <- wm_distribution(id = 156806)
+    expect_is(aa, "tbl_df")
+    expect_is(aa, "data.frame")
+    expect_gt(NROW(aa), 1)
+  })
 })
 
 test_that("wm_distribution fails well", {
@@ -22,17 +22,19 @@ test_that("wm_distribution fails well", {
 context("wm_distribution_ - plural")
 
 test_that("wm_distribution_ basic usage works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_distribution_", {
+    aa <- wm_distribution_(id = 156806)
+    expect_is(aa, "tbl_df")
+    expect_is(aa, "data.frame")
+    expect_gt(NROW(aa), 1)
+  })
 
-  aa <- wm_distribution_(id = 156806)
-  expect_is(aa, "tbl_df")
-  expect_is(aa, "data.frame")
-  expect_gt(NROW(aa), 1)
-
-  bb <- wm_distribution_(id = c(156806, 126436))
-  expect_is(aa, "tbl_df")
-  expect_is(aa, "data.frame")
-  expect_gt(NROW(bb), NROW(aa))
+  vcr::use_cassette("wm_distribution_many", {
+    bb <- wm_distribution_(id = c(156806, 126436))
+    expect_is(aa, "tbl_df")
+    expect_is(aa, "data.frame")
+    expect_gt(NROW(bb), NROW(aa))
+  }, record = "new_episodes")
 })
 
 test_that("wm_distribution_ fails well", {

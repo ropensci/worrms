@@ -1,12 +1,12 @@
 context("wm_id2name")
 
 test_that("wm_id2name - default usage works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_id2name", {
+    aa <- wm_id2name(id = 1080)
 
-  aa <- wm_id2name(id = 1080)
-
-  expect_type(aa, "character")
-  expect_equal(aa, "Copepoda")
+    expect_type(aa, "character")
+    expect_equal(aa, "Copepoda")
+  })
 })
 
 test_that("wm_id2name fails well", {
@@ -23,17 +23,19 @@ test_that("wm_id2name fails well", {
 context("wm_id2name_ - plural")
 
 test_that("wm_id2name_ - default usage works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_id2name_", {
+    aa <- wm_id2name_(id = 1080)
+    expect_type(aa, "list")
+    expect_type(aa[[1]], "character")
+    expect_equal(aa[[1]], "Copepoda")
+  })
 
-  aa <- wm_id2name_(id = 1080)
-  expect_type(aa, "list")
-  expect_type(aa[[1]], "character")
-  expect_equal(aa[[1]], "Copepoda")
-
-  bb <-  wm_id2name_(id = c(105706, 126436))
-  expect_type(bb, "list")
-  expect_equal(length(bb), 2)
-  expect_named(bb, c('105706', '126436'))
+  vcr::use_cassette("wm_id2name_many", {
+    bb <-  wm_id2name_(id = c(105706, 126436))
+    expect_type(bb, "list")
+    expect_equal(length(bb), 2)
+    expect_named(bb, c('105706', '126436'))
+  }, record = "new_episodes")
 })
 
 test_that("wm_id2name_ fails well", {

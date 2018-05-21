@@ -1,0 +1,39 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaDistributionsByAphiaID/156806
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Mon, 30 Apr 2018 23:28:27 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '1346'
+      content-type: application/json;charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '[{"locality":"North West Atlantic","locationID":"http:\/\/marineregions.org\/mrgid\/7135","higherGeography":"North
+        Atlantic Ocean","higherGeographyID":"http:\/\/marineregions.org\/mrgid\/1912","recordStatus":"valid","typeStatus":null,"establishmentMeans":null,"decimalLatitude":null,"decimalLongitude":null,"qualityStatus":"unreviewed"},{"locality":"Gulf
+        of Maine","locationID":"http:\/\/marineregions.org\/mrgid\/8940","higherGeography":"North
+        Atlantic Ocean","higherGeographyID":"http:\/\/marineregions.org\/mrgid\/1912","recordStatus":"valid","typeStatus":null,"establishmentMeans":null,"decimalLatitude":null,"decimalLongitude":null,"qualityStatus":"unreviewed"},{"locality":"St.
+        Lawrence Estuary","locationID":"http:\/\/marineregions.org\/mrgid\/23554","higherGeography":"Gulf
+        of Saint Lawrence","higherGeographyID":"http:\/\/marineregions.org\/mrgid\/4290","recordStatus":"valid","typeStatus":null,"establishmentMeans":null,"decimalLatitude":null,"decimalLongitude":null,"qualityStatus":"unreviewed"},{"locality":"Gulf
+        of St. Lawrence","locationID":"http:\/\/marineregions.org\/mrgid\/4290","higherGeography":"Gulf
+        of Saint Lawrence","higherGeographyID":"http:\/\/marineregions.org\/mrgid\/4290","recordStatus":"valid","typeStatus":null,"establishmentMeans":null,"decimalLatitude":null,"decimalLongitude":null,"qualityStatus":"unreviewed"}]'
+  recorded_at: 2018-04-30 23:28:28 GMT
+  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2

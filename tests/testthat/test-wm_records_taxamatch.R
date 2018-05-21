@@ -1,15 +1,15 @@
 context("wm_records_taxamatch")
 
 test_that("wm_records_taxamatch basic usage works", {
-  skip_on_cran()
+  vcr::use_cassette("wm_records_taxamatch", {
+    aa <- wm_records_taxamatch(name = 'Platanista gangetica')
 
-  aa <- wm_records_taxamatch(name = 'Platanista gangetica')
-
-  expect_is(aa, "list")
-  expect_equal(length(aa), 1)
-  expect_is(aa[[1]], "tbl_df")
-  expect_is(aa[[1]], "data.frame")
-  expect_equal(NROW(aa[[1]]), 1)
+    expect_is(aa, "list")
+    expect_equal(length(aa), 1)
+    expect_is(aa[[1]], "tbl_df")
+    expect_is(aa[[1]], "data.frame")
+    expect_equal(NROW(aa[[1]]), 1)
+  })
 })
 
 test_that("wm_records_taxamatch fails well", {
