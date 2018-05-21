@@ -230,5 +230,5 @@ wm_attr_aphia(id = 4)
 * Please [report any issues or bugs](https://github.com/ropensci/worrms/issues).
 * License: MIT
 * Get citation information for `worrms` in R doing `citation(package = 'worrms')`
-* Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md).
+* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
