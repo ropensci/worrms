@@ -1,34 +1,27 @@
-# Setup
+# Platform
 
-## Platform
+|field    |value                        |
+|:--------|:----------------------------|
+|version  |R version 3.5.0 (2018-04-23) |
+|os       |macOS High Sierra 10.13.4    |
+|system   |x86_64, darwin15.6.0         |
+|ui       |X11                          |
+|language |(EN)                         |
+|collate  |en_US.UTF-8                  |
+|tz       |US/Pacific                   |
+|date     |2018-05-20                   |
 
-|setting  |value                                       |
-|:--------|:-------------------------------------------|
-|version  |R version 3.4.1 Patched (2017-07-04 r72893) |
-|system   |x86_64, darwin15.6.0                        |
-|ui       |RStudio (1.1.331)                           |
-|language |(EN)                                        |
-|collate  |en_US.UTF-8                                 |
-|tz       |America/Vancouver                           |
-|date     |2017-08-24                                  |
+# Dependencies
 
-## Packages
+|package |old   |new   |Δ  |
+|:-------|:-----|:-----|:--|
+|worrms  |0.2.0 |0.2.8 |*  |
 
-|package |*  |version |date       |source                     |
-|:-------|:--|:-------|:----------|:--------------------------|
-|worrms  |   |0.2.0   |2017-08-24 |local (ropensci/worrms@NA) |
+# Revdeps
 
-# Check results
+## All (1)
 
-1 packages
-
-|package |version | errors| warnings| notes|
-|:-------|:-------|------:|--------:|-----:|
-|taxize  |0.8.9   |      0|        0|     0|
-
-## taxize (0.8.9)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropensci/taxize/issues
-
-0 errors | 0 warnings | 0 notes
+|package |version |error |warning |note |
+|:-------|:-------|:-----|:-------|:----|
+|taxize  |0.9.3   |      |        |     |
 
