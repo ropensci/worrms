@@ -4,7 +4,8 @@
 \alias{wm_records_name}
 \title{Get records by single name, optional fuzzy matching}
 \usage{
-wm_records_name(name, fuzzy = TRUE, marine_only = TRUE, offset = 1, ...)
+wm_records_name(name, fuzzy = TRUE, marine_only = TRUE, offset = 1,
+  ...)
 }
 \arguments{
 \item{name}{(character) a taxonomic name, required.}

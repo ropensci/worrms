@@ -7,8 +7,8 @@
 \usage{
 wm_children(id, marine_only = TRUE, offset = 1, ...)
 
-wm_children_(id = NULL, name = NULL, marine_only = TRUE, offset = 1,
-  ...)
+wm_children_(id = NULL, name = NULL, marine_only = TRUE,
+  offset = 1, ...)
 }
 \arguments{
 \item{id}{(numeric/integer) an AphiaID. For \code{wm_children} it's

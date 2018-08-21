@@ -17,18 +17,20 @@ BugReports: https://github.com/ropensci/worrms/issues
 LazyData: true
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+Language: en-US
 Imports:
     crul (>= 0.3.6),
     tibble (>= 1.2),
     jsonlite (>= 1.1),
     data.table
 Suggests:
-    roxygen2 (>= 6.0.1),
+    roxygen2 (>= 6.1.0),
     knitr,
     testthat,
     webmockr (>= 0.2.6),
     vcr (>= 0.1.0)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 X-schema.org-applicationCategory: Biology
 X-schema.org-keywords: biology, science, marine, API, web, api-client, worms, species
 X-schema.org-isPartOf: https://ropensci.org
