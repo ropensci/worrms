@@ -12,7 +12,7 @@ wm_records_taxamatch(name, marine_only = TRUE, ...)
 
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 
-\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+\item{...}{named curl options. see \code{curl::curl_options}}
 }
 \value{
 A list of tibble's/data.frame's, one for each of the input names

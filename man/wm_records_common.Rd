@@ -18,7 +18,7 @@ can be \code{length(id) >= 1}}
 
 \item{offset}{(integer) record to start at. default: 1}
 
-\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+\item{...}{named curl options. see \code{curl::curl_options}}
 }
 \value{
 A tibble/data.frame. when using underscore method, outputs from

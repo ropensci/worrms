@@ -14,7 +14,7 @@ wm_record_(id = NULL, name = NULL, ...)
 required and must be \code{length(id) = 1}, for \code{wm_record_} it's
 optional and can be \code{length(id) >= 1}}
 
-\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+\item{...}{named curl options. see \code{curl::curl_options}}
 
 \item{name}{(character) one or more taxonomic names. optional}
 }

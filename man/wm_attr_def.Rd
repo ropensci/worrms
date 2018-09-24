@@ -17,7 +17,7 @@ optional and can be \code{length(id) >= 1}}
 \item{include_inherited}{(logical) Include attributes inherited from
 its parent taxon. Default: \code{FALSE}}
 
-\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+\item{...}{named curl options. see \code{curl::curl_options}}
 
 \item{name}{(character) one or more taxonomic names. optional}
 }

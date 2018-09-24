@@ -14,7 +14,7 @@ wm_id2name_(id, ...)
 must be \code{length(id) = 1}, but for \code{wm_id2name_} can be
 \code{length(id) >= 1}}
 
-\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+\item{...}{named curl options. see \code{curl::curl_options}}
 }
 \value{
 An character string that is the taxnomic name. When using underscore

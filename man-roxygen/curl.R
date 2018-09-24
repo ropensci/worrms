@@ -1,1 +1,1 @@
-#' @param ... named curl options. see \code{\link[curl]{curl_options}}
+#' @param ... named curl options. see \code{curl::curl_options}

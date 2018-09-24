@@ -16,7 +16,7 @@ wm_records_date(start_date, end_date = NULL, marine_only = TRUE,
 
 \item{offset}{(integer) record to start at. default: 1}
 
-\item{...}{named curl options. see \code{\link[curl]{curl_options}}}
+\item{...}{named curl options. see \code{curl::curl_options}}
 }
 \value{
 A tibble/data.frame
