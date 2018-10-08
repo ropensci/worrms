@@ -20,5 +20,5 @@ wm_name2id <- function(name, ...) {
 #' @export
 #' @rdname wm_name2id
 wm_name2id_ <- function(name, ...) {
-  run_c(name, wm_name2id, ...)
+  run_c(name, wm_name2id, on_error = warning, ...)
 }

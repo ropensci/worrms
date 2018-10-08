@@ -1,10 +1,16 @@
-wm_GET <- function(url, query = list(), ...) {
+wm_GET <- function(url, query = list(), on_error = stop, ...) {
   cli <- crul::HttpClient$new(url = url, opts = list(...))
   temp <- cli$get(query = query)
-  temp$raise_for_status()
-  if (temp$status_code == 204) {
-    stop(sprintf("(%s) %s", temp$status_code, temp$status_http()$message), call. = FALSE)
+  # temp$raise_for_status()
+  if (temp$status_code > 201) {
+    on_error(sprintf("(%s) %s - %s", temp$status_code, temp$status_http()$message,
+      basename(url)), call. = FALSE)
   }
+  
+  if (identical(on_error, warning) && temp$status_code == 204) {
+    return(tibble::data_frame())
+  }
+  
   tmp <- jsonlite::fromJSON(temp$parse("UTF-8"), flatten = TRUE)
   if (inherits(tmp, "data.frame")) {
     tibble::as_data_frame(tmp)
@@ -71,8 +77,11 @@ id_name <- function(id, name) {
 }
 
 safe_wm_name2id <- function(x, ...) {
-  res <- tryCatch(wm_name2id(x, ...), error = function(e) e)
-  if (inherits(res, "error")) {
+  res <- tryCatch(wm_name2id(x, ...), 
+    error = function(e) e, 
+    warning = function(w) w
+  )
+  if (inherits(res, "error") || inherits(res, "warning")) {
     warning(sprintf("%s: %s", x, res$message))
     return(NULL)
   } else {
