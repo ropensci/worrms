@@ -67,7 +67,7 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 ```
 
 by a taxonomic name
-
+([taxize book](https://ropensci.github.io/taxize-book/))
 
 ```r
 wm_records_name(name = 'Platanista gangetica')
