@@ -41,5 +41,5 @@ test_that("wm_synonyms_ fails well", {
   skip_on_cran()
 
   expect_error(wm_synonyms_(), "use only one of")
-  expect_error(wm_synonyms_(55555), "\\(204\\) No Content")
+  expect_warning(wm_synonyms_(55555), "\\(204\\) No Content")
 })

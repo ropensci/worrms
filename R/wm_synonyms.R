@@ -23,5 +23,5 @@ wm_synonyms <- function(id, ...) {
 #' @rdname wm_synonyms
 wm_synonyms_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_synonyms, ...)
+  run_bind(id, wm_synonyms, on_error = warning, ...)
 }

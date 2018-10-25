@@ -38,5 +38,5 @@ test_that("wm_sources_ fails well", {
   skip_on_cran()
 
   expect_error(wm_sources_(), "use only one of")
-  expect_error(wm_sources_(55555), "\\(204\\) No Content")
+  expect_warning(wm_sources_(55555), "\\(204\\) No Content")
 })
