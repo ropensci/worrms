@@ -46,5 +46,5 @@ test_that("wm_common_id_ fails well", {
 
   expect_error(wm_common_id_(), "use only one of")
   expect_error(wm_common_id_("asdfafasdfs"), "id must be of class")
-  expect_error(wm_common_id_(44444), "\\(204\\) No Content")
+  expect_warning(wm_common_id_(44444), "\\(204\\) No Content")
 })

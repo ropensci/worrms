@@ -41,5 +41,5 @@ test_that("wm_name2id_ fails well", {
 
   expect_error(wm_name2id_(), "argument \"name\" is missing")
   expect_error(wm_name2id_(44444), "name must be of class")
-  expect_error(wm_name2id_("asdfafasdfs"), "\\(204\\) No Content")
+  expect_warning(wm_name2id_("asdfafasdfs"), "\\(204\\) No Content")
 })
