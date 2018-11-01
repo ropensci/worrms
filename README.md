@@ -47,18 +47,18 @@ by date
 ```r
 wm_records_date('2016-12-23T05:59:45+00:00')
 #> # A tibble: 50 x 25
-#>    AphiaID url       scientificname  authority status unacceptreason rank 
-#>  *   <int> <chr>     <chr>           <chr>     <chr>  <lgl>          <chr>
-#>  1  894298 http://w… Parapachyphloi… Miklukho… accep… NA             Spec…
-#>  2  894301 http://w… Ovulina radiata Seguenza… accep… NA             Spec…
-#>  3  894297 http://w… Parapachyphloi… Miklukho… accep… NA             Spec…
-#>  4  894302 http://w… Paleopolymorph… Vasilenk… accep… NA             Spec…
-#>  5  894296 http://w… Parapachyphloi… Miklukho… accep… NA             Spec…
-#>  6  894299 http://w… Parafissurina … Petri, 1… accep… NA             Spec…
-#>  7  894303 http://w… Anomalina nodu… Terquem,… accep… NA             Spec…
-#>  8  901957 http://w… Gaudryinella e… Moullade… accep… NA             Spec…
-#>  9  916899 http://w… Gavelinella pu… Porthaul… accep… NA             Spec…
-#> 10  925289 http://w… Textularia yat… Murata, … accep… NA             Spec…
+#>    AphiaID url   scientificname authority status unacceptreason rank 
+#>  *   <int> <chr> <chr>          <chr>     <chr>  <lgl>          <chr>
+#>  1  894302 http… Paleopolymorp… Vasilenk… accep… NA             Spec…
+#>  2  894296 http… Parapachyphlo… Miklukho… accep… NA             Spec…
+#>  3  894298 http… Parapachyphlo… Miklukho… accep… NA             Spec…
+#>  4  894301 http… Ovulina radia… Seguenza… accep… NA             Spec…
+#>  5  894299 http… Parafissurina… Petri, 1… accep… NA             Spec…
+#>  6  894297 http… Parapachyphlo… Miklukho… accep… NA             Spec…
+#>  7  894303 http… Anomalina nod… Terquem,… accep… NA             Spec…
+#>  8  901296 http… Pseudoreichel… Ueno, 19… accep… NA             Spec…
+#>  9  924662 http… Oolina virgula Terquem,… accep… NA             Spec…
+#> 10  908243 http… Linderina kol… Singh, 1… accep… NA             Spec…
 #> # ... with 40 more rows, and 18 more variables: valid_AphiaID <int>,
 #> #   valid_name <chr>, valid_authority <chr>, kingdom <chr>, phylum <chr>,
 #> #   class <chr>, order <chr>, family <chr>, genus <chr>, citation <chr>,
@@ -72,11 +72,11 @@ by a taxonomic name
 ```r
 wm_records_name(name = 'Platanista gangetica')
 #> # A tibble: 3 x 25
-#>   AphiaID url       scientificname   authority status unacceptreason rank 
-#> *   <int> <chr>     <chr>            <chr>     <chr>  <lgl>          <chr>
-#> 1  254967 http://w… Platanista gang… (Lebeck,… accep… NA             Spec…
-#> 2  383571 http://w… Platanista gang… Roxburgh… accep… NA             Subs…
-#> 3  254969 http://w… Platanista gang… Owen, 18… accep… NA             Subs…
+#>   AphiaID url   scientificname authority status unacceptreason rank 
+#> *   <int> <chr> <chr>          <chr>     <chr>  <lgl>          <chr>
+#> 1  254967 http… Platanista ga… (Lebeck,… accep… NA             Spec…
+#> 2  383571 http… Platanista ga… Roxburgh… accep… NA             Subs…
+#> 3  254969 http… Platanista ga… Owen, 18… accep… NA             Subs…
 #> # ... with 18 more variables: valid_AphiaID <int>, valid_name <chr>,
 #> #   valid_authority <chr>, kingdom <chr>, phylum <chr>, class <chr>,
 #> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
@@ -91,9 +91,9 @@ by many names
 wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 #> [[1]]
 #> # A tibble: 1 x 25
-#>   AphiaID url        scientificname  authority status unacceptreason rank 
-#> *   <int> <chr>      <chr>           <chr>     <chr>  <lgl>          <chr>
-#> 1  254967 http://ww… Platanista gan… (Lebeck,… accep… NA             Spec…
+#>   AphiaID url   scientificname authority status unacceptreason rank 
+#> *   <int> <chr> <chr>          <chr>     <chr>  <lgl>          <chr>
+#> 1  254967 http… Platanista ga… (Lebeck,… accep… NA             Spec…
 #> # ... with 18 more variables: valid_AphiaID <int>, valid_name <chr>,
 #> #   valid_authority <chr>, kingdom <chr>, phylum <chr>, class <chr>,
 #> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
@@ -102,10 +102,10 @@ wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 #> 
 #> [[2]]
 #> # A tibble: 2 x 25
-#>   AphiaID url         scientificname authority status unacceptreason rank 
-#> *   <int> <chr>       <chr>          <chr>     <chr>  <chr>          <chr>
-#> 1  125960 http://www… Coryphaena     Linnaeus… accep… <NA>           Genus
-#> 2  843430 <NA>        <NA>           <NA>      quara… synonym        <NA> 
+#>   AphiaID url   scientificname authority status unacceptreason rank 
+#> *   <int> <chr> <chr>          <chr>     <chr>  <chr>          <chr>
+#> 1  125960 http… Coryphaena     Linnaeus… accep… <NA>           Genus
+#> 2  843430 <NA>  <NA>           <NA>      quara… synonym        <NA> 
 #> # ... with 18 more variables: valid_AphiaID <int>, valid_name <chr>,
 #> #   valid_authority <chr>, kingdom <chr>, phylum <chr>, class <chr>,
 #> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
@@ -119,10 +119,10 @@ by common name
 ```r
 wm_records_common(name = 'clam')
 #> # A tibble: 2 x 25
-#>   AphiaID url        scientificname  authority status unacceptreason rank 
-#> *   <int> <chr>      <chr>           <chr>     <chr>  <lgl>          <chr>
-#> 1  141919 http://ww… Mercenaria mer… (Linnaeu… accep… NA             Spec…
-#> 2  141936 http://ww… Venus verrucosa Linnaeus… accep… NA             Spec…
+#>   AphiaID url   scientificname authority status unacceptreason rank 
+#> *   <int> <chr> <chr>          <chr>     <chr>  <lgl>          <chr>
+#> 1  141919 http… Mercenaria me… (Linnaeu… accep… NA             Spec…
+#> 2  141936 http… Venus verruco… Linnaeus… accep… NA             Spec…
 #> # ... with 18 more variables: valid_AphiaID <int>, valid_name <chr>,
 #> #   valid_authority <chr>, kingdom <chr>, phylum <chr>, class <chr>,
 #> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
@@ -137,9 +137,9 @@ using the TAXMATCH algorithm
 wm_records_taxamatch(name = 'Platanista gangetica')
 #> [[1]]
 #> # A tibble: 1 x 25
-#>   AphiaID url        scientificname  authority status unacceptreason rank 
-#> *   <int> <chr>      <chr>           <chr>     <chr>  <lgl>          <chr>
-#> 1  254967 http://ww… Platanista gan… (Lebeck,… accep… NA             Spec…
+#>   AphiaID url   scientificname authority status unacceptreason rank 
+#> *   <int> <chr> <chr>          <chr>     <chr>  <lgl>          <chr>
+#> 1  254967 http… Platanista ga… (Lebeck,… accep… NA             Spec…
 #> # ... with 18 more variables: valid_AphiaID <int>, valid_name <chr>,
 #> #   valid_authority <chr>, kingdom <chr>, phylum <chr>, class <chr>,
 #> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
@@ -166,18 +166,18 @@ attribute data by AphiaID
 ```r
 wm_attr_data(id = 127160)
 #> # A tibble: 24 x 10
-#>    AphiaID measurementTypeID measurementType  measurementValue   source_id
-#>  * <chr>               <int> <chr>            <chr>                  <int>
-#>  1 127160                 23 Species importa… FAO-ASFIS: Specie…    197354
-#>  2 127160                 23 Species importa… MSFD indicators       197546
-#>  3 127160                 23 Species importa… MSFD indicators       197549
-#>  4 127160                 23 Species importa… MSFD indicators       197615
-#>  5 127160                 23 Species importa… MSFD indicators       197615
-#>  6 127160                 23 Species importa… MSFD indicators       197615
-#>  7 127160                 23 Species importa… MSFD indicators       197615
-#>  8 127160                 23 Species importa… MSFD indicators       197616
-#>  9 127160                 23 Species importa… MSFD indicators       197616
-#> 10 127160                 23 Species importa… MSFD indicators       197549
+#>    AphiaID measurementType… measurementType measurementValue source_id
+#>  * <chr>              <int> <chr>           <chr>                <int>
+#>  1 127160                23 Species import… FAO-ASFIS: Spec…    197354
+#>  2 127160                23 Species import… MSFD indicators     197546
+#>  3 127160                23 Species import… MSFD indicators     197549
+#>  4 127160                23 Species import… MSFD indicators     197615
+#>  5 127160                23 Species import… MSFD indicators     197615
+#>  6 127160                23 Species import… MSFD indicators     197615
+#>  7 127160                23 Species import… MSFD indicators     197615
+#>  8 127160                23 Species import… MSFD indicators     197616
+#>  9 127160                23 Species import… MSFD indicators     197616
+#> 10 127160                23 Species import… MSFD indicators     197549
 #> # ... with 14 more rows, and 5 more variables: reference <chr>,
 #> #   qualitystatus <chr>, AphiaID_Inherited <int>, CategoryID <int>,
 #> #   children <list>
@@ -188,14 +188,15 @@ attributes grouped by a CategoryID
 
 ```r
 wm_attr_category(id = 7)
-#> # A tibble: 5 x 4
-#>   measurementValueID measurementValue measurementValueCode children       
-#> *              <int> <chr>            <chr>                <list>         
-#> 1                183 benthos          <NA>                 <data.frame [6…
-#> 2                184 plankton         <NA>                 <data.frame [2…
-#> 3                194 nekton           <NA>                 <data.frame [0…
-#> 4                323 neuston          <NA>                 <data.frame [0…
-#> 5                331 not applicable   N/A                  <data.frame [0…
+#> # A tibble: 6 x 4
+#>   measurementValueID measurementValue measurementValueCo… children        
+#> *              <int> <chr>            <chr>               <list>          
+#> 1                183 benthos          <NA>                <data.frame [6 …
+#> 2                184 plankton         <NA>                <data.frame [2 …
+#> 3                194 nekton           <NA>                <data.frame [0 …
+#> 4                323 neuston          <NA>                <data.frame [0 …
+#> 5                378 edaphofauna      <NA>                <data.frame [2 …
+#> 6                331 not applicable   N/A                 <data.frame [0 …
 ```
 
 AphiaIDs by attribute definition ID
