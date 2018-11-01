@@ -52,5 +52,5 @@ test_that("wm_external_ fails well", {
 
   expect_error(wm_external_(), "use only one of")
   expect_error(wm_external_("asdfafasdfs"), "id must be of class")
-  expect_error(wm_external_(44444), "\\(204\\) No Content")
+  expect_warning(wm_external_(44444), "\\(204\\) No Content")
 })

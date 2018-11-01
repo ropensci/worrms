@@ -24,5 +24,5 @@ wm_attr_category <- function(id, ...) {
 #' @rdname wm_attr_category
 wm_attr_category_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_attr_category, ...)
+  run_bind(id, wm_attr_category, on_error = warning, ...)
 }

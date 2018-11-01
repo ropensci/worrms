@@ -48,5 +48,5 @@ wm_classification <- function(id, ...) {
 #' @rdname wm_classification
 wm_classification_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_classification, ...)
+  run_bind(id, wm_classification, on_error = warning, ...)
 }

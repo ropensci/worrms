@@ -37,5 +37,6 @@ wm_children <- function(id, marine_only = TRUE, offset = 1, ...) {
 wm_children_ <- function(id = NULL, name = NULL, marine_only = TRUE,
                          offset = 1, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_children, marine_only = marine_only, offset = offset, ...)
+  run_bind(id, wm_children, marine_only = marine_only, offset = offset, 
+    on_error = warning, ...)
 }

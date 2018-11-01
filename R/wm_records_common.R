@@ -37,5 +37,6 @@ wm_records_common <- function(name, fuzzy = FALSE, offset = 1,
 #' @export
 #' @rdname wm_records_common
 wm_records_common_ <- function(name, fuzzy = FALSE, offset = 1, ...) {
-  run_bind(name, wm_records_common, fuzzy = fuzzy, offset = offset, ...)
+  run_bind(name, wm_records_common, fuzzy = fuzzy, offset = offset, 
+    on_error = warning, ...)
 }

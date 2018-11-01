@@ -43,5 +43,5 @@ wm_external <- function(id, type = "tsn", ...) {
 #' @rdname wm_external
 wm_external_ <- function(id = NULL, name = NULL, type = "tsn", ...) {
   id <- id_name(id, name)
-  run_c(id, wm_external, type = type, ...)
+  run_c(id, wm_external, type = type, on_error = warning, ...)
 }

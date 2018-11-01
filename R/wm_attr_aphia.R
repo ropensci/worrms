@@ -28,5 +28,5 @@ wm_attr_aphia <- function(id, offset = 1, ...) {
 #' @rdname wm_attr_aphia
 wm_attr_aphia_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_attr_aphia, ...)
+  run_bind(id, wm_attr_aphia, on_error = warning, ...)
 }

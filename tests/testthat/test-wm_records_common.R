@@ -67,5 +67,5 @@ test_that("wm_records_common_ fails well", {
 
   expect_error(wm_records_common_(), "argument \"name\" is missing")
   expect_error(wm_records_common_(55555), "name must be of class character")
-  expect_error(wm_records_common_("asdfafasdfs"), "\\(204\\) No Content")
+  expect_warning(wm_records_common_("asdfafasdfs"), "\\(204\\) No Content")
 })

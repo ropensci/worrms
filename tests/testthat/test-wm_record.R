@@ -45,5 +45,5 @@ test_that("wm_record_ fails well", {
 
   expect_error(wm_record_(), "use only one of")
   expect_error(wm_record_("asdfafasdfs"), "id must be of class")
-  expect_error(wm_record_(44444), "\\(204\\) No Content")
+  expect_warning(wm_record_(44444), "\\(204\\) No Content")
 })

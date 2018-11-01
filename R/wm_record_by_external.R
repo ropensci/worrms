@@ -28,5 +28,5 @@ wm_record_by_external <- function(id, type = "tsn", ...) {
 #' @rdname wm_record_by_external
 wm_record_by_external_ <- function(id = NULL, name = NULL, type = "tsn", ...) {
   id <- id_name(id, name)
-  run_c(id, wm_record_by_external, type = type, ...)
+  run_c(id, wm_record_by_external, type = type, on_error = warning, ...)
 }

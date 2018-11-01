@@ -24,5 +24,5 @@ wm_sources <- function(id, ...) {
 #' @rdname wm_sources
 wm_sources_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_sources, ...)
+  run_bind(id, wm_sources, on_error = warning, ...)
 }

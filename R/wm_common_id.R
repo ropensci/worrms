@@ -28,5 +28,5 @@ wm_common_id <- function(id, ...) {
 #' @rdname wm_common_id
 wm_common_id_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_common_id, ...)
+  run_bind(id, wm_common_id, on_error = warning, ...)
 }

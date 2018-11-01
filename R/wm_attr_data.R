@@ -28,5 +28,5 @@ wm_attr_data <- function(id, include_inherited = FALSE, ...) {
 #' @rdname wm_attr_data
 wm_attr_data_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_attr_data, ...)
+  run_bind(id, wm_attr_data, on_error = warning, ...)
 }

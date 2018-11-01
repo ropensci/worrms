@@ -24,5 +24,5 @@ wm_distribution <- function(id, ...) {
 #' @rdname wm_distribution
 wm_distribution_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_bind(id, wm_distribution, ...)
+  run_bind(id, wm_distribution, on_error = warning, ...)
 }

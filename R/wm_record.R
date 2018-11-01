@@ -22,5 +22,5 @@ wm_record <- function(id, ...) {
 #' @rdname wm_record
 wm_record_ <- function(id = NULL, name = NULL, ...) {
   id <- id_name(id, name)
-  run_c(id, wm_record, ...)
+  run_c(id, wm_record, on_error = warning, ...)
 }
