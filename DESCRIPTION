@@ -7,7 +7,7 @@ Description: Client for World Register of Marine Species
     common names, searching using external identifiers, fetching
     synonyms, as well as fetching taxonomic children and
     taxonomic classification.
-Version: 0.2.8.9510
+Version: 0.2.8.9511
 Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com",
     comment = c(ORCID = "0000-0003-1444-9135"))
@@ -28,8 +28,7 @@ Suggests:
     roxygen2 (>= 6.1.0),
     knitr,
     testthat,
-    webmockr (>= 0.2.6),
-    vcr (>= 0.1.0)
+    vcr (>= 0.2.0)
 RoxygenNote: 6.1.0
 X-schema.org-applicationCategory: Biology
 X-schema.org-keywords: biology, science, marine, API, web, api-client, worms, species
