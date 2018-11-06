@@ -1,3 +1,25 @@
+worrms 0.3.0
+============
+
+### NEW FEATURES
+
+* xx (#xx)
+* xx (#xx)
+* xx (#xx)
+
+### MINOR IMPROVEMENTS
+
+* xx (#xx)
+* xx (#xx)
+* xx (#xx)
+
+### BUG FIXES
+
+* xx (#xx)
+* xx (#xx)
+* xx (#xx)
+
+
 worrms 0.2.8
 ============
 
