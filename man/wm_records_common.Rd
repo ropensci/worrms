@@ -11,8 +11,8 @@ wm_records_common_(name, fuzzy = FALSE, offset = 1, ...)
 }
 \arguments{
 \item{name}{(character) a species common name. required. For
-\code{wm_records_common} must be \code{length(id) = 1}; for \code{wm_records_common_}
-can be \code{length(id) >= 1}}
+\code{wm_records_common} must be \code{length(name) == 1}; for \code{wm_records_common_}
+can be \code{length(name) >= 1}}
 
 \item{fuzzy}{(logical) fuzzy search. default: \code{FALSE}}
 

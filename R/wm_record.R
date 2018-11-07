@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) an AphiaID. For `wm_record` it's
-#' required and must be `length(id) = 1`, for `wm_record_` it's
+#' required and must be `length(id) == 1`, for `wm_record_` it's
 #' optional and can be `length(id) >= 1`
 #' @param name (character) one or more taxonomic names. optional
 #' @template curl
@@ -15,6 +15,7 @@
 #' }
 wm_record <- function(id, ...) {
   assert(id, c("numeric", "integer"))
+  assert_len(id, 1)
   wm_GET(file.path(wm_base(), "AphiaRecordByAphiaID", id), ...)
 }
 

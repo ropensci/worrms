@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) an AphiaID. For `wm_record_by_external`
-#' it's required and must be `length(id) = 1`, for
+#' it's required and must be `length(id) == 1`, for
 #' `wm_record_by_external_` it's optional and can be `length(id) >= 1`
 #' @param type (character) the type of external id. one of: tsn, bold,
 #' dyntaxa, eol, fishbase, iucn, lsid, ncbi, gisd. default: tsn
@@ -20,6 +20,7 @@
 wm_record_by_external <- function(id, type = "tsn", ...) {
   assert(id, c("numeric", "integer"))
   assert(type, "character")
+  assert_len(id, 1)
   wm_GET(file.path(wm_base(), "AphiaRecordByExternalID", id),
          query = cc(list(type = type)), ...)
 }

@@ -52,6 +52,15 @@ assert <- function(x, y) {
   }
 }
 
+assert_len <- function(x, y) {
+  if (!is.null(x)) {
+    if (length(x) != y) {
+      stop(deparse(substitute(x)), " must be of length ", y, 
+        call. = FALSE)
+    }
+  }
+}
+
 br <- function(x) {
   (x <- data.table::setDF(
     data.table::rbindlist(x, use.names = TRUE, fill = TRUE, idcol = "id")))

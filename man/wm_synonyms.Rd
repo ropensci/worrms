@@ -11,7 +11,7 @@ wm_synonyms_(id = NULL, name = NULL, ...)
 }
 \arguments{
 \item{id}{(numeric/integer) an AphiaID. For \code{wm_synonyms} it's required
-and must be \code{length(id) = 1}, for \code{wm_synonyms_} it's optional and
+and must be \code{length(id) == 1}, for \code{wm_synonyms_} it's optional and
 can be \code{length(id) >= 1}}
 
 \item{...}{named curl options. see \code{curl::curl_options}}

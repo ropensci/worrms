@@ -11,7 +11,7 @@ wm_attr_aphia_(id = NULL, name = NULL, ...)
 }
 \arguments{
 \item{id}{(numeric/integer) a attribute ID. For \code{wm_attr_aphia} it's
-required and must be \code{length(id) = 1}, for \code{wm_attr_aphia_} it's
+required and must be \code{length(id) == 1}, for \code{wm_attr_aphia_} it's
 optional and can be \code{length(id) >= 1}}
 
 \item{offset}{(integer) record to start at. default: 1}

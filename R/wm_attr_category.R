@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) a CategoryID. For `wm_attr_category` it's
-#' required and must be `length(id) = 1`, for `wm_attr_category_` it's
+#' required and must be `length(id) == 1`, for `wm_attr_category_` it's
 #' optional and can be `length(id) >= 1`
 #' @param name (character) one or more taxonomic names. optional
 #' @template curl
@@ -17,6 +17,7 @@
 #' }
 wm_attr_category <- function(id, ...) {
   assert(id, c("numeric", "integer"))
+  assert_len(id, 1)
   wm_GET(file.path(wm_base(), "AphiaAttributeValuesByCategoryID", id), ...)
 }
 

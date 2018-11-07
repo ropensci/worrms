@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) a attribute ID. For `wm_attr_aphia` it's
-#' required and must be `length(id) = 1`, for `wm_attr_aphia_` it's
+#' required and must be `length(id) == 1`, for `wm_attr_aphia_` it's
 #' optional and can be `length(id) >= 1`
 #' @param offset (integer) record to start at. default: 1
 #' @param name (character) one or more taxonomic names. optional
@@ -20,6 +20,7 @@
 wm_attr_aphia <- function(id, offset = 1, ...) {
   assert(id, c("numeric", "integer"))
   assert(offset, c("numeric", "integer"))
+  assert_len(id, 1)
   wm_GET(file.path(wm_base(), "AphiaIDsByAttributeKeyID", id),
   	query = cc(list(offset = offset)), ...)
 }

@@ -12,7 +12,7 @@ wm_children_(id = NULL, name = NULL, marine_only = TRUE,
 }
 \arguments{
 \item{id}{(numeric/integer) an AphiaID. For \code{wm_children} it's
-required and must be \code{length(id) = 1}, for \code{wm_children_} it's
+required and must be \code{length(id) == 1}, for \code{wm_children_} it's
 optional and can be \code{length(id) >= 1}}
 
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}

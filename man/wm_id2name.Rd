@@ -11,7 +11,7 @@ wm_id2name_(id, ...)
 }
 \arguments{
 \item{id}{(numeric/integer) an AphiaID, required. For \code{wm_id2name}
-must be \code{length(id) = 1}, but for \code{wm_id2name_} can be
+must be \code{length(id) == 1}, but for \code{wm_id2name_} can be
 \code{length(id) >= 1}}
 
 \item{...}{named curl options. see \code{curl::curl_options}}

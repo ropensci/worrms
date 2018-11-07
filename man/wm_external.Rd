@@ -11,7 +11,7 @@ wm_external_(id = NULL, name = NULL, type = "tsn", ...)
 }
 \arguments{
 \item{id}{(numeric/integer) an AphiaID. For \code{wm_external} it's
-required and must be \code{length(id) = 1}, for \code{wm_external_} it's
+required and must be \code{length(id) == 1}, for \code{wm_external_} it's
 optional and can be \code{length(id) >= 1}}
 
 \item{type}{(character) the type of external id. one of: tsn, bold,

@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) an AphiaID. For `wm_children` it's
-#' required and must be `length(id) = 1`, for `wm_children_` it's
+#' required and must be `length(id) == 1`, for `wm_children_` it's
 #' optional and can be `length(id) >= 1`
 #' @param name (character) one or more taxonomic names. optional
 #' @template curl
@@ -22,6 +22,7 @@
 #' }
 wm_classification <- function(id, ...) {
   assert(id, c("numeric", "integer"))
+  assert_len(id, 1)
   res <- wm_GET(file.path(wm_base(), "AphiaClassificationByAphiaID", id), ...)
   done <- FALSE
   out <- list()

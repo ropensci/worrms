@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) an AphiaID, required. For `wm_id2name`
-#' must be `length(id) = 1`, but for `wm_id2name_` can be
+#' must be `length(id) == 1`, but for `wm_id2name_` can be
 #' `length(id) >= 1`
 #' @template curl
 #' @template plural

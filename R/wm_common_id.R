@@ -2,7 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) an AphiaID. For `wm_common_id` it's
-#' required and must be `length(id) = 1`, for `wm_common_id_` it's
+#' required and must be `length(id) == 1`, for `wm_common_id_` it's
 #' optional and can be `length(id) >= 1`
 #' @param name (character) one or more taxonomic names. optional
 #' @template curl
@@ -20,7 +20,7 @@
 #' }
 wm_common_id <- function(id, ...) {
   assert(id, c("numeric", "integer"))
-  if (length(id) > 1) stop("'id' must be of length 1", call. = FALSE)
+  assert_len(id, 1)
   wm_GET(file.path(wm_base(), "AphiaVernacularsByAphiaID", id), ...)
 }
 
