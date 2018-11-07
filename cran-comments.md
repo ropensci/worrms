@@ -17,8 +17,7 @@
 ## Reverse dependencies
 
 * I have run R CMD check on the 1 reverse dependency.
-  (Summary at <https://github.com/ropensci/worrms/blob/master/revdep/README.md>).
-  No problems were found. The maintainer was notified of the release.
+  (Summary at <https://github.com/ropensci/worrms/blob/master/revdep/README.md>). No problems were found.
 
 ---
 
