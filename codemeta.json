@@ -10,7 +10,7 @@
   "codeRepository": "https://github.com/ropensci/worrms",
   "issueTracker": "https://github.com/ropensci/worrms/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.2.8.9511",
+  "version": "0.3.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -150,7 +150,7 @@
   "contIntegration": "https://travis-ci.org/ropensci/worrms",
   "releaseNotes": "https://github.com/ropensci/worrms/blob/master/NEWS.md",
   "readme": "https://github.com/ropensci/worrms/blob/master/README.md",
-  "fileSize": "65.15KB",
+  "fileSize": "65.553KB",
   "applicationCategory": "Biology",
   "isPartOf": "https://ropensci.org",
   "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species", "taxonomy", "marine-species", "api-wrapper", "rstats", "r", "r-package", "taxize"],
