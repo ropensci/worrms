@@ -20,8 +20,6 @@ install:
 
 readme: README.Rmd
 	${RSCRIPT} -e "knitr::knit('$<')"
-	sed -i.bak 's/[[:space:]]*$$//' README.md
-	rm -f $@.bak
 
 # No real targets!
 .PHONY: all check document install
