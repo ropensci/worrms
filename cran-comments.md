@@ -21,7 +21,7 @@
 
 ---
 
-This version xxx
+This version improves function behavior across all functions.
 
 Thanks!
 Scott Chamberlain
