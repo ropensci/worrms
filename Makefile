@@ -18,6 +18,9 @@ document:
 install:
 		${RSCRIPT} -e 'devtools::install()'
 
+installvign:
+		${RSCRIPT} -e 'devtools::install(build_vignettes=TRUE)'
+
 readme: README.Rmd
 	${RSCRIPT} -e "knitr::knit('$<')"
 
