@@ -1,3 +1,14 @@
+worrms 0.3.2
+============
+
+### MINOR IMPROVEMENTS
+
+* add link to taxize book in vignette and README (#12)
+
+### BUG FIXES
+
+* fix bug in test regarding date (#19)
+
 worrms 0.3.0
 ============
 

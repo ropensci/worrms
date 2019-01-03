@@ -1,6 +1,6 @@
 ## Test environments
 
-* local OS X install, R 3.5.1 patched
+* local OS X install, R 3.5.2 patched
 * ubuntu 14.04 (on travis-ci), R 3.5.1
 * win-builder (devel and release)
 
@@ -21,7 +21,7 @@
 
 ---
 
-This version improves function behavior across all functions.
+This version fixes a test and updates documentation.
 
 Thanks!
 Scott Chamberlain
