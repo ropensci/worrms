@@ -25,6 +25,9 @@ knitr::opts_chunk$set(
 * [World Register of Marine Species (WoRMS)](http://www.marinespecies.org/)
 * [WoRMS REST API docs](http://www.marinespecies.org/rest/)
 
+See the [taxize book](https://ropensci.github.io/taxize-book/) for taxonomically focused work
+in this and similar packages.
+
 ## Installation
 
 More stable CRAN version
