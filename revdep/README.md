@@ -2,21 +2,21 @@
 
 |field    |value                                       |
 |:--------|:-------------------------------------------|
-|version  |R version 3.5.1 Patched (2018-08-12 r75119) |
-|os       |macOS High Sierra 10.13.6                   |
+|version  |R version 3.5.2 Patched (2018-12-31 r75943) |
+|os       |macOS Mojave 10.14.2                        |
 |system   |x86_64, darwin15.6.0                        |
 |ui       |X11                                         |
 |language |(EN)                                        |
 |collate  |en_US.UTF-8                                 |
 |ctype    |en_US.UTF-8                                 |
 |tz       |US/Pacific                                  |
-|date     |2018-11-06                                  |
+|date     |2019-01-03                                  |
 
 # Dependencies
 
 |package |old   |new |Δ  |
 |:-------|:-----|:---|:--|
-|worrms  |0.2.8 |NA  |*  |
+|worrms  |0.3.0 |NA  |*  |
 
 # Revdeps
 
