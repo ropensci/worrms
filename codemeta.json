@@ -10,14 +10,14 @@
   "codeRepository": "https://github.com/ropensci/worrms",
   "issueTracker": "https://github.com/ropensci/worrms/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.5.1",
+    "version": "3.5.2",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.5.1 Patched (2018-08-12 r75119)",
+  "runtimePlatform": "R version 3.5.2 Patched (2018-12-31 r75943)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -47,7 +47,7 @@
       "@type": "SoftwareApplication",
       "identifier": "roxygen2",
       "name": "roxygen2",
-      "version": ">= 6.1.0",
+      "version": ">= 6.1.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -99,7 +99,7 @@
       "@type": "SoftwareApplication",
       "identifier": "crul",
       "name": "crul",
-      "version": ">= 0.3.6",
+      "version": ">= 0.6.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -150,9 +150,9 @@
   "contIntegration": "https://travis-ci.org/ropensci/worrms",
   "releaseNotes": "https://github.com/ropensci/worrms/blob/master/NEWS.md",
   "readme": "https://github.com/ropensci/worrms/blob/master/README.md",
-  "fileSize": "65.553KB",
+  "fileSize": "64.535KB",
   "applicationCategory": "Biology",
   "isPartOf": "https://ropensci.org",
-  "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species", "taxonomy", "marine-species", "api-wrapper", "rstats", "r", "r-package", "taxize"],
+  "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species", "taxonomy", "marine-species", "api-wrapper", "rstats", "r", "r-package", "taxize", "biological-data", "fish", "marine-biology"],
   "developmentStatus": "https://www.repostatus.org/#active"
 }
