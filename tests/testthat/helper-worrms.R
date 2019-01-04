@@ -3,7 +3,9 @@ library("vcr")
 invisible(vcr::vcr_configure(dir = "../fixtures/vcr_cassettes"))
 
 has_internet <- function() {
-  !is.null(suppressWarnings(utils::nsl("www.google.com")))
+  z <- try(suppressWarnings(readLines('https://www.google.com', n = 1)), 
+    silent = TRUE)
+  !inherits(z, "try-error")
 }
 
 skip_if_net_down <- function() {
