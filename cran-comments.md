@@ -21,7 +21,7 @@
 
 ---
 
-This version fixes a test and updates documentation.
+This version fixes a test that was raised in an email from CRAN maintainers, and updates documentation. 
 
 Thanks!
 Scott Chamberlain
