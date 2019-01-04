@@ -150,7 +150,7 @@
   "contIntegration": "https://travis-ci.org/ropensci/worrms",
   "releaseNotes": "https://github.com/ropensci/worrms/blob/master/NEWS.md",
   "readme": "https://github.com/ropensci/worrms/blob/master/README.md",
-  "fileSize": "64.535KB",
+  "fileSize": "60.314KB",
   "applicationCategory": "Biology",
   "isPartOf": "https://ropensci.org",
   "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species", "taxonomy", "marine-species", "api-wrapper", "rstats", "r", "r-package", "taxize", "biological-data", "fish", "marine-biology"],
