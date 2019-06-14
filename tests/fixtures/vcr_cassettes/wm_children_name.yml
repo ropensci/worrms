@@ -1,44 +1,12 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaIDByName/Platanista
-    body:
-      encoding: ''
-      string: ''
-    headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
-      Accept-Encoding: gzip, deflate
-      Accept: application/json, text/xml, application/xml, */*
-  response:
-    status:
-      status_code: '200'
-      message: OK
-      explanation: Request fulfilled, document follows
-    headers:
-      status: HTTP/1.1 200 OK
-      date: Tue, 01 May 2018 21:33:25 GMT
-      server: Apache/2.4.25 (Win32) PHP/5.6.29
-      x-powered-by: PHP/5.6.29
-      access-control-allow-origin: '*'
-      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
-        Authorization
-      access-control-allow-methods: GET, POST, OPTIONS
-      content-length: '6'
-      content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc1; path=/
-    body:
-      encoding: UTF-8
-      string: '254966'
-  recorded_at: 2018-05-01 21:33:27 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
-- request:
-    method: get
     uri: http://www.marinespecies.org/rest/AphiaIDByName/Leucophaeus
     body:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.7.4.9315
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -48,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Tue, 01 May 2018 21:33:26 GMT
+      date: Fri, 14 Jun 2019 16:05:21 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -56,55 +24,12 @@ http_interactions:
         Authorization
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '6'
-      content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc2; path=/
+      content-type: application/json
     body:
       encoding: UTF-8
       string: '343613'
-  recorded_at: 2018-05-01 21:33:27 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
-- request:
-    method: get
-    uri: http://www.marinespecies.org/rest/AphiaChildrenByAphiaID/254966?marine_only=true&offset=1
-    body:
-      encoding: ''
-      string: ''
-    headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
-      Accept-Encoding: gzip, deflate
-      Accept: application/json, text/xml, application/xml, */*
-  response:
-    status:
-      status_code: '200'
-      message: OK
-      explanation: Request fulfilled, document follows
-    headers:
-      status: HTTP/1.1 200 OK
-      date: Tue, 01 May 2018 21:33:26 GMT
-      server: Apache/2.4.25 (Win32) PHP/5.6.29
-      x-powered-by: PHP/5.6.29
-      access-control-allow-origin: '*'
-      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
-        Authorization
-      access-control-allow-methods: GET, POST, OPTIONS
-      content-length: '1734'
-      content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc2; path=/
-    body:
-      encoding: UTF-8
-      string: '[{"AphiaID":254967,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254967","scientificname":"Platanista
-        gangetica","authority":"(Lebeck, 1801)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254967,"valid_name":"Platanista
-        gangetica","valid_authority":"(Lebeck, 1801)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Platanista gangetica (Lebeck, 1801).
-        Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254967
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254967","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2010-01-04T17:38:16Z"},{"AphiaID":254968,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254968","scientificname":"Platanista
-        minor","authority":"Owen, 1853","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":254969,"valid_name":"Platanista
-        gangetica minor","valid_authority":"Owen, 1853","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Platanista minor Owen, 1853. Accessed
-        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254968
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254968","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2012-10-24T23:23:36Z"}]'
-  recorded_at: 2018-05-01 21:33:27 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
+  recorded_at: 2019-06-14 16:05:23 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaChildrenByAphiaID/343613?marine_only=true&offset=1
@@ -112,7 +37,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.7.4.9315
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -122,30 +47,21 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Tue, 01 May 2018 21:33:27 GMT
+      date: Fri, 14 Jun 2019 16:05:22 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
       access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
         Authorization
       access-control-allow-methods: GET, POST, OPTIONS
-      content-length: '2365'
-      content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc1; path=/
+      content-length: '835'
+      content-type: application/json
     body:
       encoding: UTF-8
-      string: '[{"AphiaID":882956,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=882956","scientificname":"Leucophaeus
-        atricilla","authority":"(Linnaeus, 1758)","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":159074,"valid_name":"Larus
-        atricilla","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Leucophaeus","citation":"WoRMS
-        (2018). Leucophaeus atricilla (Linnaeus, 1758). Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=882956
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:882956","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2016-08-11T09:15:01Z"},{"AphiaID":882957,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=882957","scientificname":"Leucophaeus
-        pipixcan","authority":"(Wagler, 1831)","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":159077,"valid_name":"Larus
-        pipixcan","valid_authority":"Wagler, 1813","kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Leucophaeus","citation":"WoRMS
-        (2018). Leucophaeus pipixcan (Wagler, 1831). Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=882957
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:882957","isMarine":null,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2016-08-11T09:15:01Z"},{"AphiaID":344089,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089","scientificname":"Leucophaeus
-        scoresbii","authority":"Traill, 1823","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":344089,"valid_name":"Leucophaeus
-        scoresbii","valid_authority":"Traill, 1823","kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Leucophaeus","citation":"WoRMS
-        (2018). Leucophaeus scoresbii Traill, 1823. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:344089","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2011-04-08T08:18:06Z"}]'
-  recorded_at: 2018-05-01 21:33:27 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
+      string: '[{"AphiaID":344089,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089","scientificname":"Leucophaeus
+        scoresbii","authority":"Traill, 1823","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":344089,"valid_name":"Leucophaeus
+        scoresbii","valid_authority":"Traill, 1823","parentNameUsageID":343613,"kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Leucophaeus","citation":"WoRMS
+        (2019). Leucophaeus scoresbii Traill, 1823. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089
+        on 2019-06-14","lsid":"urn:lsid:marinespecies.org:taxname:344089","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2011-04-08T06:18:06.150Z"}]'
+  recorded_at: 2019-06-14 16:05:23 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4

@@ -39,7 +39,10 @@ test_that("wm_children fails well", {
 
   expect_error(wm_children(), "argument \"id\" is missing")
   expect_error(wm_children("asdfafasdfs"), "id must be of class")
-  expect_error(wm_children(44444), "\\(204\\) No Content")
+
+  vcr::use_cassette("wm_children_error", {
+    expect_error(wm_children(44444), "\\(204\\) No Content")
+  })
 })
 
 
@@ -67,13 +70,12 @@ test_that("wm_children_ basic usage works", {
 
 test_that("wm_children_ - 'name' input works", {
   vcr::use_cassette("wm_children_name", {
-    aa <- wm_children_(name = c('Platanista', 'Leucophaeus'))
+    aa <- wm_children_(name = 'Leucophaeus')
 
     expect_is(aa, "tbl_df")
     expect_is(aa, "data.frame")
-    expect_true(any(grepl('Platanista', aa$scientificname)))
     expect_true(any(grepl('Leucophaeus', aa$scientificname)))
-  }, record = "all")
+  })
 })
 
 test_that("wm_children_ fails well", {
