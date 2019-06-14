@@ -10,14 +10,14 @@
   "codeRepository": "https://github.com/ropensci/worrms",
   "issueTracker": "https://github.com/ropensci/worrms/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.5.2",
+    "version": "3.6.0",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.5.2 Patched (2018-12-31 r75943)",
+  "runtimePlatform": "R version 3.6.0 Patched (2019-04-30 r76446)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -150,9 +150,12 @@
   "contIntegration": "https://travis-ci.org/ropensci/worrms",
   "releaseNotes": "https://github.com/ropensci/worrms/blob/master/NEWS.md",
   "readme": "https://github.com/ropensci/worrms/blob/master/README.md",
-  "fileSize": "60.314KB",
+  "fileSize": "68.17KB",
   "applicationCategory": "Biology",
   "isPartOf": "https://ropensci.org",
   "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species", "taxonomy", "marine-species", "api-wrapper", "rstats", "r", "r-package", "taxize", "biological-data", "fish", "marine-biology"],
-  "developmentStatus": "https://www.repostatus.org/#active"
+  "developmentStatus": "https://www.repostatus.org/#active",
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {}
 }
