@@ -1,9 +1,11 @@
 #' Get taxonomic ranks by their identifier
 #'
 #' @export
+#' @name wm_ranks
 #' @param rank_id (numeric/integer) a rank identifier. length==1
 #' @param rank_name (character) a rank name. length==1
 #' @param id an AphiaID. length==1
+#' @param offset (integer) record to start at. default: 1
 #' @template curl
 #' @return A tibble/data.frame
 #' @examples \dontrun{
@@ -14,6 +16,9 @@
 #' wm_ranks_name("genus")
 #' wm_ranks_name("genus", id = 4)
 #' }
+
+#' @export
+#' @rdname wm_ranks
 wm_ranks_id <- function(rank_id, id = NULL, offset = 1, ...) {
   assert(rank_id, c("numeric", "integer"))
   assert(id, c("numeric", "integer"))

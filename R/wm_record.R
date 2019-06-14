@@ -2,9 +2,7 @@
 #'
 #' @export
 #' @param id (numeric/integer) one or more AphiaID's.
-#' @param name (character) one or more taxonomic names. optional
 #' @template curl
-#' @template plural
 #' @return A data.frame, one record for each id
 #' @note `wm_record_` is defunct, `wm_record` can do plural requests now
 #' @examples \dontrun{
@@ -18,7 +16,10 @@ wm_record <- function(id, ...) {
     query = args, ...)
 }
 
+#' Get complete AphiaRecord for an AphiaID - plural version
 #' @export
+#' @details This function is defunct - see [wm_record()]
+#' @param ... ignored
 #' @rdname wm_record_-defunct
 wm_record_ <- function(...) {
   .Defunct("wm_record")

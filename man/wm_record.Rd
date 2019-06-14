@@ -10,8 +10,6 @@ wm_record(id, ...)
 \item{id}{(numeric/integer) one or more AphiaID's.}
 
 \item{...}{named curl options. see \code{curl::curl_options}}
-
-\item{name}{(character) one or more taxonomic names. optional}
 }
 \value{
 A data.frame, one record for each id
@@ -22,19 +20,6 @@ Get complete AphiaRecord for an AphiaID
 \note{
 \code{wm_record_} is defunct, \code{wm_record} can do plural requests now
 }
-\section{Singular vs. plural}{
-
-Of the two sister functions, the one without the underscore is the original
-function that wraps the relavant WoRMS API method - and only accepts
-one thing (i.e., name or AphiaID) per request.
-
-The sister function with the underscore at the end is the plural version,
-accepting more than one input. Internally this function loops over
-the non-underscore method, and labels output (whether it's a list or
-data.frame rows) with the input names or IDs so that you can easily
-parse output by your inputs.
-}
-
 \examples{
 \dontrun{
 wm_record(id = 105706)
