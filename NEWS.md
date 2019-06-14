@@ -1,3 +1,25 @@
+worrms 0.4.0
+============
+
+### NEW FEATURES
+
+* new functions `wm_ranks_id()` and `wm_ranks_name()` for getting taxonomic ranks by rank identifier or rank name (#20)
+* new function `wm_records_rank()` for getting AphiaRecords for a given rank id (#20)
+
+### MINOR IMPROVEMENTS
+
+* `wm_synonyms()` gains `offset` parameter to allow pagination (#20)
+* `tibble::as_data_frame()` replaced with `tibble::as_tibble()`
+
+### DEPRECATED AND DEFUNCT
+
+* `wm_record_()` now defunct; `wm_record()` now handles 1 or more AphiaID's
+
+### BUG FIXES
+
+* fix `wm_children` test that was failing on cran checks (#21)
+
+
 worrms 0.3.2
 ============
 

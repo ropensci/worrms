@@ -1,4 +1,4 @@
-#' Get the AphiaRecords for a given taxonRankID
+#' Get AphiaRecords for a given taxonRankID
 #'
 #' @export
 #' @param rank_id (numeric/integer) a rank id
