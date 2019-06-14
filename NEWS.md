@@ -13,7 +13,7 @@ worrms 0.4.0
 
 ### DEPRECATED AND DEFUNCT
 
-* `wm_record_()` now defunct; `wm_record()` now handles 1 or more AphiaID's
+* `wm_record_()` is deprecated; `wm_record()` now handles 1 or more AphiaID's
 
 ### BUG FIXES
 

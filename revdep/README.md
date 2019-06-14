@@ -2,27 +2,27 @@
 
 |field    |value                                       |
 |:--------|:-------------------------------------------|
-|version  |R version 3.5.2 Patched (2018-12-31 r75943) |
-|os       |macOS Mojave 10.14.2                        |
+|version  |R version 3.6.0 Patched (2019-04-30 r76446) |
+|os       |macOS Mojave 10.14.5                        |
 |system   |x86_64, darwin15.6.0                        |
 |ui       |X11                                         |
 |language |(EN)                                        |
 |collate  |en_US.UTF-8                                 |
 |ctype    |en_US.UTF-8                                 |
 |tz       |US/Pacific                                  |
-|date     |2019-01-03                                  |
+|date     |2019-06-14                                  |
 
 # Dependencies
 
-|package |old   |new |Δ  |
-|:-------|:-----|:---|:--|
-|worrms  |0.3.0 |NA  |*  |
+|package |old   |new   |Δ  |
+|:-------|:-----|:-----|:--|
+|worrms  |0.3.2 |0.4.0 |*  |
 
 # Revdeps
 
-## All (1)
+## New problems (0)
 
-|package |version |error |warning |note |
-|:-------|:-------|:-----|:-------|:----|
-|taxize  |0.9.4   |      |        |     |
+|package                      |version |error  |warning |note |
+|:----------------------------|:-------|:------|:-------|:----|
+|[taxize](problems.md#taxize) |0.9.7   |       |        |1    |
 

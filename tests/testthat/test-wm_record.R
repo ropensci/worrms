@@ -32,8 +32,6 @@ test_that("wm_record - default usage works", {
 })
 
 
-
-context("wm_record_ - defunct")
-test_that("wm_record_ - default usage works", {
-    expect_error(wm_record_(id = 105706), "defunct", class = "error")
+test_that("wm_record_ - deprecated", {
+  expect_warning(wm_record_(id = 105706), "deprecated")
 })

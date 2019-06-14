@@ -2,7 +2,7 @@
 % Please edit documentation in R/wm_records_rank.R
 \name{wm_records_rank}
 \alias{wm_records_rank}
-\title{Get the AphiaRecords for a given taxonRankID}
+\title{Get AphiaRecords for a given taxonRankID}
 \usage{
 wm_records_rank(rank_id, id = NULL, offset = 1, ...)
 }
@@ -20,7 +20,7 @@ A tibble/data.frame. when using underscore method, outputs from
 each input are binded together, but can be split by \code{id} column
 }
 \description{
-Get the AphiaRecords for a given taxonRankID
+Get AphiaRecords for a given taxonRankID
 }
 \section{Singular vs. plural}{
 

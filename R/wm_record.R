@@ -1,13 +1,19 @@
 #' Get complete AphiaRecord for an AphiaID
 #'
 #' @export
-#' @param id (numeric/integer) one or more AphiaID's.
+#' @param id (numeric/integer) an AphiaID. For `wm_record` it's
+#' required and must be `length(id) == 1`, for `wm_record_` it's
+#' optional and can be `length(id) >= 1`
+#' @param name (character) one or more taxonomic names. optional
 #' @template curl
-#' @return A data.frame, one record for each id
+#' @template plural
+#' @return A named list. When using underscore method, each output is named
+#' by the input ID, and can be separated by the list names
 #' @note `wm_record_` is defunct, `wm_record` can do plural requests now
 #' @examples \dontrun{
 #' wm_record(id = 105706)
 #' wm_record(id = c(105706, 126436))
+#' wm_record_(id = c(105706, 126436))
 #' }
 wm_record <- function(id, ...) {
   assert(id, c("numeric", "integer"))
@@ -16,11 +22,10 @@ wm_record <- function(id, ...) {
     query = args, ...)
 }
 
-#' Get complete AphiaRecord for an AphiaID - plural version
 #' @export
-#' @details This function is defunct - see [wm_record()]
-#' @param ... ignored
-#' @rdname wm_record_-defunct
-wm_record_ <- function(...) {
-  .Defunct("wm_record")
+#' @rdname wm_record
+wm_record_ <- function(id = NULL, name = NULL, ...) {
+  .Deprecated(msg="wm_record_ is deprecated; wm_record now does >1 id")
+  id <- id_name(id, name)
+  run_c(id, wm_record, on_error = warning, ...)
 }
