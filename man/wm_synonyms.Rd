@@ -5,7 +5,7 @@
 \alias{wm_synonyms_}
 \title{Get synonyms for an AphiaID}
 \usage{
-wm_synonyms(id, ...)
+wm_synonyms(id, offset = 1, ...)
 
 wm_synonyms_(id = NULL, name = NULL, ...)
 }
@@ -13,6 +13,8 @@ wm_synonyms_(id = NULL, name = NULL, ...)
 \item{id}{(numeric/integer) an AphiaID. For \code{wm_synonyms} it's required
 and must be \code{length(id) == 1}, for \code{wm_synonyms_} it's optional and
 can be \code{length(id) >= 1}}
+
+\item{offset}{(integer) record to start at. default: 1}
 
 \item{...}{named curl options. see \code{curl::curl_options}}
 
@@ -42,6 +44,8 @@ parse output by your inputs.
 \dontrun{
 wm_synonyms(id = 105706)
 wm_synonyms_(id = 105706)
+wm_synonyms(id = 126436)
+wm_synonyms(id = 126436, offset = 10)
 wm_synonyms_(id = c(105706, 126436))
 }
 }

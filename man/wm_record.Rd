@@ -2,28 +2,25 @@
 % Please edit documentation in R/wm_record.R
 \name{wm_record}
 \alias{wm_record}
-\alias{wm_record_}
 \title{Get complete AphiaRecord for an AphiaID}
 \usage{
 wm_record(id, ...)
-
-wm_record_(id = NULL, name = NULL, ...)
 }
 \arguments{
-\item{id}{(numeric/integer) an AphiaID. For \code{wm_record} it's
-required and must be \code{length(id) == 1}, for \code{wm_record_} it's
-optional and can be \code{length(id) >= 1}}
+\item{id}{(numeric/integer) one or more AphiaID's.}
 
 \item{...}{named curl options. see \code{curl::curl_options}}
 
 \item{name}{(character) one or more taxonomic names. optional}
 }
 \value{
-A named list. When using underscore method, each output is named
-by the input ID, and can be separated by the list names
+A data.frame, one record for each id
 }
 \description{
 Get complete AphiaRecord for an AphiaID
+}
+\note{
+\code{wm_record_} is defunct, \code{wm_record} can do plural requests now
 }
 \section{Singular vs. plural}{
 
@@ -41,6 +38,6 @@ parse output by your inputs.
 \examples{
 \dontrun{
 wm_record(id = 105706)
-wm_record_(id = c(105706, 126436))
+wm_record(id = c(105706, 126436))
 }
 }

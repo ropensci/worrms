@@ -5,6 +5,7 @@
 #' and must be `length(id) == 1`, for `wm_synonyms_` it's optional and
 #' can be `length(id) >= 1`
 #' @param name (character) one or more taxonomic names. optional
+#' @param offset (integer) record to start at. default: 1
 #' @template curl
 #' @template plural
 #' @return A tibble/data.frame. when using underscore method, outputs from
@@ -12,12 +13,16 @@
 #' @examples \dontrun{
 #' wm_synonyms(id = 105706)
 #' wm_synonyms_(id = 105706)
+#' wm_synonyms(id = 126436)
+#' wm_synonyms(id = 126436, offset = 10)
 #' wm_synonyms_(id = c(105706, 126436))
 #' }
-wm_synonyms <- function(id, ...) {
+wm_synonyms <- function(id, offset = 1, ...) {
   assert(id, c("numeric", "integer"))
+  assert(offset, c("numeric", "integer"))
   assert_len(id, 1)
-  wm_GET(file.path(wm_base(), "AphiaSynonymsByAphiaID", id), ...)
+  wm_GET(file.path(wm_base(), "AphiaSynonymsByAphiaID", id), 
+    query = cc(list(offset = offset)), ...)
 }
 
 #' @export
