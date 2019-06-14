@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Fri, 14 Jun 2019 18:28:23 GMT
+      date: Fri, 14 Jun 2019 19:20:13 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -25,7 +25,7 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '761'
       content-type: application/json
-      set-cookie: vliz_webc=vliz_webc1; path=/
+      set-cookie: vliz_webc=vliz_webc2; path=/
     body:
       encoding: UTF-8
       string: '{"AphiaID":1080,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1080","scientificname":"Copepoda","authority":"Milne
@@ -33,7 +33,7 @@ http_interactions:
         Edwards, 1840","parentNameUsageID":889925,"kingdom":"Animalia","phylum":"Arthropoda","class":"Hexanauplia","order":null,"family":null,"genus":null,"citation":"WoRMS
         (2019). Copepoda. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=1080
         on 2019-06-14","lsid":"urn:lsid:marinespecies.org:taxname:1080","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2016-11-30T12:36:48.403Z"}'
-  recorded_at: 2019-06-14 18:28:25 GMT
+  recorded_at: 2019-06-14 19:20:15 GMT
   recorded_with: vcr/0.2.6, webmockr/0.3.4
 - request:
     method: get
@@ -52,7 +52,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Fri, 14 Jun 2019 18:28:24 GMT
+      date: Fri, 14 Jun 2019 19:20:14 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -61,7 +61,7 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '938'
       content-type: application/json
-      set-cookie: vliz_webc=vliz_webc2; path=/
+      set-cookie: vliz_webc=vliz_webc1; path=/
     body:
       encoding: UTF-8
       string: '{"AphiaID":105706,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105706","scientificname":"Rhincodontidae","authority":"M\u00fcller
@@ -70,5 +70,5 @@ http_interactions:
         R. and D. Pauly. Editors. (2019). FishBase. Rhincodontidae M\u00fcller & Henle,
         1841. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105706
         on 2019-06-14","lsid":"urn:lsid:marinespecies.org:taxname:105706","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T08:48:21.843Z"}'
-  recorded_at: 2019-06-14 18:28:25 GMT
+  recorded_at: 2019-06-14 19:20:15 GMT
   recorded_with: vcr/0.2.6, webmockr/0.3.4
