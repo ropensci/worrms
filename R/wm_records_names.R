@@ -9,9 +9,9 @@
 #' as this is the plural version for [wm_records_name()]
 #' @return A list of tibble's/data.frame's, one for each of the input names
 #' @examples \dontrun{
-#' wm_records_names(name = 'Platanista gangetica')
-#' wm_records_names(name = 'Platanista gangetica', fuzzy = TRUE)
-#' wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
+#' wm_records_names(name = 'Leucophaeus scoresbii')
+#' wm_records_names(name = 'Leucophaeus scoresbii', fuzzy = TRUE)
+#' wm_records_names(name = c('Leucophaeus scoresbii', 'Coryphaena'))
 #' }
 wm_records_names <- function(name, fuzzy = FALSE, marine_only = TRUE, ...) {
   assert(name, "character")

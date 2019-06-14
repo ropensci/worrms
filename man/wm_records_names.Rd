@@ -27,8 +27,8 @@ as this is the plural version for \code{\link[=wm_records_name]{wm_records_name(
 }
 \examples{
 \dontrun{
-wm_records_names(name = 'Platanista gangetica')
-wm_records_names(name = 'Platanista gangetica', fuzzy = TRUE)
-wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
+wm_records_names(name = 'Leucophaeus scoresbii')
+wm_records_names(name = 'Leucophaeus scoresbii', fuzzy = TRUE)
+wm_records_names(name = c('Leucophaeus scoresbii', 'Coryphaena'))
 }
 }

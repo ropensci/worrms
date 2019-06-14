@@ -45,15 +45,13 @@ parse output by your inputs.
 
 \examples{
 \dontrun{
+wm_children(343613)
 wm_children(id = 105706)
 wm_children(id = 105706, FALSE)
 wm_children(id = 105706, offset = 5)
 
-wm_children(254966)
-wm_children(343613)
-
 # plural version, via id or name
-wm_children_(id = c(254966, 343613))
-wm_children_(name = c('Platanista', 'Leucophaeus'))
+wm_children_(id = c(105706, 343613))
+wm_children_(name = c('Mesodesma', 'Leucophaeus'))
 }
 }

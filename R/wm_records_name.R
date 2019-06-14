@@ -10,9 +10,9 @@
 #' as there is already a plural version: [wm_records_names()]
 #' @return A tibble/data.frame
 #' @examples \dontrun{
-#' wm_records_name(name = 'Platanista gangetica')
-#' wm_records_name(name = 'Platanista gangetica', fuzzy = FALSE)
-#' wm_records_name(name = 'Platanista gangetica', marine_only = FALSE)
+#' wm_records_name(name = 'Leucophaeus')
+#' wm_records_name(name = 'Leucophaeus', fuzzy = FALSE)
+#' wm_records_name(name = 'Leucophaeus', marine_only = FALSE)
 #' wm_records_name(name = 'Platanista', marine_only = FALSE)
 #' wm_records_name(name = 'Platanista', marine_only = FALSE, offset = 5)
 #' }

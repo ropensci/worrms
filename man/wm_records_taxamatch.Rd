@@ -27,7 +27,7 @@ as this function already accepts many names
 }
 \examples{
 \dontrun{
-wm_records_taxamatch(name = 'Platanista gangetica')
-wm_records_taxamatch(name = c('Platanista gangetica', 'Coryphaena'))
+wm_records_taxamatch(name = 'Leucophaeus')
+wm_records_taxamatch(name = c('Leucophaeus', 'Coryphaena'))
 }
 }
