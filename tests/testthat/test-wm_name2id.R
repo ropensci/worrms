@@ -33,7 +33,7 @@ test_that("wm_name2id_ - default usage works", {
     expect_type(bb, "list")
     expect_type(bb[[1]], "integer")
     expect_named(bb, c("Rhincodon", "Gadus morhua"))
-  }, record = "all")
+  })
 })
 
 test_that("wm_name2id_ fails well", {

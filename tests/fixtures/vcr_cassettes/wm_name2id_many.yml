@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Fri, 14 Jun 2019 19:20:12 GMT
+      date: Fri, 14 Jun 2019 19:26:50 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -25,11 +25,10 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '6'
       content-type: application/json
-      set-cookie: vliz_webc=vliz_webc2; path=/
     body:
       encoding: UTF-8
       string: '105749'
-  recorded_at: 2019-06-14 19:20:12 GMT
+  recorded_at: 2019-06-14 19:26:51 GMT
   recorded_with: vcr/0.2.6, webmockr/0.3.4
 - request:
     method: get
@@ -48,7 +47,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Fri, 14 Jun 2019 19:20:12 GMT
+      date: Fri, 14 Jun 2019 19:26:50 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -57,9 +56,8 @@ http_interactions:
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '6'
       content-type: application/json
-      set-cookie: vliz_webc=vliz_webc2; path=/
     body:
       encoding: UTF-8
       string: '126436'
-  recorded_at: 2019-06-14 19:20:12 GMT
+  recorded_at: 2019-06-14 19:26:51 GMT
   recorded_with: vcr/0.2.6, webmockr/0.3.4

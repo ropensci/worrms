@@ -53,7 +53,7 @@ test_that("wm_record_by_external_ - default - by id type tsn", {
     bb <- wm_record_by_external_(id = c(85257, 159854))
     expect_is(bb, "list")
     expect_named(bb, c("85257", "159854"))
-  }, record = "all")
+  })
 })
 
 test_that("wm_record_by_external_ fails well", {

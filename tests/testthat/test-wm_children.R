@@ -30,7 +30,7 @@ test_that("wm_children - offset parameter works", {
     off1 <- wm_children(id = 105706, offset = 1)
     off2 <- wm_children(id = 105706, offset = 2)
 
-  }, record = "all", match_requests_on = c("method", "uri", "query"))
+  }, match_requests_on = c("method", "uri", "query"))
   
   expect_equal(off1$AphiaID[1], 297110)
   expect_equal(off2$AphiaID[1], 398065)

@@ -44,7 +44,7 @@ test_that("wm_external_ - default usage works", {
     bb <- wm_external_(id = c(1080, 126436))
     expect_type(bb, "list")
     expect_named(bb, c('1080', '126436'))
-  }, record = "all")
+  })
 })
 
 test_that("wm_external_ fails well", {

@@ -36,7 +36,7 @@ test_that("wm_classification_ works", {
     expect_is(bb, "tbl_df")
     expect_is(bb, "data.frame")
     expect_named(bb, c('id', 'AphiaID', 'rank', 'scientificname'))
-  }, record = "all")
+  })
 })
 
 test_that("wm_classification_ fails well", {
