@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 * [World Register of Marine Species (WoRMS)](http://www.marinespecies.org/)
 * [WoRMS REST API docs](http://www.marinespecies.org/rest/)
 
-See the [taxize book](https://ropensci.github.io/taxize-book/) for taxonomically focused work
+See the [taxize book](https://ropenscilabs.github.io/taxize-book/) for taxonomically focused work
 in this and similar packages.
 
 ## Installation
@@ -110,7 +110,9 @@ wm_attr_aphia(id = 4)
 * Please [report any issues or bugs](https://github.com/ropensci/worrms/issues).
 * License: MIT
 * Get citation information for `worrms` in R doing `citation(package = 'worrms')`
-* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+* Please note that this project is released with a [Contributor Code of Conduct][coc].
 By participating in this project you agree to abide by its terms.
 
 [![rofooter](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
+
+[coc]: https://github.com/ropensci/worrms/blob/master/CODE_OF_CONDUCT.md

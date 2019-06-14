@@ -18,7 +18,7 @@ Introduction to the worrms package
 
 `worrms` is an R client for the [World Register of Marine Species](http://www.marinespecies.org/).
 
-See the [taxize book](https://ropensci.github.io/taxize-book/) for taxonomically focused work
+See the [taxize book](https://ropenscilabs.github.io/taxize-book/) for taxonomically focused work
 in this and similar packages.
 
 ## Install

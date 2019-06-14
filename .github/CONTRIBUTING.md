@@ -20,11 +20,3 @@ If you are considering a pull request, you may want to open an issue first to di
 ### Discussion forum
 
 Check out our [discussion forum](https://discuss.ropensci.org) if you think your issue requires a longer form discussion.
-
-### Prefer to Email? 
-
-Email the person listed as maintainer in the `DESCRIPTION` file of this repo.
-
-Though note that private discussions over email don't help others - of course email is totally warranted if it's a sensitive problem of any kind.
-
-### Thanks for contributing!

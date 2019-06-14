@@ -3,11 +3,11 @@ RSCRIPT = Rscript --no-init-file
 all: document install
 
 move:
-	cp inst/vign/worrms_vignette.md vignettes
+	cp inst/vign/worrms.md vignettes
 
 rmd2md:
 	cd vignettes;\
-	mv worrms_vignette.md worrms_vignette.Rmd
+	mv worrms.md worrms.Rmd
 
 check:
 	${RSCRIPT} -e 'devtools::check(document = FALSE, cran = TRUE)'

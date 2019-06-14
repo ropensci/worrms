@@ -1,0 +1,227 @@
+<!--
+%\VignetteEngine{knitr::knitr}
+%\VignetteIndexEntry{Introduction to the worrms package}
+%\VignetteEncoding{UTF-8}
+-->
+
+
+
+Introduction to the worrms package
+==================================
+
+`worrms` is an R client for the [World Register of Marine Species](http://www.marinespecies.org/).
+
+See the [taxize book](https://ropenscilabs.github.io/taxize-book/) for taxonomically focused work
+in this and similar packages.
+
+## Install
+
+Stable version from CRAN
+
+
+```r
+install.packages("worrms")
+```
+
+Development version from GitHub
+
+
+```r
+install.packages("devtools")
+devtools::install_github("ropensci/worrms")
+```
+
+
+```r
+library("worrms")
+```
+
+## Get records
+
+WoRMS 'records' are taxa, not specimen occurrences or something else.
+
+by date
+
+
+```r
+wm_records_date('2016-12-23T05:59:45+00:00')
+#> # A tibble: 50 x 27
+#>    AphiaID url   scientificname authority status unacceptreason taxonRankID
+#>      <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int>
+#>  1  894302 http… Paleopolymorp… Vasilenk… accep… NA                     220
+#>  2  894296 http… Parapachyphlo… Miklukho… accep… NA                     220
+#>  3  894298 http… Parapachyphlo… Miklukho… accep… NA                     220
+#>  4  894301 http… Ovulina radia… Seguenza… accep… NA                     220
+#>  5  894299 http… Parafissurina… Petri, 1… accep… NA                     220
+#>  6  894297 http… Parapachyphlo… Miklukho… accep… NA                     220
+#>  7  894303 http… Anomalina nod… Terquem,… accep… NA                     220
+#>  8  901957 http… Gaudryinella … Moullade… accep… NA                     220
+#>  9  916899 http… Gavelinella p… Porthaul… accep… NA                     220
+#> 10  902959 http… Valvulineria … Kicinski… accep… NA                     220
+#> # … with 40 more rows, and 20 more variables: rank <chr>,
+#> #   valid_AphiaID <int>, valid_name <chr>, valid_authority <chr>,
+#> #   parentNameUsageID <int>, kingdom <chr>, phylum <chr>, class <chr>,
+#> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
+#> #   isMarine <int>, isBrackish <lgl>, isFreshwater <lgl>,
+#> #   isTerrestrial <lgl>, isExtinct <int>, match_type <chr>, modified <chr>
+```
+
+by a taxonomic name
+
+
+```r
+wm_records_name(name = 'Platanista gangetica')
+#> Error: (204) No Content - Platanista gangetica
+```
+
+by many names
+
+
+```r
+wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
+#> [[1]]
+#> # A tibble: 0 x 0
+#> 
+#> [[2]]
+#> # A tibble: 2 x 27
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
+#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int>
+#> 1  125960 http… Coryphaena     Linnaeus… accep… <NA>                   180
+#> 2  843430 <NA>  <NA>           <NA>      quara… synonym                 NA
+#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
+#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
+#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
+#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
+#> #   isBrackish <int>, isFreshwater <int>, isTerrestrial <int>,
+#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+```
+
+by common name
+
+
+```r
+wm_records_common(name = 'clam')
+#> # A tibble: 4 x 27
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
+#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int>
+#> 1  141919 http… Mercenaria me… (Linnaeu… accep… NA                     220
+#> 2  140431 http… Mya truncata   Linnaeus… accep… NA                     220
+#> 3  141936 http… Venus verruco… Linnaeus… accep… NA                     220
+#> 4  575771 http… Verpa penis    (Linnaeu… accep… NA                     220
+#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
+#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
+#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
+#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
+#> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
+#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+```
+
+using the TAXMATCH algorithm
+
+
+```r
+wm_records_taxamatch(name = 'Platanista gangetica')
+#> Error: (204) No Content - AphiaRecordsByMatchNames
+```
+
+## APHIA ID <--> name
+
+
+```r
+wm_name2id(name = "Rhincodon")
+#> [1] 105749
+```
+
+
+```r
+wm_id2name(id = 105706)
+#> [1] "Rhincodontidae"
+```
+
+## Get AphiaID via an external ID
+
+
+```r
+wm_external(id = 1080)
+#> [1] 85257
+wm_external(id = 105706)
+#> [1] 159854
+```
+
+## Get vernacular names from an AphiaID
+
+
+```r
+wm_common_id(id = 156806)
+#> # A tibble: 2 x 3
+#>   vernacular          language_code language
+#>   <chr>               <chr>         <chr>   
+#> 1 gilded wedgeclam    eng           English 
+#> 2 Turton's wedge clam eng           English
+```
+
+## Children
+
+Get direct taxonomic children for an AphiaID
+
+
+```r
+wm_classification(id = 105706)
+#> # A tibble: 11 x 3
+#>    AphiaID rank       scientificname  
+#>      <int> <chr>      <chr>           
+#>  1       2 Kingdom    Animalia        
+#>  2    1821 Phylum     Chordata        
+#>  3  146419 Subphylum  Vertebrata      
+#>  4    1828 Superclass Gnathostomata   
+#>  5   11676 Superclass Pisces          
+#>  6   10193 Class      Elasmobranchii  
+#>  7  368407 Subclass   Neoselachii     
+#>  8  368408 Infraclass Selachii        
+#>  9  368410 Superorder Galeomorphi     
+#> 10   10208 Order      Orectolobiformes
+#> 11  105706 Family     Rhincodontidae
+```
+
+## Classification
+
+Get classification for an AphiaID
+
+
+```r
+wm_classification(id = 105706)
+#> # A tibble: 11 x 3
+#>    AphiaID rank       scientificname  
+#>      <int> <chr>      <chr>           
+#>  1       2 Kingdom    Animalia        
+#>  2    1821 Phylum     Chordata        
+#>  3  146419 Subphylum  Vertebrata      
+#>  4    1828 Superclass Gnathostomata   
+#>  5   11676 Superclass Pisces          
+#>  6   10193 Class      Elasmobranchii  
+#>  7  368407 Subclass   Neoselachii     
+#>  8  368408 Infraclass Selachii        
+#>  9  368410 Superorder Galeomorphi     
+#> 10   10208 Order      Orectolobiformes
+#> 11  105706 Family     Rhincodontidae
+```
+
+## Synonyms
+
+Get synonyms for an AphiaID
+
+
+```r
+wm_synonyms(id = 105706)
+#> # A tibble: 1 x 27
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
+#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int>
+#> 1  148832 http… Rhiniodontidae Müller &… unacc… synonym                140
+#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
+#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
+#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
+#> #   genus <lgl>, citation <chr>, lsid <chr>, isMarine <lgl>,
+#> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
+#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+```
+
