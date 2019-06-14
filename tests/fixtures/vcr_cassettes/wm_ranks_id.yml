@@ -1,0 +1,33 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaTaxonRanksByID/220
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.7.4.9315
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Fri, 14 Jun 2019 18:50:47 GMT
+      server: Apache/2.4.25 (Win32) PHP/5.6.29
+      x-powered-by: PHP/5.6.29
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '685'
+      content-type: application/json
+    body:
+      encoding: UTF-8
+      string: '[{"taxonRankID":220,"taxonRank":"Species","AphiaID":2,"kingdom":"Animalia"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":3,"kingdom":"Plantae"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":4,"kingdom":"Fungi"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":5,"kingdom":"Protozoa"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":6,"kingdom":"Bacteria"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":7,"kingdom":"Chromista"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":8,"kingdom":"Archaea"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":10,"kingdom":"Viruses"},{"taxonRankID":220,"taxonRank":"Species","AphiaID":12,"kingdom":"Biota
+        incertae sedis"}]'
+  recorded_at: 2019-06-14 18:50:48 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4
