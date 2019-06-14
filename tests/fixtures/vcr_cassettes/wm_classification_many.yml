@@ -6,7 +6,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.7.4.9315
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Tue, 01 May 2018 21:33:28 GMT
+      date: Fri, 14 Jun 2019 16:11:11 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -24,14 +24,14 @@ http_interactions:
         Authorization
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '1111'
-      content-type: application/json;charset=utf-8
-      set-cookie: vliz_webc=vliz_webc1; path=/
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc2; path=/
     body:
       encoding: UTF-8
       string: '{"AphiaID":1,"rank":"Superdomain","scientificname":"Biota","child":{"AphiaID":2,"rank":"Kingdom","scientificname":"Animalia","child":{"AphiaID":1821,"rank":"Phylum","scientificname":"Chordata","child":{"AphiaID":146419,"rank":"Subphylum","scientificname":"Vertebrata","child":{"AphiaID":1828,"rank":"Superclass","scientificname":"Gnathostomata","child":{"AphiaID":1831,"rank":"Superclass","scientificname":"Tetrapoda","child":{"AphiaID":1837,"rank":"Class","scientificname":"Mammalia","child":{"AphiaID":380416,"rank":"Subclass","scientificname":"Theria","child":{"AphiaID":370511,"rank":"Order","scientificname":"Cetartiodactyla","child":{"AphiaID":370545,"rank":"Suborder","scientificname":"Cetancodonta","child":{"AphiaID":2688,"rank":"Infraorder","scientificname":"Cetacea","child":{"AphiaID":148723,"rank":"Superfamily","scientificname":"Odontoceti","child":{"AphiaID":254965,"rank":"Family","scientificname":"Platanistidae","child":{"AphiaID":254966,"rank":"Genus","scientificname":"Platanista","child":{"AphiaID":254967,"rank":"Species","scientificname":"Platanista
         gangetica","child":null}}}}}}}}}}}}}}}'
-  recorded_at: 2018-05-01 21:33:28 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
+  recorded_at: 2019-06-14 16:11:12 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4
 - request:
     method: get
     uri: http://www.marinespecies.org/rest/AphiaClassificationByAphiaID/344089
@@ -39,7 +39,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.7.4.9315
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -49,7 +49,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Tue, 01 May 2018 21:33:28 GMT
+      date: Fri, 14 Jun 2019 16:11:11 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -57,11 +57,11 @@ http_interactions:
         Authorization
       access-control-allow-methods: GET, POST, OPTIONS
       content-length: '803'
-      content-type: application/json;charset=utf-8
+      content-type: application/json
       set-cookie: vliz_webc=vliz_webc1; path=/
     body:
       encoding: UTF-8
       string: '{"AphiaID":1,"rank":"Superdomain","scientificname":"Biota","child":{"AphiaID":2,"rank":"Kingdom","scientificname":"Animalia","child":{"AphiaID":1821,"rank":"Phylum","scientificname":"Chordata","child":{"AphiaID":146419,"rank":"Subphylum","scientificname":"Vertebrata","child":{"AphiaID":1828,"rank":"Superclass","scientificname":"Gnathostomata","child":{"AphiaID":1831,"rank":"Superclass","scientificname":"Tetrapoda","child":{"AphiaID":1836,"rank":"Class","scientificname":"Aves","child":{"AphiaID":2682,"rank":"Order","scientificname":"Charadriiformes","child":{"AphiaID":136988,"rank":"Family","scientificname":"Laridae","child":{"AphiaID":343613,"rank":"Genus","scientificname":"Leucophaeus","child":{"AphiaID":344089,"rank":"Species","scientificname":"Leucophaeus
         scoresbii","child":null}}}}}}}}}}}'
-  recorded_at: 2018-05-01 21:33:28 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
+  recorded_at: 2019-06-14 16:11:12 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4
