@@ -6,7 +6,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.8.0
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -16,20 +16,20 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Mon, 30 Apr 2018 23:29:35 GMT
+      date: Fri, 28 Jun 2019 17:25:23 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
       access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
         Authorization
       access-control-allow-methods: GET, POST, OPTIONS
-      content-length: '1748'
-      content-type: application/json;charset=utf-8
+      content-length: '1770'
+      content-type: application/json
     body:
       encoding: UTF-8
-      string: '[{"source_id":81,"use":"additional source","reference":"Eschmeyer,
-        W. N.; Fricke, R.; van der Laan, R. (eds). (2017). Catalog of Fishes: Genera,
-        Species, References. Electronic version.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=81","link":"http:\/\/researcharchive.calacademy.org\/research\/Ichthyology\/catalog\/fishcatmain.asp","fulltext":null,"doi":null},{"source_id":1411,"use":"basis
+      string: '[{"source_id":81,"use":"additional source","reference":"Fricke, R.,
+        Eschmeyer, W. N. & Van der Laan, R. (eds). (2019). Catalog of Fishes: Genera,
+        Species, References. Electronic version accessed dd mmm 2019.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=81","link":"http:\/\/researcharchive.calacademy.org\/research\/Ichthyology\/catalog\/fishcatmain.asp","fulltext":null,"doi":null},{"source_id":1411,"use":"basis
         of record","reference":"van der Land, J.; Costello, M.J.; Zavodnik, D.; Santos,
         R.S.; Porteiro, F.M.; Bailly, N.; Eschmeyer, W.N.; Froese, R. (2001). Pisces,
         in: Costello, M.J. et al. (Ed.) (2001). European register of marine species:
@@ -41,5 +41,5 @@ http_interactions:
         FAO Species Catalogue for Fishery Purposes. No. 1, Vol. 2. Rome, FAO. 269p.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=138597","link":null,"fulltext":null,"doi":null},{"source_id":197116,"use":"taxonomy
         source","reference":"Van Der Laan, R.; Eschmeyer, W. N.; Fricke, R. (2014).
         Family-group names of Recent fishes. Zootaxa. 3882(1): 1-230.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=197116","link":null,"fulltext":null,"doi":"10.11646\/zootaxa.3882.1.1"}]'
-  recorded_at: 2018-04-30 23:29:36 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
+  recorded_at: 2019-06-28 17:25:24 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4

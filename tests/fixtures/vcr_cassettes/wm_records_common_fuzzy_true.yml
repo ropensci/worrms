@@ -6,7 +6,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.8.0
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Mon, 30 Apr 2018 23:28:59 GMT
+      date: Fri, 28 Jun 2019 17:14:47 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -24,258 +24,258 @@ http_interactions:
         Authorization
       access-control-allow-methods: GET, POST, OPTIONS
       transfer-encoding: chunked
-      content-type: application/json;charset=utf-8
+      content-type: application/json
     body:
       encoding: UTF-8
-      string: '[{"AphiaID":231411,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231411","scientificname":"Australophocaena
-        dioptrica","authority":"(Lahille, 1912)","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":254971,"valid_name":"Phocoena
-        dioptrica","valid_authority":"Lahille, 1912","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Phocoenidae","genus":"Australophocaena","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Australophocaena dioptrica (Lahille,
+      string: '[{"AphiaID":367639,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=367639","scientificname":"Angaria
+        delphinus","authority":"(Linnaeus, 1758)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":367639,"valid_name":"Angaria
+        delphinus","valid_authority":"(Linnaeus, 1758)","parentNameUsageID":204420,"kingdom":"Animalia","phylum":"Mollusca","class":"Gastropoda","order":"Trochida","family":"Angariidae","genus":"Angaria","citation":"MolluscaBase
+        (2019). MolluscaBase. Angaria delphinus (Linnaeus, 1758). Accessed through:
+        World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=367639
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:367639","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2010-10-22T07:24:59.143Z"},{"AphiaID":413479,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=413479","scientificname":"Angariidae","authority":"Gray,
+        1857","status":"accepted","unacceptreason":null,"taxonRankID":140,"rank":"Family","valid_AphiaID":413479,"valid_name":"Angariidae","valid_authority":"Gray,
+        1857","parentNameUsageID":156489,"kingdom":"Animalia","phylum":"Mollusca","class":"Gastropoda","order":"Trochida","family":"Angariidae","genus":null,"citation":"MolluscaBase
+        (2019). MolluscaBase. Angariidae Gray, 1857. Accessed through: World Register
+        of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=413479
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:413479","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2017-12-29T03:20:00.487Z"},{"AphiaID":231411,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231411","scientificname":"Australophocaena
+        dioptrica","authority":"(Lahille, 1912)","status":"unaccepted","unacceptreason":"synonym","taxonRankID":220,"rank":"Species","valid_AphiaID":254971,"valid_name":"Phocoena
+        dioptrica","valid_authority":"Lahille, 1912","parentNameUsageID":231399,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Phocoenidae","genus":"Australophocaena","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Australophocaena dioptrica (Lahille,
         1912). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231411
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:231411","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-04-09T17:27:12Z"},{"AphiaID":254976,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254976","scientificname":"Cephalorhynchus
-        commersonii","authority":"(Lac\u00e9p\u00e8de, 1804)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254976,"valid_name":"Cephalorhynchus
-        commersonii","valid_authority":"(Lac\u00e9p\u00e8de, 1804)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Cephalorhynchus commersonii (Lac\u00e9p\u00e8de,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:231411","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-04-09T15:27:12.020Z"},{"AphiaID":254976,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254976","scientificname":"Cephalorhynchus
+        commersonii","authority":"(Lac\u00e9p\u00e8de, 1804)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254976,"valid_name":"Cephalorhynchus
+        commersonii","valid_authority":"(Lac\u00e9p\u00e8de, 1804)","parentNameUsageID":231403,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Cephalorhynchus commersonii (Lac\u00e9p\u00e8de,
         1804). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254976
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254976","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":254977,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254977","scientificname":"Cephalorhynchus
-        eutropia","authority":"Gray, 1846","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254977,"valid_name":"Cephalorhynchus
-        eutropia","valid_authority":"Gray, 1846","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Cephalorhynchus eutropia Gray, 1846.
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254976","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":254977,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254977","scientificname":"Cephalorhynchus
+        eutropia","authority":"Gray, 1846","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254977,"valid_name":"Cephalorhynchus
+        eutropia","valid_authority":"Gray, 1846","parentNameUsageID":231403,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Cephalorhynchus eutropia Gray, 1846.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254977
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254977","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":254978,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254978","scientificname":"Cephalorhynchus
-        heavisidii","authority":"(Gray, 1828)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254978,"valid_name":"Cephalorhynchus
-        heavisidii","valid_authority":"(Gray, 1828)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Cephalorhynchus heavisidii (Gray, 1828).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254977","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":254978,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254978","scientificname":"Cephalorhynchus
+        heavisidii","authority":"(Gray, 1828)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254978,"valid_name":"Cephalorhynchus
+        heavisidii","valid_authority":"(Gray, 1828)","parentNameUsageID":231403,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Cephalorhynchus heavisidii (Gray, 1828).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254978
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254978","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":254979,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254979","scientificname":"Cephalorhynchus
-        hectori","authority":"(P. J. Van Beneden, 1881)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254979,"valid_name":"Cephalorhynchus
-        hectori","valid_authority":"(P. J. Van Beneden, 1881)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Cephalorhynchus hectori (P. J. Van Beneden,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254978","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":254979,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254979","scientificname":"Cephalorhynchus
+        hectori","authority":"(P. J. Van Beneden, 1881)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254979,"valid_name":"Cephalorhynchus
+        hectori","valid_authority":"(P. J. Van Beneden, 1881)","parentNameUsageID":231403,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Cephalorhynchus hectori (P. J. Van Beneden,
         1881). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254979
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254979","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-03-24T18:08:13Z"},{"AphiaID":368869,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=368869","scientificname":"Cephalorhynchus
-        hectori maui","authority":"Baker, Smith & Pichler, 2002","status":"accepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":368869,"valid_name":"Cephalorhynchus
-        hectori maui","valid_authority":"Baker, Smith & Pichler, 2002","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Cephalorhynchus hectori maui Baker, Smith
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254979","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-03-24T17:08:13.070Z"},{"AphiaID":368869,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=368869","scientificname":"Cephalorhynchus
+        hectori maui","authority":"Baker, Smith & Pichler, 2002","status":"accepted","unacceptreason":null,"taxonRankID":230,"rank":"Subspecies","valid_AphiaID":368869,"valid_name":"Cephalorhynchus
+        hectori maui","valid_authority":"Baker, Smith & Pichler, 2002","parentNameUsageID":254979,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Cephalorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Cephalorhynchus hectori maui Baker, Smith
         & Pichler, 2002. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=368869
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:368869","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-01-07T17:13:46Z"},{"AphiaID":2688,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=2688","scientificname":"Cetacea","authority":"Brisson,
-        1762","status":"accepted","unacceptreason":null,"rank":"Infraorder","valid_AphiaID":2688,"valid_name":"Cetacea","valid_authority":"Brisson,
-        1762","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":null,"genus":null,"citation":"WoRMS
-        (2018). Cetacea. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=2688
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:2688","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":0,"match_type":"like","modified":"2008-11-24T17:47:18Z"},{"AphiaID":126845,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126845","scientificname":"Coryphaena
-        equiselis","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126845,"valid_name":"Coryphaena
-        equiselis","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
-        R. and D. Pauly. Editors. (2018). FishBase. Coryphaena equiselis Linnaeus,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:368869","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-01-07T16:13:45.687Z"},{"AphiaID":2688,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=2688","scientificname":"Cetacea","authority":"Brisson,
+        1762","status":"accepted","unacceptreason":null,"taxonRankID":120,"rank":"Infraorder","valid_AphiaID":2688,"valid_name":"Cetacea","valid_authority":"Brisson,
+        1762","parentNameUsageID":370545,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":null,"genus":null,"citation":"WoRMS
+        (2019). Cetacea. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=2688
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:2688","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":0,"match_type":"like","modified":"2008-11-24T16:47:17.783Z"},{"AphiaID":126845,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126845","scientificname":"Coryphaena
+        equiselis","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":126845,"valid_name":"Coryphaena
+        equiselis","valid_authority":"Linnaeus, 1758","parentNameUsageID":125960,"kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
+        R. and D. Pauly. Editors. (2019). FishBase. Coryphaena equiselis Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126845
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:126845","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-01-15T18:27:08Z"},{"AphiaID":302813,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=302813","scientificname":"Coryphaena
-        equisetis","authority":"Osbeck, 1765","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126845,"valid_name":"Coryphaena
-        equiselis","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
-        R. and D. Pauly. Editors. (2018). FishBase. Coryphaena equisetis Osbeck, 1765.
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:126845","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-01-15T17:27:08.177Z"},{"AphiaID":302813,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=302813","scientificname":"Coryphaena
+        equisetis","authority":"Osbeck, 1765","status":"unaccepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":126845,"valid_name":"Coryphaena
+        equiselis","valid_authority":"Linnaeus, 1758","parentNameUsageID":125960,"kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
+        R. and D. Pauly. Editors. (2019). FishBase. Coryphaena equisetis Osbeck, 1765.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=302813
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:302813","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-02-28T14:41:08Z"},{"AphiaID":126846,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126846","scientificname":"Coryphaena
-        hippurus","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126846,"valid_name":"Coryphaena
-        hippurus","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
-        R. and D. Pauly. Editors. (2018). FishBase. Coryphaena hippurus Linnaeus,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:302813","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-02-28T13:41:07.550Z"},{"AphiaID":126846,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126846","scientificname":"Coryphaena
+        hippurus","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":126846,"valid_name":"Coryphaena
+        hippurus","valid_authority":"Linnaeus, 1758","parentNameUsageID":125960,"kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
+        R. and D. Pauly. Editors. (2019). FishBase. Coryphaena hippurus Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126846
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:126846","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-01-15T18:27:08Z"},{"AphiaID":125531,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=125531","scientificname":"Coryphaenidae","authority":"Rafinesque,
-        1815","status":"accepted","unacceptreason":null,"rank":"Family","valid_AphiaID":125531,"valid_name":"Coryphaenidae","valid_authority":"Rafinesque,
-        1815","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":null,"citation":"Froese,
-        R. and D. Pauly. Editors. (2018). FishBase. Coryphaenidae Rafinesque, 1815.
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:126846","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2008-01-15T17:27:08.177Z"},{"AphiaID":125531,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=125531","scientificname":"Coryphaenidae","authority":"Rafinesque,
+        1815","status":"accepted","unacceptreason":null,"taxonRankID":140,"rank":"Family","valid_AphiaID":125531,"valid_name":"Coryphaenidae","valid_authority":"Rafinesque,
+        1815","parentNameUsageID":151751,"kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":null,"citation":"Froese,
+        R. and D. Pauly. Editors. (2019). FishBase. Coryphaenidae Rafinesque, 1815.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=125531
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:125531","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2015-04-17T10:48:22Z"},{"AphiaID":136980,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=136980","scientificname":"Delphinidae","authority":"Gray,
-        1821","status":"accepted","unacceptreason":null,"rank":"Family","valid_AphiaID":136980,"valid_name":"Delphinidae","valid_authority":"Gray,
-        1821","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":null,"citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Delphinidae Gray, 1821. Accessed through:
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:125531","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2015-04-17T08:48:21.843Z"},{"AphiaID":136980,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=136980","scientificname":"Delphinidae","authority":"Gray,
+        1821","status":"accepted","unacceptreason":null,"taxonRankID":140,"rank":"Family","valid_AphiaID":136980,"valid_name":"Delphinidae","valid_authority":"Gray,
+        1821","parentNameUsageID":148723,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":null,"citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Delphinidae Gray, 1821. Accessed through:
         World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=136980
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:136980","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-09T10:51:42Z"},{"AphiaID":137015,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137015","scientificname":"Delphinus","authority":"Linnaeus,
-        1758","status":"accepted","unacceptreason":null,"rank":"Genus","valid_AphiaID":137015,"valid_name":"Delphinus","valid_authority":"Linnaeus,
-        1758","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Delphinus Linnaeus, 1758. Accessed through:
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:136980","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-09T09:51:41.907Z"},{"AphiaID":137015,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137015","scientificname":"Delphinus","authority":"Linnaeus,
+        1758","status":"accepted","unacceptreason":null,"taxonRankID":180,"rank":"Genus","valid_AphiaID":137015,"valid_name":"Delphinus","valid_authority":"Linnaeus,
+        1758","parentNameUsageID":136980,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Delphinus Linnaeus, 1758. Accessed through:
         World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137015
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137015","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":137093,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137093","scientificname":"Delphinus
-        capensis","authority":"Gray, 1828","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":137094,"valid_name":"Delphinus
-        delphis","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Delphinus capensis Gray, 1828. Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137015","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":137093,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137093","scientificname":"Delphinus
+        capensis","authority":"Gray, 1828","status":"unaccepted","unacceptreason":"synonym","taxonRankID":220,"rank":"Species","valid_AphiaID":137094,"valid_name":"Delphinus
+        delphis","valid_authority":"Linnaeus, 1758","parentNameUsageID":137015,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Delphinus capensis Gray, 1828. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137093
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137093","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2016-05-05T07:59:43Z"},{"AphiaID":383557,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=383557","scientificname":"Delphinus
-        capensis tropicalis","authority":"(Van Bree, 1971)","status":"accepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":383557,"valid_name":"Delphinus
-        capensis tropicalis","valid_authority":"(Van Bree, 1971)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Delphinus capensis tropicalis (Van Bree,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137093","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2016-05-05T05:59:43.010Z"},{"AphiaID":383557,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=383557","scientificname":"Delphinus
+        capensis tropicalis","authority":"(Van Bree, 1971)","status":"accepted","unacceptreason":null,"taxonRankID":230,"rank":"Subspecies","valid_AphiaID":383557,"valid_name":"Delphinus
+        capensis tropicalis","valid_authority":"(Van Bree, 1971)","parentNameUsageID":137093,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Delphinus capensis tropicalis (Van Bree,
         1971). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=383557
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:383557","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-03-04T11:50:55Z"},{"AphiaID":137094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137094","scientificname":"Delphinus
-        delphis","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":137094,"valid_name":"Delphinus
-        delphis","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Delphinus delphis Linnaeus, 1758. Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:383557","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-03-04T10:50:54.900Z"},{"AphiaID":137094,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137094","scientificname":"Delphinus
+        delphis","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":137094,"valid_name":"Delphinus
+        delphis","valid_authority":"Linnaeus, 1758","parentNameUsageID":137015,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Delphinus delphis Linnaeus, 1758. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137094
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137094","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":368870,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=368870","scientificname":"Delphinus
-        delphis ponticus","authority":"Barabasch-Nikiforov, 1935","status":"accepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":368870,"valid_name":"Delphinus
-        delphis ponticus","valid_authority":"Barabasch-Nikiforov, 1935","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Delphinus delphis ponticus Barabasch-Nikiforov,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137094","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":368870,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=368870","scientificname":"Delphinus
+        delphis ponticus","authority":"Barabasch-Nikiforov, 1935","status":"accepted","unacceptreason":null,"taxonRankID":230,"rank":"Subspecies","valid_AphiaID":368870,"valid_name":"Delphinus
+        delphis ponticus","valid_authority":"Barabasch-Nikiforov, 1935","parentNameUsageID":137094,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Delphinus delphis ponticus Barabasch-Nikiforov,
         1935. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=368870
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:368870","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-10-23T14:06:18Z"},{"AphiaID":220224,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=220224","scientificname":"Delphinus
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:368870","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-10-23T12:06:17.667Z"},{"AphiaID":220224,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=220224","scientificname":"Delphinus
         delphus","authority":"Linnaeus, 1758","status":"unaccepted","unacceptreason":"Spelling
-        variation","rank":"Species","valid_AphiaID":137094,"valid_name":"Delphinus
-        delphis","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Delphinus delphus Linnaeus, 1758. Accessed
+        variation","taxonRankID":220,"rank":"Species","valid_AphiaID":137094,"valid_name":"Delphinus
+        delphis","valid_authority":"Linnaeus, 1758","parentNameUsageID":137015,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Delphinus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Delphinus delphus Linnaeus, 1758. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=220224
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:220224","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":137098,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137098","scientificname":"Grampus
-        griseus","authority":"(G. Cuvier, 1812)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":137098,"valid_name":"Grampus
-        griseus","valid_authority":"(G. Cuvier, 1812)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Grampus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Grampus griseus (G. Cuvier, 1812). Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:220224","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":137098,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137098","scientificname":"Grampus
+        griseus","authority":"(G. Cuvier, 1812)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":137098,"valid_name":"Grampus
+        griseus","valid_authority":"(G. Cuvier, 1812)","parentNameUsageID":137018,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Grampus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Grampus griseus (G. Cuvier, 1812). Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137098
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137098","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-04-01T18:57:12Z"},{"AphiaID":254960,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254960","scientificname":"Inia
-        geoffrensis","authority":"(de Blainville, 1817)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254960,"valid_name":"Inia
-        geoffrensis","valid_authority":"(de Blainville, 1817)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Iniidae","genus":"Inia","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Inia geoffrensis (de Blainville, 1817).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137098","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-04-01T16:57:11.507Z"},{"AphiaID":254960,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254960","scientificname":"Inia
+        geoffrensis","authority":"(de Blainville, 1817)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254960,"valid_name":"Inia
+        geoffrensis","valid_authority":"(de Blainville, 1817)","parentNameUsageID":254959,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Iniidae","genus":"Inia","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Inia geoffrensis (de Blainville, 1817).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254960
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254960","isMarine":0,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":137099,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137099","scientificname":"Lagenodelphis
-        hosei","authority":"Fraser, 1956","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":137099,"valid_name":"Lagenodelphis
-        hosei","valid_authority":"Fraser, 1956","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenodelphis","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lagenodelphis hosei Fraser, 1956. Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254960","isMarine":0,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":137099,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137099","scientificname":"Lagenodelphis
+        hosei","authority":"Fraser, 1956","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":137099,"valid_name":"Lagenodelphis
+        hosei","valid_authority":"Fraser, 1956","parentNameUsageID":137019,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenodelphis","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lagenodelphis hosei Fraser, 1956. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137099
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137099","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":137100,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137100","scientificname":"Lagenorhynchus
-        acutus","authority":"(Gray, 1828)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":137100,"valid_name":"Lagenorhynchus
-        acutus","valid_authority":"(Gray, 1828)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lagenorhynchus acutus (Gray, 1828). Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137099","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":137100,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137100","scientificname":"Lagenorhynchus
+        acutus","authority":"(Gray, 1828)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":137100,"valid_name":"Lagenorhynchus
+        acutus","valid_authority":"(Gray, 1828)","parentNameUsageID":137020,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lagenorhynchus acutus (Gray, 1828). Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137100
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137100","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":137101,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137101","scientificname":"Lagenorhynchus
-        albirostris","authority":"(Gray, 1846)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":137101,"valid_name":"Lagenorhynchus
-        albirostris","valid_authority":"(Gray, 1846)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lagenorhynchus albirostris (Gray, 1846).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137100","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":137101,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137101","scientificname":"Lagenorhynchus
+        albirostris","authority":"(Gray, 1846)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":137101,"valid_name":"Lagenorhynchus
+        albirostris","valid_authority":"(Gray, 1846)","parentNameUsageID":137020,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lagenorhynchus albirostris (Gray, 1846).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137101
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137101","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":254980,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254980","scientificname":"Lagenorhynchus
-        australis","authority":"(Peale, 1848)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254980,"valid_name":"Lagenorhynchus
-        australis","valid_authority":"(Peale, 1848)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lagenorhynchus australis (Peale, 1848).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137101","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":254980,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254980","scientificname":"Lagenorhynchus
+        australis","authority":"(Peale, 1848)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254980,"valid_name":"Lagenorhynchus
+        australis","valid_authority":"(Peale, 1848)","parentNameUsageID":137020,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lagenorhynchus australis (Peale, 1848).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254980
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254980","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":383563,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=383563","scientificname":"Lagenorhynchus
-        cruciger","authority":"(Quoy & Gaimard, 1824)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":383563,"valid_name":"Lagenorhynchus
-        cruciger","valid_authority":"(Quoy & Gaimard, 1824)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lagenorhynchus cruciger (Quoy & Gaimard,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254980","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":383563,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=383563","scientificname":"Lagenorhynchus
+        cruciger","authority":"(Quoy & Gaimard, 1824)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":383563,"valid_name":"Lagenorhynchus
+        cruciger","valid_authority":"(Quoy & Gaimard, 1824)","parentNameUsageID":137020,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lagenorhynchus cruciger (Quoy & Gaimard,
         1824). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=383563
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:383563","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2011-04-26T17:35:35Z"},{"AphiaID":254981,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254981","scientificname":"Lagenorhynchus
-        obliquidens","authority":"Gill, 1865","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254981,"valid_name":"Lagenorhynchus
-        obliquidens","valid_authority":"Gill, 1865","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lagenorhynchus obliquidens Gill, 1865.
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:383563","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2011-04-26T15:35:34.850Z"},{"AphiaID":254981,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254981","scientificname":"Lagenorhynchus
+        obliquidens","authority":"Gill, 1865","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254981,"valid_name":"Lagenorhynchus
+        obliquidens","valid_authority":"Gill, 1865","parentNameUsageID":137020,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lagenorhynchus obliquidens Gill, 1865.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254981
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254981","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":231434,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231434","scientificname":"Lagenorhynchus
-        obscurus","authority":"(Gray, 1828)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":231434,"valid_name":"Lagenorhynchus
-        obscurus","valid_authority":"(Gray, 1828)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lagenorhynchus obscurus (Gray, 1828).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254981","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":231434,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231434","scientificname":"Lagenorhynchus
+        obscurus","authority":"(Gray, 1828)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":231434,"valid_name":"Lagenorhynchus
+        obscurus","valid_authority":"(Gray, 1828)","parentNameUsageID":137020,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lagenorhynchus","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lagenorhynchus obscurus (Gray, 1828).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231434
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:231434","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-04-03T17:24:12Z"},{"AphiaID":225930,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=225930","scientificname":"Larus
-        scoresbii","authority":"Traill, 1823","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":344089,"valid_name":"Leucophaeus
-        scoresbii","valid_authority":"Traill, 1823","kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Larus","citation":"WoRMS
-        (2018). Larus scoresbii Traill, 1823. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=225930
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:225930","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2011-04-04T16:27:55Z"},{"AphiaID":344089,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089","scientificname":"Leucophaeus
-        scoresbii","authority":"Traill, 1823","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":344089,"valid_name":"Leucophaeus
-        scoresbii","valid_authority":"Traill, 1823","kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Leucophaeus","citation":"WoRMS
-        (2018). Leucophaeus scoresbii Traill, 1823. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:344089","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2011-04-08T08:18:06Z"},{"AphiaID":254962,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254962","scientificname":"Lipotes
-        vexillifer","authority":"Miller, 1918","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254962,"valid_name":"Lipotes
-        vexillifer","valid_authority":"Miller, 1918","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Lipotidae","genus":"Lipotes","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lipotes vexillifer Miller, 1918. Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:231434","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-04-03T15:24:11.800Z"},{"AphiaID":225930,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=225930","scientificname":"Larus
+        scoresbii","authority":"Traill, 1823","status":"unaccepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":344089,"valid_name":"Leucophaeus
+        scoresbii","valid_authority":"Traill, 1823","parentNameUsageID":137043,"kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Larus","citation":"WoRMS
+        (2019). Larus scoresbii Traill, 1823. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=225930
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:225930","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2011-04-04T14:27:54.610Z"},{"AphiaID":344089,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089","scientificname":"Leucophaeus
+        scoresbii","authority":"Traill, 1823","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":344089,"valid_name":"Leucophaeus
+        scoresbii","valid_authority":"Traill, 1823","parentNameUsageID":343613,"kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Leucophaeus","citation":"WoRMS
+        (2019). Leucophaeus scoresbii Traill, 1823. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:344089","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2011-04-08T06:18:06.150Z"},{"AphiaID":254962,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254962","scientificname":"Lipotes
+        vexillifer","authority":"Miller, 1918","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254962,"valid_name":"Lipotes
+        vexillifer","valid_authority":"Miller, 1918","parentNameUsageID":254961,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Lipotidae","genus":"Lipotes","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lipotes vexillifer Miller, 1918. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254962
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254962","isMarine":0,"isBrackish":0,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":254975,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254975","scientificname":"Lissodelphis
-        borealis","authority":"(Peale, 1848)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254975,"valid_name":"Lissodelphis
-        borealis","valid_authority":"(Peale, 1848)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lissodelphis","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lissodelphis borealis (Peale, 1848).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254962","isMarine":0,"isBrackish":0,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":254975,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254975","scientificname":"Lissodelphis
+        borealis","authority":"(Peale, 1848)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254975,"valid_name":"Lissodelphis
+        borealis","valid_authority":"(Peale, 1848)","parentNameUsageID":231400,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lissodelphis","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lissodelphis borealis (Peale, 1848).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254975
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254975","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":231414,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231414","scientificname":"Lissodelphis
-        peronii","authority":"(Lac\u00e9p\u00e8de, 1804)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":231414,"valid_name":"Lissodelphis
-        peronii","valid_authority":"(Lac\u00e9p\u00e8de, 1804)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lissodelphis","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Lissodelphis peronii (Lac\u00e9p\u00e8de,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254975","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":231414,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231414","scientificname":"Lissodelphis
+        peronii","authority":"(Lac\u00e9p\u00e8de, 1804)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":231414,"valid_name":"Lissodelphis
+        peronii","valid_authority":"(Lac\u00e9p\u00e8de, 1804)","parentNameUsageID":231400,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Lissodelphis","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Lissodelphis peronii (Lac\u00e9p\u00e8de,
         1804). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231414
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:231414","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":254985,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254985","scientificname":"Neophocaena
-        phocaenoides","authority":"(Cuvier, 1829)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254985,"valid_name":"Neophocaena
-        phocaenoides","valid_authority":"(Cuvier, 1829)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Phocoenidae","genus":"Neophocaena","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Neophocaena phocaenoides (Cuvier, 1829).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:231414","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":254985,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254985","scientificname":"Neophocaena
+        phocaenoides","authority":"(Cuvier, 1829)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254985,"valid_name":"Neophocaena
+        phocaenoides","valid_authority":"(Cuvier, 1829)","parentNameUsageID":254984,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Phocoenidae","genus":"Neophocaena","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Neophocaena phocaenoides (Cuvier, 1829).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254985
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254985","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T13:36:54Z"},{"AphiaID":156914,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=156914","scientificname":"Nucula
-        delphinodonta","authority":"Mighels & C. B. Adams, 1842","status":"unaccepted","unacceptreason":null,"rank":"Species","valid_AphiaID":506605,"valid_name":"Ennucula
-        delphinodonta","valid_authority":"(Mighels & C. B. Adams, 1842)","kingdom":"Animalia","phylum":"Mollusca","class":"Bivalvia","order":"Nuculida","family":"Nuculidae","genus":"Nucula","citation":"MolluscaBase
-        (2018). Nucula delphinodonta Mighels & C. B. Adams, 1842. Accessed through:
-        World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=156914
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:156914","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2014-03-21T12:17:11Z"},{"AphiaID":148732,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=148732","scientificname":"Orcaella
-        brevirostris","authority":"(Owen in Gray, 1866)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":148732,"valid_name":"Orcaella
-        brevirostris","valid_authority":"(Owen in Gray, 1866)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Orcaella","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Orcaella brevirostris (Owen in Gray,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254985","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T12:36:54.227Z"},{"AphiaID":156914,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=156914","scientificname":"Nucula
+        delphinodonta","authority":"Mighels & C. B. Adams, 1842","status":"unaccepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":506605,"valid_name":"Ennucula
+        delphinodonta","valid_authority":"(Mighels & C. B. Adams, 1842)","parentNameUsageID":138262,"kingdom":"Animalia","phylum":"Mollusca","class":"Bivalvia","order":"Nuculida","family":"Nuculidae","genus":"Nucula","citation":"MolluscaBase
+        (2019). MolluscaBase. Nucula delphinodonta Mighels & C. B. Adams, 1842. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=156914
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:156914","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2014-03-21T11:17:11.497Z"},{"AphiaID":148732,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=148732","scientificname":"Orcaella
+        brevirostris","authority":"(Owen in Gray, 1866)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":148732,"valid_name":"Orcaella
+        brevirostris","valid_authority":"(Owen in Gray, 1866)","parentNameUsageID":148731,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Orcaella","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Orcaella brevirostris (Owen in Gray,
         1866). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=148732
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:148732","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T13:36:54Z"},{"AphiaID":343990,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=343990","scientificname":"Orcaella
-        heinsohni","authority":"Beasley, Robertson & Arnold, 2005","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":343990,"valid_name":"Orcaella
-        heinsohni","valid_authority":"Beasley, Robertson & Arnold, 2005","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Orcaella","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Orcaella heinsohni Beasley, Robertson
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:148732","isMarine":1,"isBrackish":1,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T12:36:54.227Z"},{"AphiaID":343990,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=343990","scientificname":"Orcaella
+        heinsohni","authority":"Beasley, Robertson & Arnold, 2005","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":343990,"valid_name":"Orcaella
+        heinsohni","valid_authority":"Beasley, Robertson & Arnold, 2005","parentNameUsageID":148731,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Orcaella","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Orcaella heinsohni Beasley, Robertson
         & Arnold, 2005. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=343990
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:343990","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":137103,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137103","scientificname":"Peponocephala
-        electra","authority":"(Gray, 1846)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":137103,"valid_name":"Peponocephala
-        electra","valid_authority":"(Gray, 1846)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Peponocephala","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Peponocephala electra (Gray, 1846). Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:343990","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":137103,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137103","scientificname":"Peponocephala
+        electra","authority":"(Gray, 1846)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":137103,"valid_name":"Peponocephala
+        electra","valid_authority":"(Gray, 1846)","parentNameUsageID":137022,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Peponocephala","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Peponocephala electra (Gray, 1846). Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137103
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137103","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"},{"AphiaID":254967,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254967","scientificname":"Platanista
-        gangetica","authority":"(Lebeck, 1801)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254967,"valid_name":"Platanista
-        gangetica","valid_authority":"(Lebeck, 1801)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Platanista gangetica (Lebeck, 1801).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:137103","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T11:25:36.853Z"},{"AphiaID":254967,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254967","scientificname":"Platanista
+        gangetica","authority":"(Lebeck, 1801)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254967,"valid_name":"Platanista
+        gangetica","valid_authority":"(Lebeck, 1801)","parentNameUsageID":254966,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Platanista gangetica (Lebeck, 1801).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254967
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254967","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2010-01-04T17:38:16Z"},{"AphiaID":254969,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254969","scientificname":"Platanista
-        gangetica minor","authority":"Owen, 1853","status":"accepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":254969,"valid_name":"Platanista
-        gangetica minor","valid_authority":"Owen, 1853","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Platanista gangetica minor Owen, 1853.
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254967","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2010-01-04T16:38:16.250Z"},{"AphiaID":254969,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254969","scientificname":"Platanista
+        gangetica minor","authority":"Owen, 1853","status":"accepted","unacceptreason":null,"taxonRankID":230,"rank":"Subspecies","valid_AphiaID":254969,"valid_name":"Platanista
+        gangetica minor","valid_authority":"Owen, 1853","parentNameUsageID":254967,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Platanista gangetica minor Owen, 1853.
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254969
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254969","isMarine":0,"isBrackish":null,"isFreshwater":1,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-01-07T17:13:46Z"},{"AphiaID":254968,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254968","scientificname":"Platanista
-        minor","authority":"Owen, 1853","status":"unaccepted","unacceptreason":"synonym","rank":"Species","valid_AphiaID":254969,"valid_name":"Platanista
-        gangetica minor","valid_authority":"Owen, 1853","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Platanista minor Owen, 1853. Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254969","isMarine":0,"isBrackish":null,"isFreshwater":1,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-01-07T16:13:45.687Z"},{"AphiaID":254968,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254968","scientificname":"Platanista
+        minor","authority":"Owen, 1853","status":"unaccepted","unacceptreason":"synonym","taxonRankID":220,"rank":"Species","valid_AphiaID":254969,"valid_name":"Platanista
+        gangetica minor","valid_authority":"Owen, 1853","parentNameUsageID":254966,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Platanistidae","genus":"Platanista","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Platanista minor Owen, 1853. Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254968
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254968","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2012-10-24T23:23:36Z"},{"AphiaID":254964,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254964","scientificname":"Pontoporia
-        blainvillei","authority":"(Gervais & d''Orbigny, 1844)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254964,"valid_name":"Pontoporia
-        blainvillei","valid_authority":"(Gervais & d''Orbigny, 1844)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Pontoporiidae","genus":"Pontoporia","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Pontoporia blainvillei (Gervais & d''Orbigny,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254968","isMarine":null,"isBrackish":null,"isFreshwater":1,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2012-10-24T21:23:35.893Z"},{"AphiaID":254964,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254964","scientificname":"Pontoporia
+        blainvillei","authority":"(Gervais & d''Orbigny, 1844)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254964,"valid_name":"Pontoporia
+        blainvillei","valid_authority":"(Gervais & d''Orbigny, 1844)","parentNameUsageID":254963,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Pontoporiidae","genus":"Pontoporia","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Pontoporia blainvillei (Gervais & d''Orbigny,
         1844). Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254964
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254964","isMarine":1,"isBrackish":1,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T13:36:54Z"},{"AphiaID":254982,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254982","scientificname":"Sotalia
-        fluviatilis","authority":"(Gervais & Deville in Gervais, 1853)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254982,"valid_name":"Sotalia
-        fluviatilis","valid_authority":"(Gervais & Deville in Gervais, 1853)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sotalia","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sotalia fluviatilis (Gervais & Deville
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254964","isMarine":1,"isBrackish":1,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T12:36:54.227Z"},{"AphiaID":254982,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254982","scientificname":"Sotalia
+        fluviatilis","authority":"(Gervais & Deville in Gervais, 1853)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":254982,"valid_name":"Sotalia
+        fluviatilis","valid_authority":"(Gervais & Deville in Gervais, 1853)","parentNameUsageID":231393,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sotalia","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Sotalia fluviatilis (Gervais & Deville
         in Gervais, 1853). Accessed through: World Register of Marine Species at:
-        http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254982 on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254982","isMarine":0,"isBrackish":null,"isFreshwater":1,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2011-09-29T22:40:13Z"},{"AphiaID":344009,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344009","scientificname":"Sotalia
-        guianensis","authority":"(Van Beneden, 1864)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":344009,"valid_name":"Sotalia
-        guianensis","valid_authority":"(Van Beneden, 1864)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sotalia","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sotalia guianensis (Van Beneden, 1864).
+        http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254982 on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:254982","isMarine":0,"isBrackish":null,"isFreshwater":1,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2011-09-29T20:40:12.510Z"},{"AphiaID":344009,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344009","scientificname":"Sotalia
+        guianensis","authority":"(Van Beneden, 1864)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":344009,"valid_name":"Sotalia
+        guianensis","valid_authority":"(Van Beneden, 1864)","parentNameUsageID":231393,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sotalia","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Sotalia guianensis (Van Beneden, 1864).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344009
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:344009","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-12-31T19:14:44Z"},{"AphiaID":231419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231419","scientificname":"Sotalia
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:344009","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-12-31T18:14:43.750Z"},{"AphiaID":231419,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231419","scientificname":"Sotalia
         lentiginosa","authority":"(Gray, 1866)","status":"unaccepted","unacceptreason":"synonym
-        of Sousa plumbea","rank":"Species","valid_AphiaID":383586,"valid_name":"Sousa
-        plumbea","valid_authority":"(G. Cuvier, 1829)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sotalia","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sotalia lentiginosa (Gray, 1866). Accessed
+        of Sousa plumbea","taxonRankID":220,"rank":"Species","valid_AphiaID":383586,"valid_name":"Sousa
+        plumbea","valid_authority":"(G. Cuvier, 1829)","parentNameUsageID":231393,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sotalia","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Sotalia lentiginosa (Gray, 1866). Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=231419
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:231419","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2014-02-04T00:03:13Z"},{"AphiaID":220226,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=220226","scientificname":"Sousa
-        chinensis","authority":"(Osbeck, 1765)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":220226,"valid_name":"Sousa
-        chinensis","valid_authority":"(Osbeck, 1765)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sousa chinensis (Osbeck, 1765). Accessed
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:231419","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2014-02-03T23:03:13.087Z"},{"AphiaID":220226,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=220226","scientificname":"Sousa
+        chinensis","authority":"(Osbeck, 1765)","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":220226,"valid_name":"Sousa
+        chinensis","valid_authority":"(Osbeck, 1765)","parentNameUsageID":204528,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Sousa chinensis (Osbeck, 1765). Accessed
         through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=220226
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:220226","isMarine":1,"isBrackish":1,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T13:36:54Z"},{"AphiaID":853080,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=853080","scientificname":"Sousa
-        chinensis chinensis","authority":"(Osbeck, 1765)","status":"accepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":853080,"valid_name":"Sousa
-        chinensis chinensis","valid_authority":"(Osbeck, 1765)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sousa chinensis chinensis (Osbeck, 1765).
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:220226","isMarine":1,"isBrackish":1,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2009-03-11T12:36:54.227Z"},{"AphiaID":853080,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=853080","scientificname":"Sousa
+        chinensis chinensis","authority":"(Osbeck, 1765)","status":"accepted","unacceptreason":null,"taxonRankID":230,"rank":"Subspecies","valid_AphiaID":853080,"valid_name":"Sousa
+        chinensis chinensis","valid_authority":"(Osbeck, 1765)","parentNameUsageID":220226,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Sousa chinensis chinensis (Osbeck, 1765).
         Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=853080
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:853080","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2015-09-26T00:19:24Z"},{"AphiaID":853079,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=853079","scientificname":"Sousa
-        chinensis taiwanensis","authority":"Wang, Yang & Hung, 2015","status":"accepted","unacceptreason":null,"rank":"Subspecies","valid_AphiaID":853079,"valid_name":"Sousa
-        chinensis taiwanensis","valid_authority":"Wang, Yang & Hung, 2015","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sousa chinensis taiwanensis Wang, Yang
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:853080","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2015-09-25T22:19:23.773Z"},{"AphiaID":853079,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=853079","scientificname":"Sousa
+        chinensis taiwanensis","authority":"Wang, Yang & Hung, 2015","status":"accepted","unacceptreason":null,"taxonRankID":230,"rank":"Subspecies","valid_AphiaID":853079,"valid_name":"Sousa
+        chinensis taiwanensis","valid_authority":"Wang, Yang & Hung, 2015","parentNameUsageID":220226,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Sousa chinensis taiwanensis Wang, Yang
         & Hung, 2015. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=853079
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:853079","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2015-09-16T22:53:05Z"},{"AphiaID":816452,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=816452","scientificname":"Sousa
-        sahulensis","authority":"Jefferson & Rosenbaum, 2014","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":816452,"valid_name":"Sousa
-        sahulensis","valid_authority":"Jefferson & Rosenbaum, 2014","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sousa sahulensis Jefferson & Rosenbaum,
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:853079","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2015-09-16T20:53:04.937Z"},{"AphiaID":816452,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=816452","scientificname":"Sousa
+        sahulensis","authority":"Jefferson & Rosenbaum, 2014","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":816452,"valid_name":"Sousa
+        sahulensis","valid_authority":"Jefferson & Rosenbaum, 2014","parentNameUsageID":204528,"kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
+        W.F. (2019). World Cetacea Database. Sousa sahulensis Jefferson & Rosenbaum,
         2014. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=816452
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:816452","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2014-08-29T21:00:36Z"},{"AphiaID":254970,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254970","scientificname":"Sousa
-        teuszii","authority":"(K\u00fckenthal, 1892)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":254970,"valid_name":"Sousa
-        teuszii","valid_authority":"(K\u00fckenthal, 1892)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Sousa","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Sousa teuszii (K\u00fckenthal, 1892).
-        Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=254970
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:254970","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"like","modified":"2009-03-11T13:36:54Z"},{"AphiaID":137105,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137105","scientificname":"Stenella
-        attenuata","authority":"(Gray, 1846)","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":137105,"valid_name":"Stenella
-        attenuata","valid_authority":"(Gray, 1846)","kingdom":"Animalia","phylum":"Chordata","class":"Mammalia","order":"Cetartiodactyla","family":"Delphinidae","genus":"Stenella","citation":"Perrin,
-        W.F. (2018). World Cetacea Database. Stenella attenuata (Gray, 1846). Accessed
-        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=137105
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:137105","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2008-08-20T13:25:37Z"}]'
-  recorded_at: 2018-04-30 23:29:01 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:816452","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"like","modified":"2014-08-29T19:00:35.820Z"}]'
+  recorded_at: 2019-06-28 17:14:48 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4

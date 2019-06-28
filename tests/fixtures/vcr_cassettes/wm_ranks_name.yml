@@ -6,7 +6,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.7.4.9315
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.8.0
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Fri, 14 Jun 2019 18:50:49 GMT
+      date: Fri, 28 Jun 2019 16:56:55 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -29,5 +29,5 @@ http_interactions:
       encoding: UTF-8
       string: '[{"taxonRankID":180,"taxonRank":"Genus","AphiaID":2,"kingdom":"Animalia"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":3,"kingdom":"Plantae"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":4,"kingdom":"Fungi"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":5,"kingdom":"Protozoa"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":6,"kingdom":"Bacteria"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":7,"kingdom":"Chromista"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":8,"kingdom":"Archaea"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":10,"kingdom":"Viruses"},{"taxonRankID":180,"taxonRank":"Genus","AphiaID":12,"kingdom":"Biota
         incertae sedis"}]'
-  recorded_at: 2019-06-14 18:50:49 GMT
+  recorded_at: 2019-06-28 16:56:55 GMT
   recorded_with: vcr/0.2.6, webmockr/0.3.4

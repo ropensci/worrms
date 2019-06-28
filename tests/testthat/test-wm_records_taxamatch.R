@@ -2,7 +2,7 @@ context("wm_records_taxamatch")
 
 test_that("wm_records_taxamatch basic usage works", {
   vcr::use_cassette("wm_records_taxamatch", {
-    aa <- wm_records_taxamatch(name = 'Platanista gangetica')
+    aa <- wm_records_taxamatch(name = 'Coryphaena immaculata')
 
     expect_is(aa, "list")
     expect_equal(length(aa), 1)

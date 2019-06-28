@@ -54,17 +54,17 @@ context("wm_children_ - plural")
 test_that("wm_children_ basic usage works", {
   # works for singleton input
   vcr::use_cassette("wm_children_", {
-    aa <- wm_children_(id = 254966)
+    aa <- wm_children_(id = 105706)
   })
   
   expect_is(aa, "tbl_df")
   expect_is(aa, "data.frame")
   expect_gt(NROW(aa), 1)
-  expect_equal(unique(aa$family), "Platanistidae")
+  expect_equal(unique(aa$family), "Rhincodontidae")
 
   # works for >1 input
   vcr::use_cassette("wm_children_many", {
-    bb <- wm_children_(id = c(254966, 343613))
+    bb <- wm_children_(id = c(105706, 343613))
   }, record = "new_episodes")
   
   expect_is(bb, "tbl_df")

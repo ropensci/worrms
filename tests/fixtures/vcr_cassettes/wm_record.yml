@@ -6,7 +6,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.7.4.9315
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.8.0
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -16,7 +16,7 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Fri, 14 Jun 2019 18:25:15 GMT
+      date: Fri, 28 Jun 2019 16:57:17 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
@@ -32,6 +32,6 @@ http_interactions:
         & Henle, 1841","parentNameUsageID":10208,"kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":null,"citation":"Froese,
         R. and D. Pauly. Editors. (2019). FishBase. Rhincodontidae M\u00fcller & Henle,
         1841. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105706
-        on 2019-06-14","lsid":"urn:lsid:marinespecies.org:taxname:105706","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T08:48:21.843Z"}]'
-  recorded_at: 2019-06-14 18:25:15 GMT
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:105706","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T08:48:21.843Z"}]'
+  recorded_at: 2019-06-28 16:57:17 GMT
   recorded_with: vcr/0.2.6, webmockr/0.3.4

@@ -6,7 +6,7 @@ http_interactions:
       encoding: ''
       string: ''
     headers:
-      User-Agent: libcurl/7.54.0 r-curl/3.2 crul/0.5.2
+      User-Agent: libcurl/7.54.0 r-curl/3.3 crul/0.8.0
       Accept-Encoding: gzip, deflate
       Accept: application/json, text/xml, application/xml, */*
   response:
@@ -16,22 +16,22 @@ http_interactions:
       explanation: Request fulfilled, document follows
     headers:
       status: HTTP/1.1 200 OK
-      date: Mon, 30 Apr 2018 23:28:57 GMT
+      date: Fri, 28 Jun 2019 17:14:43 GMT
       server: Apache/2.4.25 (Win32) PHP/5.6.29
       x-powered-by: PHP/5.6.29
       access-control-allow-origin: '*'
       access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
         Authorization
       access-control-allow-methods: GET, POST, OPTIONS
-      content-length: '868'
-      content-type: application/json;charset=utf-8
+      content-length: '917'
+      content-type: application/json
     body:
       encoding: UTF-8
       string: '[{"AphiaID":126846,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126846","scientificname":"Coryphaena
-        hippurus","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"rank":"Species","valid_AphiaID":126846,"valid_name":"Coryphaena
-        hippurus","valid_authority":"Linnaeus, 1758","kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
-        R. and D. Pauly. Editors. (2018). FishBase. Coryphaena hippurus Linnaeus,
+        hippurus","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":126846,"valid_name":"Coryphaena
+        hippurus","valid_authority":"Linnaeus, 1758","parentNameUsageID":125960,"kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Perciformes","family":"Coryphaenidae","genus":"Coryphaena","citation":"Froese,
+        R. and D. Pauly. Editors. (2019). FishBase. Coryphaena hippurus Linnaeus,
         1758. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126846
-        on 2018-05-01","lsid":"urn:lsid:marinespecies.org:taxname:126846","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-01-15T18:27:08Z"}]'
-  recorded_at: 2018-04-30 23:28:57 GMT
-  recorded_with: vcr/0.0.8.9534, webmockr/0.2.2.9119, crul/0.5.2
+        on 2019-06-28","lsid":"urn:lsid:marinespecies.org:taxname:126846","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-01-15T17:27:08.177Z"}]'
+  recorded_at: 2019-06-28 17:14:44 GMT
+  recorded_with: vcr/0.2.6, webmockr/0.3.4
