@@ -27,5 +27,8 @@ readme: README.Rmd
 checkwin:
 	${RSCRIPT} -e "devtools::check_win_devel(quiet = TRUE); devtools::check_win_release(quiet = TRUE)"
 
+test:
+	${RSCRIPT} -e "devtools::test()"
+
 # No real targets!
 .PHONY: all check document install
