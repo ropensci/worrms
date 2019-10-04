@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 * [World Register of Marine Species (WoRMS)](http://www.marinespecies.org/)
 * [WoRMS REST API docs](http://www.marinespecies.org/rest/)
 
-See the [taxize book](https://ropenscilabs.github.io/taxize-book/) for taxonomically focused work
+See the [taxize book](https://taxize.dev) for taxonomically focused work
 in this and similar packages.
 
 ## Installation
@@ -57,7 +57,7 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 by a taxonomic name
 
 ```{r}
-wm_records_name(name = 'Platanista gangetica')
+wm_records_name(name = 'Leucophaeus')
 ```
 
 by many names
@@ -75,7 +75,7 @@ wm_records_common(name = 'clam')
 using the TAXMATCH algorithm
 
 ```{r}
-wm_records_taxamatch(name = 'Platanista gangetica')
+wm_records_taxamatch(name = 'Leucophaeus')
 ```
 
 ## attributes (i.e., traits)
