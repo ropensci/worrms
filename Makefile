@@ -10,13 +10,16 @@ rmd2md:
 	mv worrms.md worrms.Rmd
 
 check:
-	${RSCRIPT} -e 'devtools::check(document = FALSE, cran = TRUE)'
+	${RSCRIPT} -e 'rcmdcheck::rcmdcheck(args = c("--as-cran"))'
 
-document:
+doc:
 	${RSCRIPT} -e 'devtools::document()'
 
-install:
-	${RSCRIPT} -e 'devtools::install()'
+build:
+	R CMD BUILD .
+
+install: doc build
+	R CMD INSTALL . && rm *.tar.gz
 
 installvign:
 	${RSCRIPT} -e 'devtools::install(build_vignettes=TRUE)'

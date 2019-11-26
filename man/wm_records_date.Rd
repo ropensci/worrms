@@ -4,8 +4,13 @@
 \alias{wm_records_date}
 \title{Get records by date}
 \usage{
-wm_records_date(start_date, end_date = NULL, marine_only = TRUE,
-  offset = 1, ...)
+wm_records_date(
+  start_date,
+  end_date = NULL,
+  marine_only = TRUE,
+  offset = 1,
+  ...
+)
 }
 \arguments{
 \item{start_date}{(character) start date. required.}
