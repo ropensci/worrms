@@ -30,7 +30,7 @@ Suggests:
     knitr,
     testthat,
     vcr (>= 0.2.0)
-RoxygenNote: 7.0.1
+RoxygenNote: 7.0.2
 X-schema.org-applicationCategory: Biology
 X-schema.org-keywords: biology, science, marine, API, web, api-client, worms, species
 X-schema.org-isPartOf: https://ropensci.org
