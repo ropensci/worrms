@@ -1,0 +1,110 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaSourcesByAphiaID/105706
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Tue, 05 May 2020 18:50:19 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '1770'
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: '[{"source_id":81,"use":"additional source","reference":"Fricke, R.,
+        Eschmeyer, W. N. & Van der Laan, R. (eds). (2019). Catalog of Fishes: Genera,
+        Species, References. Electronic version accessed dd mmm 2019.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=81","link":"http:\/\/researcharchive.calacademy.org\/research\/Ichthyology\/catalog\/fishcatmain.asp","fulltext":null,"doi":null},{"source_id":1411,"use":"basis
+        of record","reference":"van der Land, J.; Costello, M.J.; Zavodnik, D.; Santos,
+        R.S.; Porteiro, F.M.; Bailly, N.; Eschmeyer, W.N.; Froese, R. (2001). Pisces,
+        in: Costello, M.J. et al. (Ed.) (2001). European register of marine species:
+        a check-list of the marine species in Europe and a bibliography of guides
+        to their identification. Collection Patrimoines Naturels, 50: pp. 357-374","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=1411","link":null,"fulltext":null,"doi":null},{"source_id":138597,"use":"additional
+        source","reference":"Compagno, L.J.V. (2001). Sharks of the world. An annotated
+        and illustrated catalogue of shark species known to date. Volume 2. Bullhead,
+        mackerel and carpet sharks (Heterodontiformes, Lamniformes and Orectolobiformes).
+        FAO Species Catalogue for Fishery Purposes. No. 1, Vol. 2. Rome, FAO. 269p.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=138597","link":null,"fulltext":null,"doi":null},{"source_id":197116,"use":"taxonomy
+        source","reference":"Van Der Laan, R.; Eschmeyer, W. N.; Fricke, R. (2014).
+        Family-group names of Recent fishes. Zootaxa. 3882(1): 1-230.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=197116","link":null,"fulltext":null,"doi":"10.11646\/zootaxa.3882.1.1"}]'
+  recorded_at: 2020-05-05 18:50:20 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaSourcesByAphiaID/126436
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Tue, 05 May 2020 18:50:19 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '4111'
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: '[{"source_id":1,"use":"additional source","reference":"Hayward, P.J.;
+        Ryland, J.S. (Ed.). (1990). The marine fauna of the British Isles and North-West
+        Europe: 1. Introduction and protozoans to arthropods. Clarendon Press: Oxford,
+        UK. ISBN 0-19-857356-1. 627 pp.","page":"252","url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=1","link":null,"fulltext":null,"doi":null},{"source_id":8,"use":"original
+        description","reference":"Linnaeus, C. (1758). Systema Naturae per regna tria
+        naturae, secundum classes, ordines, genera, species, cum characteribus, differentiis,
+        synonymis, locis. Editio decima, reformata [10th revised edition], vol. 1:
+        824 pp. Laurentius Salvius: Holmiae. ","page":"252","url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=8","link":"https:\/\/biodiversitylibrary.org\/page\/726886","fulltext":null,"doi":"10.5962\/bhl.title.542"},{"source_id":1128,"use":"additional
+        source","reference":"Froese, R. & D. Pauly (Editors). (2019). FishBase. World
+        Wide Web electronic publication. version (02\/2019).","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=1128","link":"http:\/\/www.fishbase.org","fulltext":null,"doi":null},{"source_id":1411,"use":"basis
+        of record","reference":"van der Land, J.; Costello, M.J.; Zavodnik, D.; Santos,
+        R.S.; Porteiro, F.M.; Bailly, N.; Eschmeyer, W.N.; Froese, R. (2001). Pisces,
+        in: Costello, M.J. et al. (Ed.) (2001). European register of marine species:
+        a check-list of the marine species in Europe and a bibliography of guides
+        to their identification. Collection Patrimoines Naturels, 50: pp. 357-374","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=1411","link":null,"fulltext":null,"doi":null},{"source_id":3055,"use":"additional
+        source","reference":"Scott, W.B.; Scott, M.G. (1988). Atlantic fishes of Canada.
+        Canadian Bulletin of Fisheries and Aquatic Sciences. No. 219. 731 pp.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=3055","link":null,"fulltext":null,"doi":null},{"source_id":9269,"use":"additional
+        source","reference":"Muller, Y. (2004). Faune et flore du littoral du Nord,
+        du Pas-de-Calais et de la Belgique: inventaire. [Coastal fauna and flora of
+        the Nord, Pas-de-Calais and Belgium: inventory]. Commission R\u00e9gionale
+        de Biologie R\u00e9gion Nord Pas-de-Calais: France. 307 pp.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=9269","link":"http:\/\/www.vliz.be\/imisdocs\/publications\/145561.pdf","fulltext":null,"doi":null},{"source_id":165516,"use":"additional
+        source","reference":"Dyntaxa. (2013). Swedish Taxonomic Database. Accessed
+        at www.dyntaxa.se [15-01-2013].","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=165516","link":"http:\/\/www.dyntaxa.se","fulltext":null,"doi":null},{"source_id":152430,"use":"context
+        source (Deepsea)","reference":"Intergovernmental Oceanographic Commission
+        (IOC) of UNESCO. The Ocean Biogeographic Information System (OBIS)","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=152430","link":"http:\/\/www.iobis.org\/","fulltext":null,"doi":null},{"source_id":285314,"use":"context
+        source (Schelde)","reference":"Maris, T.; Beauchard, O.; Van Damme, S.; Van
+        den Bergh, E.; Wijnhoven, S.; Meire, P. (2013). Referentiematrices en Ecotoopoppervlaktes
+        Annex bij de Evaluatiemethodiek Schelde-estuarium Studie naar \u201cEcotoopoppervlaktes
+        en intactness index\u201d. Monitor Taskforce Publication Series, 2013-01.
+        NIOZ: Yerseke. 35 pp.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=285314","link":null,"fulltext":null,"doi":null},{"source_id":341016,"use":"context
+        source (BeRMS 2020)","reference":"Fish trawl survey: ICES Beam Trawl Survey
+        for commercial fish species. ICES Database of trawl surveys (DATRAS). The
+        International Council for the Exploration of the Sea, Copenhagen. 2010.","page":null,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=sourcedetails&id=341016","link":"http:\/\/ecosystemdata.ices.dk","fulltext":null,"doi":null}]'
+  recorded_at: 2020-05-05 18:50:20 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2

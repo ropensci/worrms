@@ -1,0 +1,91 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaChildrenByAphiaID/105706?marine_only=true&offset=1
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Tue, 05 May 2020 18:49:17 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '4401'
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: '[{"AphiaID":297110,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=297110","scientificname":"Micristodus","authority":"Gill,
+        1865","status":"unaccepted","unacceptreason":null,"taxonRankID":180,"rank":"Genus","valid_AphiaID":105749,"valid_name":"Rhincodon","valid_authority":"Smith,
+        1829","parentNameUsageID":105706,"kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":"Micristodus","citation":"Froese,
+        R. and D. Pauly. Editors. (2020). FishBase. Micristodus Gill, 1865. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=297110
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:297110","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2015-04-23T06:36:07.833Z"},{"AphiaID":398065,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=398065","scientificname":"Rhicodon","authority":null,"status":"unaccepted","unacceptreason":"misspelling","taxonRankID":180,"rank":"Genus","valid_AphiaID":105749,"valid_name":"Rhincodon","valid_authority":"Smith,
+        1829","parentNameUsageID":105706,"kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":"Rhicodon","citation":"Froese,
+        R. and D. Pauly. Editors. (2020). FishBase. Rhicodon. Accessed through: World
+        Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=398065
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:398065","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-24T06:02:10.987Z"},{"AphiaID":105749,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105749","scientificname":"Rhincodon","authority":"Smith,
+        1829","status":"accepted","unacceptreason":null,"taxonRankID":180,"rank":"Genus","valid_AphiaID":105749,"valid_name":"Rhincodon","valid_authority":"Smith,
+        1829","parentNameUsageID":105706,"kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":"Rhincodon","citation":"Froese,
+        R. and D. Pauly. Editors. (2020). FishBase. Rhincodon Smith, 1829. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105749
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:105749","isMarine":1,"isBrackish":0,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2014-11-21T13:09:37.943Z"},{"AphiaID":398068,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=398068","scientificname":"Rhineodon","authority":null,"status":"unaccepted","unacceptreason":"misspelling","taxonRankID":180,"rank":"Genus","valid_AphiaID":105749,"valid_name":"Rhincodon","valid_authority":"Smith,
+        1829","parentNameUsageID":105706,"kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":"Rhineodon","citation":"Froese,
+        R. and D. Pauly. Editors. (2020). FishBase. Rhineodon. Accessed through: World
+        Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=398068
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:398068","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-24T06:02:10.987Z"},{"AphiaID":297679,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=297679","scientificname":"Rhinodon","authority":null,"status":"unaccepted","unacceptreason":"misspelling","taxonRankID":180,"rank":"Genus","valid_AphiaID":105749,"valid_name":"Rhincodon","valid_authority":"Smith,
+        1829","parentNameUsageID":105706,"kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":"Rhinodon","citation":"Froese,
+        R. and D. Pauly. Editors. (2020). FishBase. Rhinodon. Accessed through: World
+        Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=297679
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:297679","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2015-04-24T06:02:10.987Z"}]'
+  recorded_at: 2020-05-05 18:49:17 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaChildrenByAphiaID/343613?marine_only=true&offset=1
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Tue, 05 May 2020 18:49:17 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '835'
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: '[{"AphiaID":344089,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089","scientificname":"Leucophaeus
+        scoresbii","authority":"Traill, 1823","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":344089,"valid_name":"Leucophaeus
+        scoresbii","valid_authority":"Traill, 1823","parentNameUsageID":343613,"kingdom":"Animalia","phylum":"Chordata","class":"Aves","order":"Charadriiformes","family":"Laridae","genus":"Leucophaeus","citation":"WoRMS
+        (2020). Leucophaeus scoresbii Traill, 1823. Accessed at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=344089
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:344089","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2011-04-08T06:18:06.150Z"}]'
+  recorded_at: 2020-05-05 18:49:17 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2

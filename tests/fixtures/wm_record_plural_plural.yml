@@ -1,0 +1,43 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaRecordsByAphiaIDs?aphiaids%5B%5D=105706&aphiaids%5B%5D=126436
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Tue, 05 May 2020 18:49:34 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '1823'
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc1; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: '[{"AphiaID":105706,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105706","scientificname":"Rhincodontidae","authority":"M\u00fcller
+        & Henle, 1841","status":"accepted","unacceptreason":null,"taxonRankID":140,"rank":"Family","valid_AphiaID":105706,"valid_name":"Rhincodontidae","valid_authority":"M\u00fcller
+        & Henle, 1841","parentNameUsageID":10208,"kingdom":"Animalia","phylum":"Chordata","class":"Elasmobranchii","order":"Orectolobiformes","family":"Rhincodontidae","genus":null,"citation":"Froese,
+        R. and D. Pauly. Editors. (2020). FishBase. Rhincodontidae M\u00fcller & Henle,
+        1841. Accessed through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=105706
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:105706","isMarine":1,"isBrackish":null,"isFreshwater":null,"isTerrestrial":null,"isExtinct":null,"match_type":"exact","modified":"2015-04-17T08:48:21.843Z"},{"AphiaID":126436,"url":"http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126436","scientificname":"Gadus
+        morhua","authority":"Linnaeus, 1758","status":"accepted","unacceptreason":null,"taxonRankID":220,"rank":"Species","valid_AphiaID":126436,"valid_name":"Gadus
+        morhua","valid_authority":"Linnaeus, 1758","parentNameUsageID":125732,"kingdom":"Animalia","phylum":"Chordata","class":"Actinopterygii","order":"Gadiformes","family":"Gadidae","genus":"Gadus","citation":"Froese,
+        R. and D. Pauly. Editors. (2020). FishBase. Gadus morhua Linnaeus, 1758. Accessed
+        through: World Register of Marine Species at: http:\/\/www.marinespecies.org\/aphia.php?p=taxdetails&id=126436
+        on 2020-05-05","lsid":"urn:lsid:marinespecies.org:taxname:126436","isMarine":1,"isBrackish":1,"isFreshwater":0,"isTerrestrial":0,"isExtinct":null,"match_type":"exact","modified":"2008-01-15T17:27:08.177Z"}]'
+  recorded_at: 2020-05-05 18:49:35 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2

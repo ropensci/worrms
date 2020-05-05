@@ -1,0 +1,67 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaClassificationByAphiaID/254967
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Tue, 05 May 2020 18:49:20 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '1111'
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: '{"AphiaID":1,"rank":"Superdomain","scientificname":"Biota","child":{"AphiaID":2,"rank":"Kingdom","scientificname":"Animalia","child":{"AphiaID":1821,"rank":"Phylum","scientificname":"Chordata","child":{"AphiaID":146419,"rank":"Subphylum","scientificname":"Vertebrata","child":{"AphiaID":1828,"rank":"Superclass","scientificname":"Gnathostomata","child":{"AphiaID":1831,"rank":"Superclass","scientificname":"Tetrapoda","child":{"AphiaID":1837,"rank":"Class","scientificname":"Mammalia","child":{"AphiaID":380416,"rank":"Subclass","scientificname":"Theria","child":{"AphiaID":370511,"rank":"Order","scientificname":"Cetartiodactyla","child":{"AphiaID":370545,"rank":"Suborder","scientificname":"Cetancodonta","child":{"AphiaID":2688,"rank":"Infraorder","scientificname":"Cetacea","child":{"AphiaID":148723,"rank":"Superfamily","scientificname":"Odontoceti","child":{"AphiaID":254965,"rank":"Family","scientificname":"Platanistidae","child":{"AphiaID":254966,"rank":"Genus","scientificname":"Platanista","child":{"AphiaID":254967,"rank":"Species","scientificname":"Platanista
+        gangetica","child":null}}}}}}}}}}}}}}}'
+  recorded_at: 2020-05-05 18:49:21 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaClassificationByAphiaID/344089
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: HTTP/1.1 200 OK
+      date: Tue, 05 May 2020 18:49:21 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      content-length: '803'
+      content-type: application/json
+      set-cookie: vliz_webc=vliz_webc1; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: '{"AphiaID":1,"rank":"Superdomain","scientificname":"Biota","child":{"AphiaID":2,"rank":"Kingdom","scientificname":"Animalia","child":{"AphiaID":1821,"rank":"Phylum","scientificname":"Chordata","child":{"AphiaID":146419,"rank":"Subphylum","scientificname":"Vertebrata","child":{"AphiaID":1828,"rank":"Superclass","scientificname":"Gnathostomata","child":{"AphiaID":1831,"rank":"Superclass","scientificname":"Tetrapoda","child":{"AphiaID":1836,"rank":"Class","scientificname":"Aves","child":{"AphiaID":2682,"rank":"Order","scientificname":"Charadriiformes","child":{"AphiaID":136988,"rank":"Family","scientificname":"Laridae","child":{"AphiaID":343613,"rank":"Genus","scientificname":"Leucophaeus","child":{"AphiaID":344089,"rank":"Species","scientificname":"Leucophaeus
+        scoresbii","child":null}}}}}}}}}}}'
+  recorded_at: 2020-05-05 18:49:21 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2

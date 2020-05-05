@@ -1,6 +1,7 @@
 # set up vcr
 library("vcr")
-invisible(vcr::vcr_configure(dir = "../fixtures/vcr_cassettes"))
+vcr::vcr_configure(dir = "../fixtures")
+vcr::check_cassette_names()
 
 has_internet <- function() {
   z <- try(suppressWarnings(readLines('https://www.google.com', n = 1)), 

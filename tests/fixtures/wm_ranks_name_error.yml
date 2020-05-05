@@ -1,0 +1,31 @@
+http_interactions:
+- request:
+    method: get
+    uri: http://www.marinespecies.org/rest/AphiaTaxonRanksByName/foobar
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.64.1 r-curl/4.3 crul/0.9.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '204'
+      message: No Content
+      explanation: Request fulfilled, nothing follows
+    headers:
+      status: HTTP/1.1 204 No Content
+      date: Tue, 05 May 2020 18:49:33 GMT
+      server: Apache/2.4.39 (Win64)
+      access-control-allow-origin: '*'
+      access-control-allow-headers: X-Requested-With, Content-Type, Accept, Origin,
+        Authorization
+      access-control-allow-methods: GET, POST, OPTIONS
+      set-cookie: vliz_webc=vliz_webc2; path=/
+    body:
+      encoding: UTF-8
+      file: no
+      string: ''
+  recorded_at: 2020-05-05 18:49:34 GMT
+  recorded_with: vcr/0.5.4, webmockr/0.6.2
