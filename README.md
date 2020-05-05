@@ -10,13 +10,13 @@ worrms
 [![Build Status](https://travis-ci.org/ropensci/worrms.svg?branch=master)](https://travis-ci.org/ropensci/worrms)
 [![Build status](https://ci.appveyor.com/api/projects/status/e5q7fi97pl49h7v6?svg=true)](https://ci.appveyor.com/project/sckott/worrms)
 [![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/worrms)
-[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/worrms)](https://github.com/metacran/cranlogs.app)
-[![cran version](http://www.r-pkg.org/badges/version/worrms)](https://cran.r-project.org/package=worrms)
+[![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/worrms)](https://github.com/metacran/cranlogs.app)
+[![cran version](https://www.r-pkg.org/badges/version/worrms)](https://cran.r-project.org/package=worrms)
 
 `worrms` is a R client for the World Register of Marine Species
 
-* [World Register of Marine Species (WoRMS)](http://www.marinespecies.org/)
-* [WoRMS REST API docs](http://www.marinespecies.org/rest/)
+* World Register of Marine Species (WoRMS) http://www.marinespecies.org/
+* WoRMS REST API docs: http://www.marinespecies.org/rest/
 
 See the [taxize book](https://taxize.dev) for taxonomically focused work
 in this and similar packages.
@@ -34,7 +34,7 @@ Development version
 
 
 ```r
-devtools::install_github("ropensci/worrms")
+remotes::install_github("ropensci/worrms")
 ```
 
 
@@ -61,13 +61,13 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 #>  7  894303 http… Anomalina nod… Terquem,… accep… NA                     220
 #>  8  908243 http… Linderina kol… Singh, 1… accep… NA                     220
 #>  9  901296 http… Pseudoreichel… Ueno, 19… accep… NA                     220
-#> 10  924662 http… Oolina virgula Terquem,… accep… NA                     220
-#> # … with 40 more rows, and 20 more variables: rank <chr>,
-#> #   valid_AphiaID <int>, valid_name <chr>, valid_authority <chr>,
-#> #   parentNameUsageID <int>, kingdom <chr>, phylum <chr>, class <chr>,
-#> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
-#> #   isMarine <int>, isBrackish <lgl>, isFreshwater <lgl>,
-#> #   isTerrestrial <lgl>, isExtinct <int>, match_type <chr>, modified <chr>
+#> 10  901957 http… Gaudryinella … Moullade… accep… NA                     220
+#> # … with 40 more rows, and 20 more variables: rank <chr>, valid_AphiaID <int>,
+#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
+#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
+#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <int>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 by a taxonomic name
@@ -76,16 +76,16 @@ by a taxonomic name
 ```r
 wm_records_name(name = 'Leucophaeus')
 #> # A tibble: 2 x 27
-#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
-#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int>
-#> 1  343613 http… Leucophaeus    <NA>      accep… NA                     180
-#> 2  344089 http… Leucophaeus s… Traill, … accep… NA                     220
-#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
-#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
-#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
-#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
-#> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
-#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int> <chr>
+#> 1  343613 http… Leucophaeus    <NA>      accep… NA                     180 Genus
+#> 2  344089 http… Leucophaeus s… Traill, … accep… NA                     220 Spec…
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 by many names
@@ -98,16 +98,16 @@ wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
 #> 
 #> [[2]]
 #> # A tibble: 2 x 27
-#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
-#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int>
-#> 1  125960 http… Coryphaena     Linnaeus… accep… <NA>                   180
-#> 2  843430 <NA>  <NA>           <NA>      quara… synonym                 NA
-#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
-#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
-#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
-#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
-#> #   isBrackish <int>, isFreshwater <int>, isTerrestrial <int>,
-#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int> <chr>
+#> 1  125960 http… Coryphaena     Linnaeus… accep… <NA>                   180 Genus
+#> 2  843430 <NA>  <NA>           <NA>      quara… synonym                 NA <NA> 
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <int>,
+#> #   isFreshwater <int>, isTerrestrial <int>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 by common name
@@ -116,18 +116,18 @@ by common name
 ```r
 wm_records_common(name = 'clam')
 #> # A tibble: 4 x 27
-#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
-#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int>
-#> 1  141919 http… Mercenaria me… (Linnaeu… accep… NA                     220
-#> 2  140431 http… Mya truncata   Linnaeus… accep… NA                     220
-#> 3  141936 http… Venus verruco… Linnaeus… accep… NA                     220
-#> 4  575771 http… Verpa penis    (Linnaeu… accep… NA                     220
-#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
-#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
-#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
-#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
-#> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
-#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int> <chr>
+#> 1  141919 http… Mercenaria me… (Linnaeu… accep… NA                     220 Spec…
+#> 2  140431 http… Mya truncata   Linnaeus… accep… NA                     220 Spec…
+#> 3  141936 http… Venus verruco… Linnaeus… accep… NA                     220 Spec…
+#> 4  575771 http… Verpa penis    (Linnaeu… accep… NA                     220 Spec…
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 using the TAXMATCH algorithm
@@ -137,15 +137,15 @@ using the TAXMATCH algorithm
 wm_records_taxamatch(name = 'Leucophaeus')
 #> [[1]]
 #> # A tibble: 1 x 27
-#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
-#>     <int> <chr> <chr>          <lgl>     <chr>  <lgl>                <int>
-#> 1  343613 http… Leucophaeus    NA        accep… NA                     180
-#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
-#> #   valid_name <chr>, valid_authority <lgl>, parentNameUsageID <int>,
-#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
-#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
-#> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
-#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <lgl>     <chr>  <lgl>                <int> <chr>
+#> 1  343613 http… Leucophaeus    NA        accep… NA                     180 Genus
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <lgl>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 ## attributes (i.e., traits)
@@ -166,22 +166,21 @@ attribute data by AphiaID
 
 ```r
 wm_attr_data(id = 127160)
-#> # A tibble: 25 x 10
-#>    AphiaID measurementType… measurementType measurementValue source_id
-#>    <chr>              <int> <chr>           <chr>                <int>
-#>  1 127160                23 Species import… FAO-ASFIS: Spec…    197354
-#>  2 127160                23 Species import… MSFD indicators     197546
-#>  3 127160                23 Species import… MSFD indicators     197549
-#>  4 127160                23 Species import… MSFD indicators     197615
-#>  5 127160                23 Species import… MSFD indicators     197615
-#>  6 127160                23 Species import… MSFD indicators     197615
-#>  7 127160                23 Species import… MSFD indicators     197615
-#>  8 127160                23 Species import… MSFD indicators     197616
-#>  9 127160                23 Species import… MSFD indicators     197616
-#> 10 127160                23 Species import… MSFD indicators     197549
-#> # … with 15 more rows, and 5 more variables: reference <chr>,
-#> #   qualitystatus <chr>, AphiaID_Inherited <int>, CategoryID <int>,
-#> #   children <list>
+#> # A tibble: 24 x 10
+#>    AphiaID measurementType… measurementType measurementValue source_id reference
+#>    <chr>              <int> <chr>           <chr>                <int> <chr>    
+#>  1 127160                23 Species import… FAO-ASFIS: Spec…    197354 "FAO Fis…
+#>  2 127160                23 Species import… MSFD indicators     197546 "Daniel …
+#>  3 127160                23 Species import… MSFD indicators     197549 "ICES. 2…
+#>  4 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  5 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  6 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  7 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  8 127160                23 Species import… MSFD indicators     197616 "List of…
+#>  9 127160                23 Species import… MSFD indicators     197616 "List of…
+#> 10 127160                23 Species import… MSFD indicators     197549 "ICES. 2…
+#> # … with 14 more rows, and 4 more variables: qualitystatus <chr>,
+#> #   AphiaID_Inherited <int>, CategoryID <int>, children <list>
 ```
 
 attributes grouped by a CategoryID
@@ -192,8 +191,8 @@ wm_attr_category(id = 7)
 #> # A tibble: 6 x 4
 #>   measurementValueID measurementValue measurementValueCode children        
 #>                <int> <chr>            <chr>                <list>          
-#> 1                183 benthos          <NA>                 <df[,4] [6 × 4]>
-#> 2                184 plankton         <NA>                 <df[,4] [2 × 4]>
+#> 1                183 benthos          <NA>                 <df[,4] [7 × 4]>
+#> 2                184 plankton         <NA>                 <df[,4] [7 × 4]>
 #> 3                194 nekton           <NA>                 <df[,0] [0 × 0]>
 #> 4                323 neuston          <NA>                 <df[,0] [0 × 0]>
 #> 5                378 edaphofauna      <NA>                 <df[,4] [2 × 4]>
