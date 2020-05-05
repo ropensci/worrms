@@ -1,5 +1,5 @@
-#' World Register of Marine Species Client
-#'
+#' @title worrms
+#' @description World Register of Marine Species Client
 #' @name worrms-package
 #' @aliases worrms
 #' @docType package

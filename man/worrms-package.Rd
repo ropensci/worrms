@@ -4,7 +4,7 @@
 \name{worrms-package}
 \alias{worrms-package}
 \alias{worrms}
-\title{World Register of Marine Species Client}
+\title{worrms}
 \description{
 World Register of Marine Species Client
 }
