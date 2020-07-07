@@ -33,5 +33,6 @@ test_that("wm_record - default usage works", {
 
 
 test_that("wm_record_ - deprecated", {
+  skip_on_cran()
   expect_warning(wm_record_(id = 105706), "deprecated")
 })
