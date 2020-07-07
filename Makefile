@@ -14,7 +14,7 @@ check: build
 doc:
 	${RSCRIPT} -e 'devtools::document()'
 
-doc:
+eg:
 	${RSCRIPT} -e 'devtools::run_examples(run=TRUE)'
 
 build:
@@ -26,10 +26,10 @@ install: doc build
 installvign:
 	${RSCRIPT} -e 'devtools::install(build_vignettes=TRUE)'
 
-readme: README.Rmd
-	${RSCRIPT} -e "knitr::knit('$<')"
+readme:
+	${RSCRIPT} -e "knitr::knit('README.Rmd')"
 
-checkwin:
+checkwindows:
 	${RSCRIPT} -e "devtools::check_win_devel(quiet = TRUE); devtools::check_win_release(quiet = TRUE)"
 
 test:
