@@ -1,3 +1,11 @@
+worrms 0.4.2
+============
+
+### MINOR IMPROVEMENTS
+
+* fix a few failing tests on cran (#22)
+
+
 worrms 0.4.0
 ============
 
