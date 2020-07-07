@@ -1,18 +1,19 @@
-<!--
-%\VignetteEngine{knitr::knitr}
-%\VignetteIndexEntry{Introduction to the worrms package}
-%\VignetteEncoding{UTF-8}
--->
+---
+title: Introduction to worrms
+author: Scott Chamberlain
+date: "2020-07-07"
+output: rmarkdown::html_vignette
+vignette: >
+    %\VignetteIndexEntry{Introduction to worrms}
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteEncoding{UTF-8}
+---
 
 
 
-Introduction to the worrms package
-==================================
+`worrms` is an R client for the World Register of Marine Species (http://www.marinespecies.org/)
 
-`worrms` is an R client for the [World Register of Marine Species](http://www.marinespecies.org/).
-
-See the [taxize book](https://taxize.dev) for taxonomically focused work
-in this and similar packages.
+See the taxize book (https://taxize.dev) for taxonomically focused work in this and similar packages.
 
 ## Install
 
@@ -27,8 +28,8 @@ Development version from GitHub
 
 
 ```r
-install.packages("devtools")
-devtools::install_github("ropensci/worrms")
+install.packages("remotes")
+remotes::install_github("ropensci/worrms")
 ```
 
 
@@ -54,46 +55,64 @@ wm_records_date('2016-12-23T05:59:45+00:00')
 #>  4  894301 http… Ovulina radia… Seguenza… accep… NA                     220
 #>  5  894299 http… Parafissurina… Petri, 1… accep… NA                     220
 #>  6  894297 http… Parapachyphlo… Miklukho… accep… NA                     220
-#>  7  894303 http… Anomalina nod… Terquem,… accep… NA                     220
-#>  8  901957 http… Gaudryinella … Moullade… accep… NA                     220
-#>  9  916899 http… Gavelinella p… Porthaul… accep… NA                     220
-#> 10  902959 http… Valvulineria … Kicinski… accep… NA                     220
-#> # … with 40 more rows, and 20 more variables: rank <chr>,
-#> #   valid_AphiaID <int>, valid_name <chr>, valid_authority <chr>,
-#> #   parentNameUsageID <int>, kingdom <chr>, phylum <chr>, class <chr>,
-#> #   order <chr>, family <chr>, genus <chr>, citation <chr>, lsid <chr>,
-#> #   isMarine <int>, isBrackish <lgl>, isFreshwater <lgl>,
-#> #   isTerrestrial <lgl>, isExtinct <int>, match_type <chr>, modified <chr>
+#>  7  919684 http… Flintina serr… Cuvillie… accep… NA                     220
+#>  8  906465 http… Verneuilinoid… Bartenst… accep… NA                     220
+#>  9  903640 http… Quinqueloculi… Hussey, … accep… NA                     220
+#> 10  917580 http… Orbitolina ra… Sahni & … accep… NA                     220
+#> # … with 40 more rows, and 20 more variables: rank <chr>, valid_AphiaID <int>,
+#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
+#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
+#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <int>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 by a taxonomic name
 
 
 ```r
-wm_records_name(name = 'Platanista gangetica')
-#> Error: (204) No Content - Platanista gangetica
+wm_records_name(name = 'Leucophaeus scoresbii')
+#> # A tibble: 1 x 27
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int> <chr>
+#> 1  344089 http… Leucophaeus s… Traill, … accep… NA                     220 Spec…
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 by many names
 
 
 ```r
-wm_records_names(name = c('Platanista gangetica', 'Coryphaena'))
+wm_records_names(name = c('Leucophaeus scoresbii', 'Coryphaena'))
 #> [[1]]
-#> # A tibble: 0 x 0
+#> # A tibble: 1 x 27
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int> <chr>
+#> 1  344089 http… Leucophaeus s… Traill, … accep… NA                     220 Spec…
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 #> 
 #> [[2]]
 #> # A tibble: 2 x 27
-#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
-#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int>
-#> 1  125960 http… Coryphaena     Linnaeus… accep… <NA>                   180
-#> 2  843430 <NA>  <NA>           <NA>      quara… synonym                 NA
-#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
-#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
-#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
-#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
-#> #   isBrackish <int>, isFreshwater <int>, isTerrestrial <int>,
-#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int> <chr>
+#> 1  125960 http… Coryphaena     Linnaeus… accep… <NA>                   180 Genus
+#> 2  843430 <NA>  <NA>           <NA>      quara… synonym                 NA <NA> 
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <int>,
+#> #   isFreshwater <int>, isTerrestrial <int>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 by common name
@@ -102,26 +121,36 @@ by common name
 ```r
 wm_records_common(name = 'clam')
 #> # A tibble: 4 x 27
-#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
-#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int>
-#> 1  141919 http… Mercenaria me… (Linnaeu… accep… NA                     220
-#> 2  140431 http… Mya truncata   Linnaeus… accep… NA                     220
-#> 3  141936 http… Venus verruco… Linnaeus… accep… NA                     220
-#> 4  575771 http… Verpa penis    (Linnaeu… accep… NA                     220
-#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
-#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
-#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
-#> #   genus <chr>, citation <chr>, lsid <chr>, isMarine <int>,
-#> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
-#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int> <chr>
+#> 1  141919 http… Mercenaria me… (Linnaeu… accep… NA                     220 Spec…
+#> 2  140431 http… Mya truncata   Linnaeus… accep… NA                     220 Spec…
+#> 3  141936 http… Venus verruco… Linnaeus… accep… NA                     220 Spec…
+#> 4  575771 http… Verpa penis    (Linnaeu… accep… NA                     220 Spec…
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 using the TAXMATCH algorithm
 
 
 ```r
-wm_records_taxamatch(name = 'Platanista gangetica')
-#> Error: (204) No Content - AphiaRecordsByMatchNames
+wm_records_taxamatch(name = 'Leucophaeus scoresbii')
+#> [[1]]
+#> # A tibble: 1 x 27
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <lgl>                <int> <chr>
+#> 1  344089 http… Leucophaeus s… Traill, … accep… NA                     220 Spec…
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <chr>,
+#> #   citation <chr>, lsid <chr>, isMarine <int>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
 ## APHIA ID <--> name
@@ -214,14 +243,85 @@ Get synonyms for an AphiaID
 ```r
 wm_synonyms(id = 105706)
 #> # A tibble: 1 x 27
-#>   AphiaID url   scientificname authority status unacceptreason taxonRankID
-#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int>
-#> 1  148832 http… Rhiniodontidae Müller &… unacc… synonym                140
-#> # … with 20 more variables: rank <chr>, valid_AphiaID <int>,
-#> #   valid_name <chr>, valid_authority <chr>, parentNameUsageID <int>,
-#> #   kingdom <chr>, phylum <chr>, class <chr>, order <chr>, family <chr>,
-#> #   genus <lgl>, citation <chr>, lsid <chr>, isMarine <lgl>,
-#> #   isBrackish <lgl>, isFreshwater <lgl>, isTerrestrial <lgl>,
-#> #   isExtinct <lgl>, match_type <chr>, modified <chr>
+#>   AphiaID url   scientificname authority status unacceptreason taxonRankID rank 
+#>     <int> <chr> <chr>          <chr>     <chr>  <chr>                <int> <chr>
+#> 1  148832 http… Rhiniodontidae Müller &… unacc… synonym                140 Fami…
+#> # … with 19 more variables: valid_AphiaID <int>, valid_name <chr>,
+#> #   valid_authority <chr>, parentNameUsageID <int>, kingdom <chr>,
+#> #   phylum <chr>, class <chr>, order <chr>, family <chr>, genus <lgl>,
+#> #   citation <chr>, lsid <chr>, isMarine <lgl>, isBrackish <lgl>,
+#> #   isFreshwater <lgl>, isTerrestrial <lgl>, isExtinct <lgl>, match_type <chr>,
+#> #   modified <chr>
 ```
 
+## attributes (i.e., traits)
+
+attribute definition by ID
+
+
+```r
+wm_attr_def(id = 1)
+#> # A tibble: 1 x 4
+#>   measurementTypeID measurementType        CategoryID children        
+#>               <int> <chr>                       <int> <list>          
+#> 1                 1 IUCN Red List Category          1 <df[,4] [2 × 4]>
+```
+
+attribute data by AphiaID
+
+
+```r
+wm_attr_data(id = 127160)
+#> # A tibble: 24 x 10
+#>    AphiaID measurementType… measurementType measurementValue source_id reference
+#>    <chr>              <int> <chr>           <chr>                <int> <chr>    
+#>  1 127160                23 Species import… FAO-ASFIS: Spec…    197354 "FAO Fis…
+#>  2 127160                23 Species import… MSFD indicators     197546 "Daniel …
+#>  3 127160                23 Species import… MSFD indicators     197549 "ICES. 2…
+#>  4 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  5 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  6 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  7 127160                23 Species import… MSFD indicators     197615 "List of…
+#>  8 127160                23 Species import… MSFD indicators     197616 "List of…
+#>  9 127160                23 Species import… MSFD indicators     197616 "List of…
+#> 10 127160                23 Species import… MSFD indicators     197549 "ICES. 2…
+#> # … with 14 more rows, and 4 more variables: qualitystatus <chr>,
+#> #   AphiaID_Inherited <int>, CategoryID <int>, children <list>
+```
+
+attributes grouped by a CategoryID
+
+
+```r
+wm_attr_category(id = 7)
+#> # A tibble: 6 x 4
+#>   measurementValueID measurementValue measurementValueCode children        
+#>                <int> <chr>            <chr>                <list>          
+#> 1                183 benthos          <NA>                 <df[,4] [8 × 4]>
+#> 2                184 plankton         <NA>                 <df[,4] [7 × 4]>
+#> 3                194 nekton           <NA>                 <df[,0] [0 × 0]>
+#> 4                323 neuston          <NA>                 <df[,0] [0 × 0]>
+#> 5                378 edaphofauna      <NA>                 <df[,4] [2 × 4]>
+#> 6                331 not applicable   N/A                  <df[,0] [0 × 0]>
+```
+
+AphiaIDs by attribute definition ID
+
+
+```r
+wm_attr_aphia(id = 4)
+#> # A tibble: 50 x 2
+#>    AphiaID Attributes        
+#>      <int> <list>            
+#>  1      11 <df[,10] [1 × 10]>
+#>  2      55 <df[,10] [2 × 10]>
+#>  3      57 <df[,10] [2 × 10]>
+#>  4      58 <df[,10] [2 × 10]>
+#>  5      59 <df[,10] [2 × 10]>
+#>  6      63 <df[,10] [2 × 10]>
+#>  7      64 <df[,10] [2 × 10]>
+#>  8      69 <df[,10] [2 × 10]>
+#>  9      90 <df[,10] [2 × 10]>
+#> 10      91 <df[,10] [2 × 10]>
+#> # … with 40 more rows
+```

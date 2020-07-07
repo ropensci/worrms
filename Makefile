@@ -1,14 +1,10 @@
 PACKAGE := $(shell grep '^Package:' DESCRIPTION | sed -E 's/^Package:[[:space:]]+//')
 RSCRIPT = Rscript --no-init-file
 
-all: document install
-
-move:
-	cp inst/vign/worrms.md vignettes
-
-rmd2md:
+vign:
 	cd vignettes;\
-	mv worrms.md worrms.Rmd
+	${RSCRIPT} -e "Sys.setenv(NOT_CRAN='true'); knitr::knit('worrms.Rmd.og', output = 'worrms.Rmd')";\
+	cd ..
 
 check: build
 	_R_CHECK_CRAN_INCOMING_=FALSE R CMD CHECK --as-cran --no-manual `ls -1tr ${PACKAGE}*gz | tail -n1`
@@ -17,6 +13,9 @@ check: build
 
 doc:
 	${RSCRIPT} -e 'devtools::document()'
+
+doc:
+	${RSCRIPT} -e 'devtools::run_examples(run=TRUE)'
 
 build:
 	R CMD BUILD .
