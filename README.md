@@ -7,8 +7,7 @@ worrms
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![cran checks](https://cranchecks.info/badges/worst/worrms)](https://cranchecks.info/pkgs/worrms)
-[![Build Status](https://travis-ci.org/ropensci/worrms.svg?branch=master)](https://travis-ci.org/ropensci/worrms)
-[![Build status](https://ci.appveyor.com/api/projects/status/e5q7fi97pl49h7v6?svg=true)](https://ci.appveyor.com/project/sckott/worrms)
+[![R-check](https://github.com/ropensci/worrms/workflows/R-check/badge.svg)](https://github.com/ropensci/worrms/actions?query=workflow%3AR-check)
 [![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/worrms)
 [![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/worrms)](https://github.com/metacran/cranlogs.app)
 [![cran version](https://www.r-pkg.org/badges/version/worrms)](https://cran.r-project.org/package=worrms)
