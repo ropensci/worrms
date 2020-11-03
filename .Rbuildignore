@@ -13,3 +13,4 @@ inst/vign
 revdep
 ^codemeta\.json$
 .github
+^LICENSE\.md$
