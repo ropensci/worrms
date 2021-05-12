@@ -15,7 +15,6 @@ License: MIT + file LICENSE
 URL: https://docs.ropensci.org/worrms, https://github.com/ropensci/worrms (devel),
     https://taxize.dev (user manual)
 BugReports: https://github.com/ropensci/worrms/issues
-LazyData: true
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
