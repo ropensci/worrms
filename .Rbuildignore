@@ -14,3 +14,4 @@ revdep
 ^codemeta\.json$
 .github
 ^LICENSE\.md$
+^\.github$
