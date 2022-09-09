@@ -12,7 +12,7 @@ Authors@R: c(
     person("Scott", "Chamberlain", role = c("aut", "cre"),
         email = "myrmecocystus@gmail.com",
         comment = c(ORCID = "0000-0003-1444-9135")),
-    person("Bart", "V.", role = c("aut", "cre"))
+    person("Bart", "V.", role = c("aut"))
     )
 License: MIT + file LICENSE
 URL: https://docs.ropensci.org/worrms, https://github.com/ropensci/worrms (devel),
