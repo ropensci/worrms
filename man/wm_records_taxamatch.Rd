@@ -2,7 +2,7 @@
 % Please edit documentation in R/wm_records_taxamatch.R
 \name{wm_records_taxamatch}
 \alias{wm_records_taxamatch}
-\title{Get records for onen or more taxonomic name(s) using
+\title{Get records for one or more taxonomic name(s) using
 the TAXAMATCH fuzzy matching algorithm}
 \usage{
 wm_records_taxamatch(name, marine_only = TRUE, ...)
@@ -18,7 +18,7 @@ wm_records_taxamatch(name, marine_only = TRUE, ...)
 A list of tibble's/data.frame's, one for each of the input names
 }
 \description{
-Get records for onen or more taxonomic name(s) using
+Get records for one or more taxonomic name(s) using
 the TAXAMATCH fuzzy matching algorithm
 }
 \note{
