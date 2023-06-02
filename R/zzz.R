@@ -7,7 +7,7 @@ wm_GET <- function(url, query = list(), on_error = stop, ...) {
   }
   
   if (identical(on_error, warning) && temp$status_code == 204) {
-    return(tibble::data_frame())
+    return(tibble::tibble())
   }
   
   tmp <- jsonlite::fromJSON(temp$parse("UTF-8"), flatten = TRUE)

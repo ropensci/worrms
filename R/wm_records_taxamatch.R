@@ -23,7 +23,7 @@ wm_records_taxamatch <- function(name, marine_only = TRUE, ...) {
                                 length(name))))
   result <- wm_GET(file.path(wm_base(), "AphiaRecordsByMatchNames"),
          query = args, ...)
-  if (identical(result, tibble::data_frame())) {
+  if (identical(result, tibble::tibble())) {
     rep(list(tibble::data_frame()), length(name))
   } else {
     result

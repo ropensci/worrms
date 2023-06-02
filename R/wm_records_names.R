@@ -25,7 +25,7 @@ wm_records_names <- function(name, fuzzy = FALSE, marine_only = TRUE, ...) {
                                 length(name))))
   result <- wm_GET(file.path(wm_base(), "AphiaRecordsByNames"),
          query = args, ...)
-  if (identical(result, tibble::data_frame())) {
+  if (identical(result, tibble::tibble())) {
     rep(list(tibble::data_frame()), length(name))
   } else {
     result
