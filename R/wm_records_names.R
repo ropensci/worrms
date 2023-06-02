@@ -2,7 +2,6 @@
 #'
 #' @export
 #' @param name (character) start date. required.
-#' @param fuzzy (logical) fuzzy search. default: `FALSE`
 #' @param marine_only (logical) marine only or not. default: `TRUE`
 #' @template curl
 #' @note there is no underscore method like other functions in this package
@@ -10,15 +9,13 @@
 #' @return A list of tibble's/data.frame's, one for each of the input names
 #' @examples \dontrun{
 #' wm_records_names(name = 'Leucophaeus scoresbii')
-#' wm_records_names(name = 'Leucophaeus scoresbii', fuzzy = TRUE)
 #' wm_records_names(name = c('Leucophaeus scoresbii', 'Coryphaena'))
 #' }
-wm_records_names <- function(name, fuzzy = FALSE, marine_only = TRUE, ...) {
+wm_records_names <- function(name, marine_only = TRUE, ...) {
   assert(name, "character")
-  assert(fuzzy, "logical")
   assert(marine_only, "logical")
 
-  args <- cc(list(like = as_log(fuzzy), marine_only = as_log(marine_only)))
+  args <- cc(list(marine_only = as_log(marine_only)))
   args <- c(args,
             stats::setNames(as.list(name),
                             rep('scientificnames[]',

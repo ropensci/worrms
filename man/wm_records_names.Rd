@@ -4,12 +4,10 @@
 \alias{wm_records_names}
 \title{Get records for one or more taxonomic name(s)}
 \usage{
-wm_records_names(name, fuzzy = FALSE, marine_only = TRUE, ...)
+wm_records_names(name, marine_only = TRUE, ...)
 }
 \arguments{
 \item{name}{(character) start date. required.}
-
-\item{fuzzy}{(logical) fuzzy search. default: \code{FALSE}}
 
 \item{marine_only}{(logical) marine only or not. default: \code{TRUE}}
 
@@ -28,7 +26,6 @@ as this is the plural version for \code{\link[=wm_records_name]{wm_records_name(
 \examples{
 \dontrun{
 wm_records_names(name = 'Leucophaeus scoresbii')
-wm_records_names(name = 'Leucophaeus scoresbii', fuzzy = TRUE)
 wm_records_names(name = c('Leucophaeus scoresbii', 'Coryphaena'))
 }
 }
