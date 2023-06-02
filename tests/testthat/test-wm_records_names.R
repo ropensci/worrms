@@ -32,3 +32,10 @@ test_that("wm_records_names fails well", {
   expect_error(wm_records_names("asdfs", "Adf"), "fuzzy must be of class logical")
   expect_error(wm_records_names("asdfs", marine_only = 5), "marine_only must be of class logical")
 })
+
+test_that("wm_records_names result length matches input", {
+  skip_on_cran()
+
+  suppressWarnings(expect_equal(length(wm_records_names("asdfs", on_error = warning)), 1))
+  suppressWarnings(expect_equal(length(wm_records_names(c("asdfs", "qwerq"), on_error = warning)), 2))
+})

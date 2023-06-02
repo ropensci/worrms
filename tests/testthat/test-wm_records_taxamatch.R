@@ -22,3 +22,10 @@ test_that("wm_records_taxamatch fails well", {
   expect_error(wm_records_taxamatch('Platanista gangetica', marine_only = 5),
                "marine_only must be of class logical")
 })
+
+test_that("wm_records_taxamatch result length matches input", {
+  skip_on_cran()
+
+  suppressWarnings(expect_equal(length(wm_records_taxamatch("asdfs", on_error = warning)), 1))
+  suppressWarnings(expect_equal(length(wm_records_taxamatch(c("asdfs", "qwerq"), on_error = warning)), 2))
+})

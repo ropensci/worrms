@@ -1,4 +1,4 @@
-#' Get records for onen or more taxonomic name(s)
+#' Get records for one or more taxonomic name(s)
 #'
 #' @export
 #' @param name (character) start date. required.
@@ -23,6 +23,11 @@ wm_records_names <- function(name, fuzzy = FALSE, marine_only = TRUE, ...) {
             stats::setNames(as.list(name),
                             rep('scientificnames[]',
                                 length(name))))
-  wm_GET(file.path(wm_base(), "AphiaRecordsByNames"),
+  result <- wm_GET(file.path(wm_base(), "AphiaRecordsByNames"),
          query = args, ...)
+  if (identical(result, tibble::data_frame())) {
+    rep(list(tibble::data_frame()), length(name))
+  } else {
+    result
+  }
 }

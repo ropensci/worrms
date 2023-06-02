@@ -1,4 +1,4 @@
-#' Get records for onen or more taxonomic name(s) using
+#' Get records for one or more taxonomic name(s) using
 #' the TAXAMATCH fuzzy matching algorithm
 #'
 #' @export
@@ -21,6 +21,11 @@ wm_records_taxamatch <- function(name, marine_only = TRUE, ...) {
             stats::setNames(as.list(name),
                             rep('scientificnames[]',
                                 length(name))))
-  wm_GET(file.path(wm_base(), "AphiaRecordsByMatchNames"),
+  result <- wm_GET(file.path(wm_base(), "AphiaRecordsByMatchNames"),
          query = args, ...)
+  if (identical(result, tibble::data_frame())) {
+    rep(list(tibble::data_frame()), length(name))
+  } else {
+    result
+  }
 }
