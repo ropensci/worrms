@@ -13,11 +13,11 @@ knitr::opts_chunk$set(
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![cran checks](https://cranchecks.info/badges/worst/worrms)](https://cranchecks.info/pkgs/worrms)
-[![R-check](https://github.com/ropensci/worrms/workflows/R-check/badge.svg)](https://github.com/ropensci/worrms/actions?query=workflow%3AR-check)
+[![R-check](https://github.com/ropensci/worrms/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/worrms/actions/workflows/R-CMD-check.yaml)
 [![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/worrms)
 [![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/worrms)](https://github.com/metacran/cranlogs.app)
 [![cran version](https://www.r-pkg.org/badges/version/worrms)](https://cran.r-project.org/package=worrms)
+[![cran checks](https://badges.cranchecks.info/worst/worrms.svg)](https://cran.r-project.org/web/checks/check_results_worrms.html)
 
 `worrms` is a R client for the World Register of Marine Species
 
