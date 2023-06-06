@@ -7,7 +7,7 @@ Description: Client for World Register of Marine Species
     common names, searching using external identifiers, fetching
     synonyms, as well as fetching taxonomic children and
     taxonomic classification.
-Version: 0.4.2
+Version: 0.4.3
 Authors@R: c(
     person("Scott", "Chamberlain", role = "aut",
         email = "myrmecocystus@gmail.com",
@@ -15,7 +15,7 @@ Authors@R: c(
     person("Bart", "V.", email = "bartv@vliz.be", role = c("aut","cre"))
     )
 License: MIT + file LICENSE
-URL: https://docs.ropensci.org/worrms, https://github.com/ropensci/worrms (devel),
+URL: https://docs.ropensci.org/worrms/, https://github.com/ropensci/worrms (devel),
     https://taxize.dev (user manual)
 BugReports: https://github.com/ropensci/worrms/issues
 VignetteBuilder: knitr

@@ -1,3 +1,17 @@
+worrms 0.4.3
+============
+
+New maintainer: Bart V. <bartv@vliz.be>
+
+### MINOR IMPROVEMENTS
+
+* functions `wm_records_names()` and `wm_records_taxamatch()` now return always a list (#41)
+* fix note on cran about LazyData (e5ba9f)
+
+### BUG FIXES
+
+* fuzzy search option removed from `wm_records_names()` to stay on sync with the underlying web service (#26)
+
 worrms 0.4.2
 ============
 

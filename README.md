@@ -6,9 +6,9 @@
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-check](https://github.com/ropensci/worrms/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/worrms/actions/workflows/R-CMD-check.yaml)
-[![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/worrms)
+[![codecov](https://codecov.io/gh/ropensci/worrms/branch/master/graph/badge.svg)](https://app.codecov.io/gh/ropensci/worrms)
 [![rstudio mirror
-downloads](https://cranlogs.r-pkg.org/badges/worrms)](https://github.com/metacran/cranlogs.app)
+downloads](https://cranlogs.r-pkg.org/badges/worrms)](https://github.com/r-hub/cranlogs.app)
 [![cran
 version](https://www.r-pkg.org/badges/version/worrms)](https://cran.r-project.org/package=worrms)
 [![cran

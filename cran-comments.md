@@ -1,21 +1,18 @@
 ## Test environments
 
-* local OS X install, R 4.0.2
-* ubuntu 16.04 (on travis-ci), R 4.0.2
+* local windows 10 installation, R 4.2.0
 * win-builder (devel and release)
+* ubuntu 22.04.2 LTS (on github actions), R 4.3.0
+* macOS 12.6.5 (on github actions), R 4.3.0
+
 
 ## R CMD check results
 
 0 errors | 0 warnings | 0 notes
 
-## Reverse dependencies
-
-* I have run R CMD check on the 1 reverse dependency.
-  (Summary at <https://github.com/ropensci/worrms/blob/master/revdep/README.md>). No problems were found.
-
 ---
 
-This version fixes some failing cran tests. 
+This version fixes some functions and changes the maintainer
 
 Thanks!
-Scott Chamberlain
+Salvador Fernández
