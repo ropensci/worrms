@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaRecordsByVernacular/dolphin?like=true&offset=1
+    uri: https://www.marinespecies.org/rest/AphiaRecordsByVernacular/dolphin?like=true&offset=1
     body:
       encoding: ''
       string: ''
@@ -282,7 +282,7 @@ http_interactions:
   recorded_with: vcr/0.5.4, webmockr/0.6.2
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaRecordsByVernacular/dolphin?like=true&offset=10
+    uri: https://www.marinespecies.org/rest/AphiaRecordsByVernacular/dolphin?like=true&offset=10
     body:
       encoding: ''
       string: ''

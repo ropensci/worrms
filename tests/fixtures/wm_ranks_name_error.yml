@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaTaxonRanksByName/foobar
+    uri: https://www.marinespecies.org/rest/AphiaTaxonRanksByName/foobar
     body:
       encoding: ''
       string: ''

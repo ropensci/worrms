@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaRecordByExternalID/6830?type=ncbi
+    uri: https://www.marinespecies.org/rest/AphiaRecordByExternalID/6830?type=ncbi
     body:
       encoding: ''
       string: ''

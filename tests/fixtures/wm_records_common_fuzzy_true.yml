@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaRecordsByVernacular/dolphin?like=true&offset=1
+    uri: https://www.marinespecies.org/rest/AphiaRecordsByVernacular/dolphin?like=true&offset=1
     body:
       encoding: ''
       string: ''

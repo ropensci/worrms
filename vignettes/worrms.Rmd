@@ -11,7 +11,7 @@ vignette: >
 
 
 
-`worrms` is an R client for the World Register of Marine Species (http://www.marinespecies.org/)
+`worrms` is an R client for the World Register of Marine Species (https://www.marinespecies.org/)
 
 See the taxize book (https://taxize.dev) for taxonomically focused work in this and similar packages.
 

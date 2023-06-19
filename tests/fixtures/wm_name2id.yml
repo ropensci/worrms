@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaIDByName/Rhincodon
+    uri: https://www.marinespecies.org/rest/AphiaIDByName/Rhincodon
     body:
       encoding: ''
       string: ''

@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaIDByName/Rhincodon
+    uri: https://www.marinespecies.org/rest/AphiaIDByName/Rhincodon
     body:
       encoding: ''
       string: ''
@@ -33,7 +33,7 @@ http_interactions:
   recorded_with: vcr/0.5.4, webmockr/0.6.2
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaIDByName/Gadus%20morhua
+    uri: https://www.marinespecies.org/rest/AphiaIDByName/Gadus%20morhua
     body:
       encoding: ''
       string: ''

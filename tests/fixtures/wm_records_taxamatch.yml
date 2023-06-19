@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaRecordsByMatchNames?marine_only=true&scientificnames%5B%5D=Coryphaena%20immaculata
+    uri: https://www.marinespecies.org/rest/AphiaRecordsByMatchNames?marine_only=true&scientificnames%5B%5D=Coryphaena%20immaculata
     body:
       encoding: ''
       string: ''

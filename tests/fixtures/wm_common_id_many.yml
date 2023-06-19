@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/105706
+    uri: https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/105706
     body:
       encoding: ''
       string: ''
@@ -37,7 +37,7 @@ http_interactions:
   recorded_with: vcr/0.5.4, webmockr/0.6.2
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/156806
+    uri: https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/156806
     body:
       encoding: ''
       string: ''
@@ -70,7 +70,7 @@ http_interactions:
   recorded_with: vcr/0.5.4, webmockr/0.6.2
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/397065
+    uri: https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/397065
     body:
       encoding: ''
       string: ''

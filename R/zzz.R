@@ -24,7 +24,7 @@ wm_GET <- function(url, query = list(), on_error = stop, ...) {
   }
 }
 
-wm_base <- function() "http://www.marinespecies.org/rest"
+wm_base <- function() "https://www.marinespecies.org/rest"
 
 cc <- function(x) Filter(Negate(is.null), x)
 

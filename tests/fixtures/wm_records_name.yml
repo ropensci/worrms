@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaRecordsByName/Coryphaena%20im?like=true&marine_only=true&offset=1
+    uri: https://www.marinespecies.org/rest/AphiaRecordsByName/Coryphaena%20im?like=true&marine_only=true&offset=1
     body:
       encoding: ''
       string: ''

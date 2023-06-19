@@ -17,8 +17,8 @@ checks](https://badges.cranchecks.info/worst/worrms.svg)](https://cran.r-project
 `worrms` is a R client for the World Register of Marine Species
 
 -   World Register of Marine Species (WoRMS)
-    <http://www.marinespecies.org/>
--   WoRMS REST API docs: <http://www.marinespecies.org/rest/>
+    <https://www.marinespecies.org/>
+-   WoRMS REST API docs: <https://www.marinespecies.org/rest/>
 
 See the taxize book (<https://taxize.dev>) for taxonomically focused
 work in this and similar packages.

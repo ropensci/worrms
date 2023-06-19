@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaSourcesByAphiaID/105706
+    uri: https://www.marinespecies.org/rest/AphiaSourcesByAphiaID/105706
     body:
       encoding: ''
       string: ''
@@ -46,7 +46,7 @@ http_interactions:
   recorded_with: vcr/0.5.4, webmockr/0.6.2
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaSourcesByAphiaID/126436
+    uri: https://www.marinespecies.org/rest/AphiaSourcesByAphiaID/126436
     body:
       encoding: ''
       string: ''

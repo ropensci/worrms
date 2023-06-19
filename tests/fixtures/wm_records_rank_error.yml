@@ -1,7 +1,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.marinespecies.org/rest/AphiaRecordsByTaxonRankID/44444?offset=1
+    uri: https://www.marinespecies.org/rest/AphiaRecordsByTaxonRankID/44444?offset=1
     body:
       encoding: ''
       string: ''
