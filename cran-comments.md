@@ -8,7 +8,21 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 notes
+0 errors | 0 warnings | 1 note
+
+This note appeared in the win-builder and it is related to the change of maintainer:
+
+```
+* checking CRAN incoming feasibility ... [11s] NOTE
+Maintainer: 'Bart Vanhoorne. <salvador.fernandez@vliz.be>'
+
+New maintainer:
+  Bart Vanhoorne. <salvador.fernandez@vliz.be>
+Old maintainer(s):
+  Scott Chamberlain <myrmecocystus@gmail.com>
+```
+
+Both persons agreed on the exchange of the maintainer role, see https://github.com/ropensci/worrms/issues/34
 
 ## revdepcheck results
 

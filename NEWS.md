@@ -1,7 +1,7 @@
 worrms 0.4.3
 ============
 
-New maintainer: Bart V. <bartv@vliz.be>
+New maintainer: Bart Vanhoorne <bartv@vliz.be>
 
 ### MINOR IMPROVEMENTS
 
