@@ -32,16 +32,16 @@
     {
       "@type": "Person",
       "givenName": "Bart",
-      "familyName": "V.",
-      "email": "bartv@vliz.be"
+      "familyName": "Vanhoorne.",
+      "email": "bart.vanhoorne@vliz.be"
     }
   ],
   "maintainer": [
     {
       "@type": "Person",
       "givenName": "Bart",
-      "familyName": "V.",
-      "email": "bartv@vliz.be"
+      "familyName": "Vanhoorne.",
+      "email": "bart.vanhoorne@vliz.be"
     }
   ],
   "softwareSuggestions": [
@@ -165,7 +165,7 @@
   "applicationCategory": "Biology",
   "isPartOf": "https://ropensci.org",
   "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species", "taxonomy", "marine-species", "api-wrapper", "rstats", "r", "r-package", "taxize", "biological-data", "fish", "marine-biology"],
-  "fileSize": "474.845KB",
+  "fileSize": "474.944KB",
   "releaseNotes": "https://github.com/ropensci/worrms/blob/master/NEWS.md",
   "readme": "https://github.com/ropensci/worrms/blob/master/README.md",
   "contIntegration": ["https://github.com/ropensci/worrms/actions/workflows/R-CMD-check.yaml", "https://app.codecov.io/gh/ropensci/worrms"],
