@@ -14,7 +14,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.2.0 (2022-04-22 ucrt)",
+  "runtimePlatform": "R version 4.3.2 (2023-10-31)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -165,8 +165,8 @@
   "applicationCategory": "Biology",
   "isPartOf": "https://ropensci.org",
   "keywords": ["biology", "science", "marine", "API", "web", "api-client", "worms", "species", "taxonomy", "marine-species", "api-wrapper", "rstats", "r", "r-package", "taxize", "biological-data", "fish", "marine-biology"],
-  "fileSize": "474.944KB",
-  "releaseNotes": "https://github.com/ropensci/worrms/blob/master/NEWS.md",
+  "fileSize": "467.739KB",
+  "releaseNotes": "https://github.com/ropensci/worrms/blob/main/NEWS.md",
   "readme": "https://github.com/ropensci/worrms/blob/master/README.md",
   "contIntegration": ["https://github.com/ropensci/worrms/actions/workflows/R-CMD-check.yaml", "https://app.codecov.io/gh/ropensci/worrms"],
   "developmentStatus": "https://www.repostatus.org/#active"
